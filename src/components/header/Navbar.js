@@ -1,163 +1,126 @@
 import "./Navbar.css";
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import BusinessIcon from '@material-ui/icons/Business';
-import HouseIcon from '@material-ui/icons/House';
-import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
-import CameraAltIcon from '@material-ui/icons/CameraAlt';
-import ContactMailIcon from '@material-ui/icons/ContactMail';
-import AssignmentIcon from '@material-ui/icons/Assignment';
+import medisam from "../footer/transparentmedisam.png";
+
+import { Menubar } from 'primereact/menubar';
 
 
 export default class Navbar extends Component {
+  componentDidMount () {
+    const script = document.createElement("script");
+
+  
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+      this.classList.toggle("close");
+    });
+  
+
+    document.body.appendChild(script);
+}
   render() {
+    
     return (
-      <div id="nav-menu"
-        className="row p-0 m-0"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          backgroundColor: "#28304d",
-        }}
-      >
-        <nav
-          class="navbar navbar-expand-lg navbar-dark p-0 m-0"
-          style={{ backgroundColor: "#28304d", borderRadius: "0px !important"}}
-        >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            style={{marginRight:"1rem"}}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style={{marginRight:"2rem"}}>
-            <ul class="navbar-nav" style={{float:"right"}}>
-              <li class="nav-item dropdown">
-                <a
-                  style={{ color: "#fff", fontSize: "20px" }}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-
-                >
-                 <BusinessIcon style={{fontSize:"large"}}/>&nbsp; KURUMSAL
-                </a>
-                &nbsp;
-                
-                
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <Link className="dropdown-item menu-item-link" to="/hakkimizda">
-                    Hakkımızda
-                  </Link>
-
-                  <Link className="dropdown-item menu-item-link" to="/belgelerimiz">
-                    Belgelerimiz
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/referanslarimiz">
-                    Referanslarımız
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/ekibimiz">
-                    Ekibimiz
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/is-basvurusu">
-                    İş Başvurusu
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/sss">
-                    S.S.S
-                  </Link>
-                 
-                </div>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  style={{ color: "#fff", fontSize: "20px" }}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <HouseIcon style={{fontSize:"large"}}/>&nbsp;  HİZMETLERİMİZ
-                </a>
-                &nbsp;
-                
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <Link className="dropdown-item menu-item-link" to="/cilt-bakim">
-                    Cilt Bakım
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/epilasyon"
-                  >
-                    Epilasyon
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kalici-fondoten">
-                    Kalıcı Fondoten
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kas-kontur">
-                    Kaş Kontür
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/dermaterapi"
-                  >
-                    Dermaterapi
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kalici-makyaj">
-                    Kalıcı Makyaj
-                  </Link>
-                  
-                </div>
-              </li>
+    
+         <header>
+          <nav class="navbar">
+            <div class="branding">
+            
               
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
-                  <PlaylistAddCheckIcon style={{fontSize:"large"}}/>&nbsp;  ÇALIŞMA PRENSİBİMİZ
-                </Link>
-              </li>
-              &nbsp;
+            </div>
+            <label for="input-hamburger" class="hamburger "></label>
+        <input type="checkbox" id="input-hamburger" hidden></input>
+        <ul class="menu">
+          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}>Ana Sayfa</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Kurumsal &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+            
+            <li><a href="/hakkimizda" class="menu-link">Hakkımızda</a></li>
+            <li><a href="/belgelerimiz" class="menu-link">Belgelerimiz</a></li>
+            <li><a href="/ekibimiz" class="menu-link">Ekibimiz</a></li>
+            <li><a href="/referanslarimiz" class="menu-link">Referanslarımız</a></li>
+
               
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
-                  <CameraAltIcon style={{fontSize:"large"}}/>&nbsp; GALERİ
-                </Link>
-              </li>
-              &nbsp;
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/blog" style={{ color: "#fff", fontSize: "20px" }}>
-                  <AssignmentIcon style={{fontSize:"large"}}/>&nbsp; BLOG
-                </Link>
-              </li>
-              &nbsp;
               
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
-                 <ContactMailIcon style={{fontSize:"large"}}/>&nbsp; İLETİŞİM
-                </Link>
-              </li>
             </ul>
-          </div>
-        </nav>
-      </div>
+          </li>
+
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Tedavi</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Hizmetlerimiz &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+            
+              <li class="has-dropdown">
+                <a href="#" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
+                  <span class="arrow"></span>
+                </a>
+                <ul class="submenu">
+                 
+                  <li><a href="#" class="menu-link">İmplant</a></li>
+                  <li><a href="#" class="menu-link">Protetik Diş Tedavisi</a></li>
+                  <li><a href="#" class="menu-link">Zirkonyum Diş Kaplama</a></li>
+                  <li><a href="#" class="menu-link">Perselen Lamine</a></li>
+                  <li><a href="#" class="menu-link">Gümüş Tasarımı</a></li>
+                  <li><a href="#" class="menu-link">Diş Beyazlatma</a></li>
+                  <li><a href="#" class="menu-link">Ortodonti (Tel Tedavisi)</a></li>
+                  <li><a href="#" class="menu-link">Çocuk Diş Hekimliği (Pedodonti)</a></li>
+                  <li class="has-dropdown">
+                    <a href="#" class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
+                      <span class="arrow"></span>
+                    </a>
+                    <ul class="submenu">
+                      <li><a href="#" class="menu-link">İmplant</a></li>
+                      <li><a href="#" class="menu-link">20 Yaş Dişler ve Tedavisi</a></li>
+                      <li><a href="#" class="menu-link">Gömülü Diş Operasyonları</a></li>
+                      <li><a href="#" class="menu-link">Kist ve Tümör Operasyonları</a></li>
+                      <li><a href="#" class="menu-link">Botoks Uygulamaları</a></li>
+                      <li><a href="#" class="menu-link">Çene Eklemi Rahatsızlıkları</a></li>
+
+                    </ul>
+                  </li>
+                  <li><a href="#" class="menu-link">Kanal Tedavisi</a></li>
+                  <li><a href="#" class="menu-link">Dolgu Tedavisi</a></li>
+                  <li><a href="#" class="menu-link">Diş Eti Tedavisi (Periodontoloji)</a></li>
+                  <li><a href="#" class="menu-link">Dijital Diş Hekimliği</a></li>
+                 
+                </ul>
+              </li>
+              <li><a href="#" class="menu-link">Güzellik Merkezi</a></li>
+              <li><a href="#" class="menu-link">Saç Ekim Merkezi</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Galeri</a></li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>SSS</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Şubelerimiz &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+            
+            <li><a href="#" class="menu-link">Merzifon Şubemiz</a></li>
+            <li><a href="#" class="menu-link">Vezirköprü Şubemiz</a></li>
+              
+              
+            </ul>
+          </li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>İletişim</a></li>
+        </ul>
+
+
+
+          </nav>
+        </header>
+
+          
+   
+      
+     
     );
   }
 }

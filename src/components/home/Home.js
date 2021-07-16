@@ -1,88 +1,15 @@
 import React from "react";
 import "./Home.css";
-import Services from "../services/Services";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
-
-
-import ciltBakim from "../medya/ciltBakim.PNG";
-import epilasyon from "../medya/epilasyon.PNG";
-import kaliciFondoten from "../medya/kaliciFondoten.PNG";
-import kasKontur from "../medya/kasKontur.PNG";
-import dermaterapi from "../medya/dermaterapi.jpg";
-import kaliciMakyaj from "../medya/kaliciMakyaj.jpg";
-
-
-
-
 
 
 function Home() {
   return (
     <div>
       
-      
+      <br/>
 
-      <div className="row mr-4 servicebox">
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={ciltBakim}
-            title="Cilt Bakım"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/cilt-bakim"
-
-
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={epilasyon}
-            title="Epilasyon"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/epilasyon"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kaliciFondoten}
-            title="Kalıcı Fondoten"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kalici-fondoten"
-          />
-        </div>
-
-       
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kasKontur}
-            title="Kaş Kontür"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kas-kontur"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={dermaterapi}
-            title="Dermaterapi"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/dermaterapi"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kaliciMakyaj}
-            title="Kalıcı Makyaj"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kalici-makyaj"
-          />
-        </div>
-       
-      </div>
 
       <div className="col-12">
             <NedenBercislina/>

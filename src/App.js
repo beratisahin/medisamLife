@@ -14,7 +14,6 @@ import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
 import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
 import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
-import IsBasvurusu from "./components/kurumsal/is-basvurusu/IsBasvurusu";
 import SSS from "./components/kurumsal/s.s.s/Sss";
 import EvTemizligi from "./components/hizmetler/ev-temizligi/EvTemizligi";
 import OfisTemizligi from "./components/hizmetler/ofis-temizligi/OfisTemizligi";
@@ -34,12 +33,12 @@ function App() {
     <Router>
       <div className="App">
         <div className="col-12 m-0 p-0">
-          <div className="col-12 m-0 p-0">
-            <TopMenu />
-          </div>
-          <div className="col-12 m-0 p-0">
+          
+           
+         
+        
             <Navbar />
-          </div>
+          
 
           <Switch>
             <Route exact path="/" component={Home} />
@@ -47,7 +46,6 @@ function App() {
             <Route path="/belgelerimiz" component={Belgerimiz} />
             <Route path="/referanslarimiz" component={Referanslarimiz} />
             <Route path="/ekibimiz" component={Ekibimiz} />
-            <Route path="/is-basvurusu" component={IsBasvurusu} />
             <Route path="/sss" component={SSS} />
 
             <Route path="/cilt-bakim" component={EvTemizligi} />

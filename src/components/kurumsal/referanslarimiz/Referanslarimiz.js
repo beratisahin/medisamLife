@@ -10,14 +10,13 @@ function Referanslarimiz() {
            
             
         <div className="hakkımızda" style={{minHeight:"40rem"}}>
-            <h3 style={{textAlign:"center",color:"#C92798"}}><b>Referanslarımız</b></h3>
-            <p className="kurumsal_text" >İlerleyen zamanlarda gerçekleştireceğimiz her türlü işten sonra alcağımız geri dönüşleri siz değerli müşterilerimiz ile paylaşacağız. 
-            Böylelikle bizleri tercih ederken kafanızda oluşabilecek her türlü soru işaretini rahatlıkla gidereceksiniz. Huzurlu atmosferi, güvenliği, teknolojik donanımı, deneyimli güler yüzlü ekibi ile estetik ve güzellik sektöründe Serdivan’da merkezi konumuyla siz değerli müşterilerimizin hizmetinizdedir.
-
-Lazer Epilasyon, Dermatolojik ürünlerle Cilt Bakımı, Kalıcı Makyaj, Göz Bakımı, Bölgesel Zayıflama, Saç Kesimi, Saç Boyası (Röfle, Ombre), Profesyonel Makyaj, Kaş Tasarımı, Manikür, Pedikür, Keratin Saç Bakımı, Bitkisel Saç Bakımı, Kaynak, Çıtçıt ve Sir Ağda hizmetlerimiz profosyenel ürünlerle kaliteden ödün vermeden uygulanmaktadır. Ayrıca en son teknoloji Lazer Epilasyon Cihazı ile istenmeyen tüylerden en kısa sürede kurtularak, pürüzsüz bir cilde kavuşuyorsunuz.
-
-Ailenizden biri olmayı amaçlayan Cevahir Life; son derece güvenli, hijyenik ve modern olan ve aynı zamanda zevkli bir tasarıma sahip olan salonu ile değerli müşterilerine kendilerini evlerinde hissedecekleri sıcak, samimi ve konforlu bir ortam sunmaya devam ediyor.
-            </p>
+            <h3 style={{textAlign:"center",color:"#5FA5A0"}}><b>Referanslarımız</b></h3>
+            <p className="kurumsal_text" >Medisam Ağız ve Diş Sağlığı Polikliniği olarak 2019 yılından beri Samsun’da faaliyet göstermekteyiz.
+Medisam Ağız ve Diş Sağlığı Polikliniği olarak gelişen teknolojiyi ve yenilikleri yakından izlemek, dental sektörde müşteri memnuniyetini amaç edinmek, kaliteli ve hızlı hizmet anlayışı ile ilerleyerek yolumuza devam etmek başlıca misyonumuzdur. Hizmet kalite standartlarımızı belirlerken temel aldığımız en önemli kriter; her hastanın kendine özel sağlık durumunu ön planda tutmaktır. Hastalarımızın sağlık şartlarına göre özel muayenelerle kesin ve net sonuçlar alabileceğimiz tedavi planlamaları yapmaktayız.
+Medisam Ağız ve Diş Sağlığı Polikliniği olarak 2019 yılından beri Samsun’da faaliyet göstermekteyiz.
+Medisam Ağız ve Diş Sağlığı Polikliniği olarak gelişen teknolojiyi ve yenilikleri yakından izlemek, dental sektörde müşteri memnuniyetini amaç edinmek, kaliteli ve hızlı hizmet anlayışı ile ilerleyerek yolumuza devam etmek başlıca misyonumuzdur. Hizmet kalite standartlarımızı belirlerken temel aldığımız en önemli kriter; her hastanın kendine özel sağlık durumunu ön planda tutmaktır. Hastalarımızın sağlık şartlarına göre özel muayenelerle kesin ve net sonuçlar alabileceğimiz tedavi planlamaları yapmaktayız.
+Medisam Ağız ve Diş Sağlığı Polikliniği olarak 2019 yılından beri Samsun’da faaliyet göstermekteyiz.
+Medisam Ağız ve Diş Sağlığı Polikliniği olarak gelişen teknolojiyi ve yenilikleri yakından izlemek, dental sektörde müşteri memnuniyetini amaç edinmek, kaliteli ve hızlı hizmet anlayışı ile ilerleyerek yolumuza devam etmek başlıca misyonumuzdur. Hizmet kalite standartlarımızı belirlerken temel aldığımız en önemli kriter; her hastanın kendine özel sağlık durumunu ön planda tutmaktır. Hastalarımızın sağlık şartlarına göre özel muayenelerle kesin ve net sonuçlar alabileceğimiz tedavi planlamaları yapmaktayız.</p>
             
             
         </div>

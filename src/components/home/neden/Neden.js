@@ -15,7 +15,7 @@ export default class Neden extends Component {
         return (
             <div className="row" style={{margin:"0%",padding:"1%",backgroundColor:"#EFEFEF",borderRadius:"1rem"}}>
                     <div className="col-12">
-                    <p style={{color:"#2E6772",textAlign:"center",fontSize:"large"}}>Neden Medisam Tıp Merkezi</p>
+                    <p style={{color:"#2E6772",textAlign:"center",fontSize:"large"}}>Neden Medisam Life</p>
                     <br/>
                     </div>
                    

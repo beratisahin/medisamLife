@@ -7,7 +7,7 @@
 .ekippho{
     
     height:25rem !important;
-    border:2px solid #C92798 !important;
+    border:2px solid #5FA5A0 !important;
     border-radius:1rem !important;
 }
 .ekiptemp{
@@ -15,7 +15,7 @@
 }
 .ekip-text{
     font-size: medium !important;
-    color:#C92798 !important;
+    color:#5FA5A0 !important;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
