@@ -1,7 +1,7 @@
 :root {
   box-sizing: border-box;
 
-  --primary: #e70146;
+  --primary: #2E6772;
   --hover-color: purple;
   --dark: #1c2022;
   --light: #fff;
@@ -152,7 +152,7 @@ header {
     top: 4.55em;
     left: 0;
     right: 0;
-    height: 50vh;
+    height: 75vh;
 
     opacity: 0;
     transform: scaleY(0);

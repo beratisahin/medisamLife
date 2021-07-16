@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import medisam from "./Medisam.PNG";
+import medisam from "../footer/transparentmedisam.png"
 import "./TopMenu.css";
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -10,15 +10,15 @@ export default class TopMenu extends Component {
     return (
       <div
         className="row p-0 m-0"
-        style={{ width: "100%",backgroundColor:"black" }}
+        style={{ width: "100%",backgroundColor:"white" }}
       >
         <div className="col-12" style={{display:"inline"}}>
 
-            <div className="col-2" style={{float:"left"}}>
+            <div className="col-4" style={{float:"left"}}>
               <a href="/" title="Medisam Tıp Merkezi">
               <img
                 className="top_image"
-                style={{ height: "15rem", width: "200px",padding:"1rem" }}
+                style={{ height: "12rem",width:"80%",padding:"1px",margintop:"2px",marginLeft:"2px" }}
                 src={medisam}
                 alt="logo"
                 
@@ -28,17 +28,17 @@ export default class TopMenu extends Component {
             </div>
 
             <div
-              className="col-8 firma_div"
-              style={{ color: "white",float:"left",marginTop:"3rem"}}
+              className="col-4 firma_div"
+              style={{ color: "white",float:"left",marginTop:"2rem"}}
               >
               <Link className="firma_ismi" to="/" style={{ color: "#2E6772", fontSize:"xx-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
-                <b>Medisam Tıp Merkezi</b>
+                <b>Medisam Life</b>
               </Link>
             </div>
 
 
           
-            <div className="col-2 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"-1rem"}}>
+            <div className="col-4 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"-1rem"}}>
                  &nbsp;
                  
                  <a
