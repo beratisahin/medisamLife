@@ -52,28 +52,30 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "#C0C0C0", fontSize: "18px" }}>Kurumsal</b>
+            <b style={{ color: "#5FA5A0", fontSize: "18px" }}>Kurumsal</b>
+            <hr/>
             <ul className="bottomlist">
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/hakkimizda" style={{ color: "#C0C0C0" }}>Hakkımızda</Link>
+                <Link to="/hakkimizda" style={{ color: "#C0C0C0",fontSize:"small"}}>Hakkımızda</Link>
               </li>
               <li onClick={() => this.scrollToTop()}>
-                <Link to="/belgelerimiz" style={{ color: "#C0C0C0" }}>Belgelerimiz</Link>
+                <Link to="/belgelerimiz" style={{ color: "#C0C0C0",fontSize:"small" }}>Belgelerimiz</Link>
               </li>
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/referanslarimiz" style={{ color: "#C0C0C0" }}>Referanslarımız</Link>
+                <Link to="/referanslarimiz" style={{ color: "#C0C0C0" ,fontSize:"small"}}>Referanslarımız</Link>
               </li>
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/ekibimiz" style={{ color: "#C0C0C0" }}>Ekibimiz</Link>
+                <Link to="/ekibimiz" style={{ color: "#C0C0C0" ,fontSize:"small"}}>Ekibimiz</Link>
               </li>
               
             </ul>
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
-            <p style={{ color: "#C0C0C0", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "#5FA5A0", fontWeight: "bold", fontSize: "18px" }}>
               Merzifon Medisam Life
             </p>
+            <hr/>
             <a
               href="https://www.facebook.com/"
               target="_blank"
@@ -135,9 +137,10 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
-            <p style={{ color: "#C0C0C0", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "#5FA5A0", fontWeight: "bold", fontSize: "18px" }}>
               Vezirköprü Medisam Life
             </p>
+            <hr/>
             <a
               href="https://www.facebook.com/"
               target="_blank"
