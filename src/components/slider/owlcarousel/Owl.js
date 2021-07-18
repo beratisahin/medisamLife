@@ -22,7 +22,7 @@ const options = {
     margin: 5,
     responsiveClass: true,
     dots:2,
-    autoplay: false,
+    autoplay: true,
     dotsSpeed:2,
     navText: ["",""],
     smartSpeed: 1000,
