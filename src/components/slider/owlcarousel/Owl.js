@@ -66,7 +66,7 @@ export default function Owl() {
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o2} className="owlCarouselImage"></img>
+                    <img src={o2} className="owlCarouselImage" alt="Kanal" title="Kanal"></img>
                    <p className="owlCarouselContent">Kanal</p>
                </div>
                 
@@ -83,7 +83,7 @@ export default function Owl() {
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o4} className="owlCarouselImage"></img>
+                    <img src={o4} className="owlCarouselImage" alt="Lamine" title="Lamine"></img>
                    <p className="owlCarouselContent">Lamine</p>
                </div>
                
@@ -91,28 +91,28 @@ export default function Owl() {
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o5} className="owlCarouselImage"></img>
+                    <img src={o5} className="owlCarouselImage" alt="Dolgu" title="Dolgu"></img>
                    <p className="owlCarouselContent">Dolgu</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o6} className="owlCarouselImage"></img>
+                    <img src={o6} className="owlCarouselImage" alt="Endodonti" title="Endodonti"></img>
                    <p className="owlCarouselContent">Endodonti</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o7} className="owlCarouselImage"></img>
+                    <img src={o7} className="owlCarouselImage" alt="Ortodonti" title="Ortodonti"></img>
                    <p className="owlCarouselContent">Ortodonti</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o8} className="owlCarouselImage"></img>
+                    <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
                    <p className="owlCarouselContent">Periodonti</p>
                </div> 
             </div>
