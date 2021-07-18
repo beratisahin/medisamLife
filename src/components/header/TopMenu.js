@@ -18,7 +18,7 @@ export default class TopMenu extends Component {
               <a href="/" title="Medisam Tıp Merkezi">
               <img
                 className="top_image"
-                style={{ height: "12rem",width:"80%",padding:"1px",margintop:"2px",marginLeft:"2px" }}
+                style={{ height: "10rem",width:"75%",padding:"1px",margintop:"2px",marginLeft:"2px" }}
                 src={medisam}
                 alt="logo"
                 

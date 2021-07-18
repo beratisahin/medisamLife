@@ -1,0 +1,59 @@
+#slide{
+    width: 100%;
+    z-index: -1;
+}
+
+#carouselExampleInterval{
+    width: 100%;
+    height: 52rem;
+   
+    overflow: hidden;
+    
+}
+.d-block{
+    max-width: 100%;
+    overflow: hidden;
+
+}
+.slidephoto{
+    height: 50rem !important;
+}
+
+.sliderHeader{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#168B80;
+
+
+}
+.sliderText{
+    font-size:small;
+    margin-bottom:35rem;
+    color:purple;
+
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    #carouselExampleInterval{
+        width: 100%;
+        height: 28rem;
+       
+        overflow: hidden;
+        
+    }
+    #slide{
+        width: 100% !important;
+    }
+
+    .slidephoto{
+        height: 25rem !important;
+
+    }
+    .sliderText{
+        margin-bottom: 20rem !important;
+    }
+
+    
+ 
+ }
