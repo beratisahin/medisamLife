@@ -1,9 +1,21 @@
 import './Slider.css';
-import s1 from '../medya/slider1.jpg';
+
 import s2 from '../medya/slider2.jpg';
 import s3 from '../medya/slider3.jpg';
-import s4 from '../medya/slider4.jpg';
 import s5 from '../medya/slider5.jpeg';
+import s7 from '../medya/slider7.jpeg';
+import s8 from '../medya/slider8.jpg';
+import s9 from '../medya/slider9.jpeg';
+
+
+
+import logo from "../header/MedisamYuvarlakLogo.png";
+
+
+
+
+
+
 
 import OwlSlider from "../slider/owlcarousel/Owl";
 
@@ -19,6 +31,10 @@ export default class Slider extends Component {
 
         <div style={{display:"flex", justifyContent:"center"}}>
             <div id="slide" >
+                <div className="carousel-caption" style={{marginBottom:"35rem",marginLeft:"108rem",zIndex:"+1"}}>
+                    <img className="sliderStableLogo" src={logo} style={{width:"11rem",height:"11rem",zIndex:"+1"}}></img>
+                </div>
+                
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         
@@ -34,7 +50,7 @@ export default class Slider extends Component {
                            
                          </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={s4} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
+                            <img src={s9} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
                                 <h3 className="sliderHeader">Kurumsallık</h3>
@@ -44,21 +60,39 @@ export default class Slider extends Component {
                             
                         </div>
                         <div className="carousel-item">
-                            <img src={s3} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo"></img>
+                            <img src={s8} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Mükemmellik</h3>
-                                <p className="sliderText">Medisam her açıdan mükemmeldir.</p>
+                                <p className="sliderText" style={{color:"white"}}>Medisam her açıdan mükemmeldir.</p>
                                
                             </div>
                             
                         </div>
                         <div className="carousel-item">
-                            <img src={s2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
+                            <img src={s3} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Güvenilirlik</h3>
                                 <p className="sliderText">Medisam her açıdan güvenilirdir.</p> 
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={s2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
+                            
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 className="sliderHeader">Hijyeniklik</h3>
+                                <p className="sliderText">Medisam her açıdan hijyeniktir.</p> 
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={s7} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
+                            
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 className="sliderHeader">Yenilikçilik</h3>
+                                <p className="sliderText">Medisam her açıdan yenilikçidir.</p> 
                             </div>
                         </div>
                         

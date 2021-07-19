@@ -1,6 +1,5 @@
 import "./Navbar.css";
 import React, { Component } from "react";
-import medisam from "../footer/transparentmedisam.png";
 
 import { Menubar } from 'primereact/menubar';
 

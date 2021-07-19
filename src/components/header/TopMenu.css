@@ -29,6 +29,8 @@
     .icon_top{
         font-size: x-large !important;
         margin-left: 0.1rem !important;
+        margin-bottom: 1rem !important;
+        
     }
     .top_image{
         height: 9rem !important;
@@ -36,6 +38,7 @@
         width: 9rem !important;
     }
     .firma_ismi{
+        margin-top: 0.5rem !important;
         font-size: x-large !important;
     }
     .top_icon_info{

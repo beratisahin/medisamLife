@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
 
+import bgi from "./bgi.jpg";
+
 
 
 // Email validation
@@ -154,11 +156,12 @@ class ContactForm extends Component {
     return (
       <div>
         <div
-          className="col-12"
+          className="col-12 contactFormTemp"
           style={{
             display: "flex",
             justifyContent: "center",
-            backgroundColor: "#D7D7D7",
+            
+            backgroundImage: "url(" + bgi + ")",
             marginTop:"1rem",
             marginBottom:"1rem",
             borderRadius:"1rem"

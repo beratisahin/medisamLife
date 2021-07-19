@@ -1,7 +1,9 @@
+
 .contact{
   
     width: 100%;
     display: block;
+    
     
     
 
@@ -49,6 +51,10 @@
     .gonder{
         justify-content:center !important;
         margin-left: -2rem !important;
+    }
+    .contactFormTemp{
+        background-color:#DCDCDC !important;
+        background-image: none !important;
     }
     
 
