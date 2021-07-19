@@ -27,6 +27,7 @@ header {
   top: 0;
   z-index: +1;
   background-color: #E2E2E2;
+
 }
 
 .branding-logo{
@@ -56,6 +57,7 @@ header {
   color: #5FA5A0; /*2E6772 */
   padding: 1em 1.5em;
   font-size: x-small;
+  
  
 }
 
@@ -143,7 +145,8 @@ header {
 @media only screen and (max-width: 50em) {
   header {
 /*     position: relative; */
-    padding: 1.5em 2em;
+    padding: 1em 1.5em ;
+    height: 6rem;
   }
   .menu {
     flex-flow: column;
@@ -166,6 +169,7 @@ header {
   .menu > li > a {
     font-size: medium;
     color: var(--dark);
+    padding: 0.5em 1em;
   }
   .submenu > li > a {
     font-size: small;
@@ -174,7 +178,7 @@ header {
   .submenu {
     top: 0;
     padding-left: 1.5em;
-    border-left: 0.12em dotted hsla(342, 99%, 45%, 0.95);
+    border-left: 0.12em dotted purple;
   }
   .submenu .submenu {
     left: 0;
@@ -198,6 +202,7 @@ header {
     position: relative;
     cursor: pointer;
     transition: 0.2s transform ease-in-out;
+    
     
 
   }

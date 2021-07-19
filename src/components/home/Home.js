@@ -13,13 +13,12 @@ function Home() {
       <div className="col-12 homepageSlider">
          <Slider/>
       </div>
-
-      <div className="col-12">
-         <Owl/>
-      </div>
-
       <div className="col-12">
             <NedenBercislina/>
+      </div>
+      <br/>
+      <div className="col-12">
+         <Owl/>
       </div>
       <br/>
       <div className="col-12">

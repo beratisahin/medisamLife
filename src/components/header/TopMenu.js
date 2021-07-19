@@ -4,6 +4,7 @@ import medisam from "../footer/transparentmedisam.png"
 import "./TopMenu.css";
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import medisamlogo from "./MedisamYuvarlakLogo.png";
 
 export default class TopMenu extends Component {
   render() {
@@ -18,8 +19,8 @@ export default class TopMenu extends Component {
               <a href="/" title="Medisam Tıp Merkezi">
               <img
                 className="top_image"
-                style={{ height: "10rem",width:"75%",padding:"1px",margintop:"2px",marginLeft:"2px" }}
-                src={medisam}
+                style={{ height: "11rem",width:"11rem",padding:"1px",margintop:"2px",marginLeft:"2px" }}
+                src={medisamlogo}
                 alt="logo"
                 
               ></img>

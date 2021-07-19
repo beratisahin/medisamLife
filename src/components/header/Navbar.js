@@ -48,7 +48,7 @@ export default class Navbar extends Component {
             </ul>
           </li>
 
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Tedavi</a></li>
+          
           <li class="has-dropdown">
             <a href="#" class="menu-link" style={{fontSize:"medium"}}>Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
@@ -61,8 +61,7 @@ export default class Navbar extends Component {
                 </a>
                 <ul class="submenu">
                  
-                  <li><a href="#" class="menu-link">İmplant</a></li>
-                  <li><a href="#" class="menu-link">Protetik Diş Tedavisi</a></li>
+                  
                   <li class="has-dropdown">
                     <a href="#" class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
                       <span class="arrow"></span>
@@ -77,6 +76,8 @@ export default class Navbar extends Component {
 
                     </ul>
                   </li>
+                  <li><a href="#" class="menu-link">İmplant</a></li>
+                  <li><a href="#" class="menu-link">Protetik Diş Tedavisi</a></li>
                   <li><a href="#" class="menu-link">Zirkonyum Diş Kaplama</a></li>
                   <li><a href="#" class="menu-link">Porselen Lamine</a></li>
                   <li><a href="#" class="menu-link">Gümüş Tasarımı</a></li>
@@ -94,6 +95,7 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Tedavi</a></li>
           <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Galeri</a></li>
           <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>SSS</a></li>
           <li class="has-dropdown">
