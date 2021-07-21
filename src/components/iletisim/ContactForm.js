@@ -184,16 +184,7 @@ class ContactForm extends Component {
             >
                Bizimle İletişime Geçebilirsiniz
             </p>
-            <p className="yardim"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                fontSize: "medium",
-                color: "#2E6772",
-              }}
-            >
-              Size yardımcı olabilmek için buradayız.
-            </p>
+            
             <form id="contact-form" style={{marginLeft:"10%",marginRight:"10%"}} onSubmit={this.handleSubmit} noValidate>
               <div className="row" >
                 <div className="col-12">
