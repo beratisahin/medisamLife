@@ -213,7 +213,7 @@ class ContactForm extends Component {
                   )}
                 </div>
                <br/>
-               <br/>
+               
 
                 <div className="col-12">
                   <input
@@ -232,7 +232,7 @@ class ContactForm extends Component {
                   )}
                 </div>
                 <br/>
-                <br/>
+               
                 <div className="col-12">
                   <input
                     type="subject"
@@ -250,11 +250,11 @@ class ContactForm extends Component {
                   )}
                 </div>
                 <br/>
-                <br/>
+                
 
                 <div className="col-12">
                   <textarea
-                    rows="4"
+                    rows="3"
                     name="message"
                     value={this.state.message}
                     className={`form-control formInput ${
