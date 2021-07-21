@@ -177,12 +177,12 @@ class ContactForm extends Component {
                 justifyContent: "center",
                 color: "#2E6772",
                 padding:"1%",
-                fontSize:"x-large",
+                fontSize:"large",
                 
                 
               }}
             >
-               BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ 
+               Bizimle İletişime Geçebilirsiniz
             </p>
             <p className="yardim"
               style={{
