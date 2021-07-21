@@ -2,6 +2,7 @@ import "./Navbar.css";
 import React, { Component } from "react";
 
 import { Menubar } from 'primereact/menubar';
+import logo from "./MedisamYuvarlakLogo.png";
 
 
 export default class Navbar extends Component {
@@ -24,8 +25,7 @@ export default class Navbar extends Component {
          <header>
           <nav class="navbar">
             <div class="branding">
-            
-              
+         
             </div>
             <label for="input-hamburger" class="hamburger "></label>
         <input type="checkbox" id="input-hamburger" hidden></input>

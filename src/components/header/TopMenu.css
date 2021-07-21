@@ -1,9 +1,8 @@
 
 
 .icon_top{
-    font-size: x-large !important;
+    font-size: large !important;
     color: #2E6772 !important;
-    margin-left: 1rem !important;
 }
 
 .icon_top:hover{
@@ -19,16 +18,39 @@
     text-decoration: none !important;
 }
 .top_icon_info{
-    font-size: medium !important;
+    font-size: small !important;
     color:#5FA5A0 !important;
+    float: left !important;
+}
+.top_icon_info_sehir{
+    font-size: small !important;
+    color:#5FA5A0 !important;
+    float: left !important;
+}
+
+.hergunsaat_icon{
+    font-size: large !important;
+    color: #2E6772 !important;
+    float: left !important;
+}
+.hergunsaat_text{
+    font-size: small !important;
+    color:#5FA5A0 !important;
+    float: left !important;
 }
 
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 994px) {
+    #firma_ismi_div{
+        display: none !important;
+    }
+    #medya_div{
+        display: none !important;
+    }
     .icon_top{
-        font-size: x-large !important;
-        margin-left: 0.1rem !important;
+        font-size: large !important;
+        margin-left: 3px !important;
         margin-bottom: 1rem !important;
         
     }
@@ -40,9 +62,23 @@
     .firma_ismi{
         margin-top: 0.5rem !important;
         font-size: x-large !important;
+        display: none !important;
     }
     .top_icon_info{
-        display: none !important;
+        font-size: x-small !important;
+        float:left !important;
+    }
+    .hergun{
+        display: contents !important;
+        position: absolute !important;
+        margin-right: 1rem !important;
+        margin-top: 3rem !important;
+        justify-content: center !important;
+    }
+    .hergunsaat_text{
+        margin-top: 3rem !important;
+        float: right !important;
+
     }
    
   

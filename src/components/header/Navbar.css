@@ -249,6 +249,16 @@ header {
   }
 }
 
+.branding-logo{
+  position: absolute;
+  margin-top: 0.2rem !important;
+  margin-left: 0.2rem !important;
+}
+.branding{
+  float: left !important;
+  margin-left: 0 !important;
+}
+
 
 main {
 /* just to make scrollable vertically to see sticky navbar    */
