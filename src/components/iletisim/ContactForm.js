@@ -163,7 +163,7 @@ class ContactForm extends Component {
             
             backgroundImage: "url(" + bgi + ")",
             marginTop:"1rem",
-            marginBottom:"1rem",
+            marginBottom:"0.5rem",
             borderRadius:"1rem"
             
             
@@ -188,7 +188,7 @@ class ContactForm extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                fontSize: "large",
+                fontSize: "medium",
                 color: "#2E6772",
               }}
             >
@@ -213,6 +213,7 @@ class ContactForm extends Component {
                   )}
                 </div>
                <br/>
+               <br/>
                
 
                 <div className="col-12">
@@ -232,6 +233,7 @@ class ContactForm extends Component {
                   )}
                 </div>
                 <br/>
+                <br/>
                
                 <div className="col-12">
                   <input
@@ -249,6 +251,7 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.subject}</span>
                   )}
                 </div>
+                <br/>
                 <br/>
                 
 
