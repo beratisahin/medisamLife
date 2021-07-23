@@ -4,6 +4,6 @@
 }
 
 .card-neden{
-    font-size: smaller;
-    text-align: justify;
+    font-size: x-small !important;
+    text-align: justify !important;
 }
