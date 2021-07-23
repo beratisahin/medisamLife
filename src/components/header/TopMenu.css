@@ -61,9 +61,7 @@
     #firma_ismi_div{
         display: none !important;
     }
-    #medya_div{
-        display: none !important;
-    }
+    
     .icon_top{
         font-size: large !important;
         margin-left: 3px !important;
@@ -99,3 +97,11 @@
    
   
   }
+
+  
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1100px) {
+    #medya_div{
+        display: none !important;
+    }
+}
