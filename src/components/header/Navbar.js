@@ -4,7 +4,17 @@ import React, { Component } from "react";
 import { Menubar } from 'primereact/menubar';
 import logo from "./MedisamYuvarlakLogo.png";
 
-
+import BusinessIcon from '@material-ui/icons/Business';
+import HouseIcon from '@material-ui/icons/House';
+import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
+import CameraAltIcon from '@material-ui/icons/CameraAlt';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import HomeIcon from '@material-ui/icons/Home';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import AccountTreeIcon from '@material-ui/icons/AccountTree';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+import MoodIcon from '@material-ui/icons/Mood';
 export default class Navbar extends Component {
   componentDidMount () {
     const script = document.createElement("script");
@@ -30,9 +40,9 @@ export default class Navbar extends Component {
             <label for="input-hamburger" class="hamburger "></label>
         <input type="checkbox" id="input-hamburger" hidden></input>
         <ul class="menu">
-          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}>Ana Sayfa</a></li>
+          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon/>&nbsp;Ana Sayfa</a></li>
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Kurumsal &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -49,7 +59,7 @@ export default class Navbar extends Component {
 
           
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Hizmetlerimiz &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><MoodIcon/>&nbsp;Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -94,11 +104,11 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Tedavi</a></li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>Galeri</a></li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>SSS</a></li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><LocalHospitalIcon/>&nbsp;Tedavi</a></li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}>Şubelerimiz &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><AccountTreeIcon/>&nbsp;Şubelerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -109,7 +119,7 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}>İletişim</a></li>
+          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
         </ul>
 
 

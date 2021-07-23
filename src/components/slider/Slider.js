@@ -7,20 +7,10 @@ import s7 from '../medya/slider7.jpeg';
 import s8 from '../medya/slider8.jpg';
 import s9 from '../medya/slider9.jpeg';
 
-
-
+import ana1 from "./ana_dis.png";
+import ana2 from "./ana_sac.png";
+import ana3 from "./ana_epilasyon.png";
 import logo from "../header/MedisamYuvarlakLogo.png";
-
-
-
-
-
-
-
-import OwlSlider from "../slider/owlcarousel/Owl";
-
-
-
 
 
 import React, { Component } from 'react'
@@ -97,9 +87,39 @@ export default class Slider extends Component {
                         </div>
                         
                         <div className="carousel-caption d-none d-md-block" style={{position:"absolute",bottom:"2rem",margin:"auto",display:"block",justifyContent:"center"}}>
-                           <OwlSlider/>
-                       </div>
-                       
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card anaCardTemp">
+                                <img src={ana1} class="card-img-top anaCardPhoto" alt="..." title="Ağız ve Diş Sağlığı"></img>
+                                <div class="card-body">
+                                    <h5 class="card-title anaCardText">Ağız ve Diş Sağlığı</h5>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card anaCardTemp">
+                                <img src={ana2} class="card-img-top anaCardPhoto" alt="..." title="Saç Ekim"></img>
+                                <div class="card-body">
+                                    <h5 class="card-title anaCardText">Saç Ekim</h5>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                          
+                            <div class="col-4">
+                                <div class="card anaCardTemp">
+                                <img src={ana3} class="card-img-top anaCardPhoto" alt="..." title="Lazer Epilasyon"></img>
+                                <div class="card-body">
+                                    <h5 class="card-title anaCardText">Lazer Epilasyon</h5>
+                                   
+                                </div>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                        
                     </div>
 
                     

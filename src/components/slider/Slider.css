@@ -33,6 +33,27 @@
     color:purple;
 
 }
+.anaCardPhoto{
+    width: 10rem !important;
+    height: 8rem !important;
+    display: block !important;
+    justify-content: center !important;
+    margin: auto !important;
+}
+.anaCardText{
+    color: black;
+}
+.anaCardTemp{
+    width: 20rem !important;
+    height: 14rem !important;
+    border-radius: 1rem !important;
+    border: 2px inset #168B80;
+    display: block !important;
+    margin: auto !important;
+    justify-content: center !important;
+    
+}
+
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
     #carouselExampleInterval{

@@ -21,6 +21,8 @@
    height: 10rem;
    width: 10rem;
    border-radius: 1rem;
+   border: 1px groove lightgray;
+   padding: 2px !important;
 }
 /* Opacity #1 */
 .owlCarouselImage{
@@ -30,6 +32,7 @@
 }
 .owlCarouselImage:hover{
 	opacity: .5;
+   border: 3px groove #117662;
 }
 
 
@@ -41,7 +44,6 @@
      .owl-roof{
          margin: .5rem !important;
          width:90% !important;
-         z-index: -1 !important;
      }
      .owlCarouselContent{
         font-size: small !important;
