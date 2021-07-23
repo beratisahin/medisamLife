@@ -30,12 +30,12 @@
     text-decoration: none !important;
 }
 .top_icon_info{
-    font-size: small !important;
+    font-size: smaller !important;
     color:black !important;
     float: left !important;
 }
 .top_icon_info_sehir{
-    font-size: small !important;
+    font-size: smaller !important;
     color:black !important;
     float: left !important;
 }
@@ -54,6 +54,8 @@
     color:#5FA5A0 !important;
     float: left !important;
 }
+
+
 
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -78,7 +80,7 @@
         font-size: x-large !important;
         display: none !important;
     }
-    .top_icon_info{
+    .top_icon_info,.top_icon_info_sehir{
         font-size: x-small !important;
         float:left !important;
     }
@@ -98,6 +100,7 @@
   
   }
 
+  
   
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 1100px) {
