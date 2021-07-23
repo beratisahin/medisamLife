@@ -12,6 +12,10 @@ import o5 from "../owlcarousel/owlIcons/m5.PNG";
 import o6 from "../owlcarousel/owlIcons/m6.PNG";
 import o7 from "../owlcarousel/owlIcons/m7.PNG";
 import o8 from "../owlcarousel/owlIcons/m8.PNG";
+import o9 from "../owlcarousel/owlIcons/m9.PNG";
+import o10 from "../owlcarousel/owlIcons/m10.PNG";
+
+
 
 
 
@@ -114,6 +118,20 @@ export default function Owl() {
                 <div className="owlCarouselTemp">
                     <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
                    <p className="owlCarouselContent">Periodontoloji</p>
+               </div> 
+            </div>
+
+            <div className="item owl-slider">
+                <div className="owlCarouselTemp">
+                    <img src={o9} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                   <p className="owlCarouselContent">Pedodonti</p>
+               </div> 
+            </div>
+
+            <div className="item owl-slider">
+                <div className="owlCarouselTemp">
+                    <img src={o10} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                   <p className="owlCarouselContent">Porselen</p>
                </div> 
             </div>
             
