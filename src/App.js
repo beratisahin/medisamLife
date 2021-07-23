@@ -15,14 +15,10 @@ import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
 import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
 import SSS from "./components/kurumsal/s.s.s/Sss";
-import EvTemizligi from "./components/hizmetler/ev-temizligi/EvTemizligi";
-import OfisTemizligi from "./components/hizmetler/ofis-temizligi/OfisTemizligi";
-import KoltukYikama from "./components/hizmetler/koltuk-yikama/KoltukYikama";
-import Dezenfektan from "./components/hizmetler/dezenfektan/Dezenfektan";
-import HaliYikama from "./components/hizmetler/hali-yikama/HaliYikama";
-import HamaliyeTemini from "./components/hizmetler/hamaliye-temini/HamaliyeTemini";
-import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Iletisim from "./components/iletisim/ContactForm";
+
+import Implant from "./components/hizmetler/agiz-dis-sagligi/implant/Implant";
+import Protetik from "./components/hizmetler/agiz-dis-sagligi/protetik-dis-tedavisi/Protetik";
 
 
 
@@ -48,14 +44,12 @@ function App() {
             <Route path="/ekibimiz" component={Ekibimiz} />
             <Route path="/sss" component={SSS} />
 
-            <Route path="/cilt-bakim" component={EvTemizligi} />
-            <Route path="/kalici-fondoten" component={OfisTemizligi} />
-            <Route path="/kas-kontur" component={KoltukYikama} />
-            <Route path="/dermaterapi" component={Dezenfektan} />
-            <Route path="/kalici-makyaj" component={HaliYikama} />
-            <Route path="/epilasyon" component={HamaliyeTemini} />
+            
 
-            <Route path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
+            <Route path="/agiz-dis-sagligi/implant" component={Implant} />
+            <Route path="/agiz-dis-sagligi/protetik-dis-tedavisi" component={Protetik} />
+
+           
             
             <Route path="/iletisim" component={Iletisim} />
 

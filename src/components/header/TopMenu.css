@@ -57,7 +57,7 @@
 
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 990px) {
     #firma_ismi_div{
         display: none !important;
     }

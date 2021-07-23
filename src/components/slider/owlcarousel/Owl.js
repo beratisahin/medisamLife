@@ -114,12 +114,7 @@ export default function Owl() {
                </div> 
             </div>
 
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
-                   <p className="owlCarouselContent">Periodontoloji</p>
-               </div> 
-            </div>
+            
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
@@ -132,6 +127,13 @@ export default function Owl() {
                 <div className="owlCarouselTemp">
                     <img src={o10} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
                    <p className="owlCarouselContent">Porselen</p>
+               </div> 
+            </div>
+
+            <div className="item owl-slider">
+                <div className="owlCarouselTemp">
+                    <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                   <p className="owlCarouselContent">Periodontoloji</p>
                </div> 
             </div>
             

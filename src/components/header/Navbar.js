@@ -76,7 +76,7 @@ export default class Navbar extends Component {
                       <span class="arrow"></span>
                     </a>
                     <ul class="submenu">
-                      <li><a href="#" class="menu-link">İmplant</a></li>
+                      <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
                       <li><a href="#" class="menu-link">20 Yaş Dişler ve Tedavisi</a></li>
                       <li><a href="#" class="menu-link">Gömülü Diş Operasyonları</a></li>
                       <li><a href="#" class="menu-link">Kist ve Tümör Operasyonları</a></li>
@@ -85,8 +85,8 @@ export default class Navbar extends Component {
 
                     </ul>
                   </li>
-                  <li><a href="#" class="menu-link">İmplant</a></li>
-                  <li><a href="#" class="menu-link">Protetik Diş Tedavisi</a></li>
+                  <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
+                  <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
                   <li><a href="#" class="menu-link">Zirkonyum Diş Kaplama</a></li>
                   <li><a href="#" class="menu-link">Porselen Lamine</a></li>
                   <li><a href="#" class="menu-link">Gümüş Tasarımı</a></li>

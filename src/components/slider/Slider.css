@@ -55,6 +55,17 @@
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 990px) {
+    .anaCardPhoto{
+        width: 8rem !important;
+    }
+    .anaCardTemp{
+        width: 15rem !important;
+    }
+
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
     #carouselExampleInterval{
         width: 100%;
