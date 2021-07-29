@@ -107,15 +107,15 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              medisamlife_merzifon@gmail.com  
+              medisamlifemerzifon@gmail.com  
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
@@ -123,7 +123,7 @@ export default class Foooter extends Component {
               &nbsp;
               0546 105 45 00  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               
               <a>
                 <HomeIcon style={{fontSize:"24px"}}/>
@@ -172,15 +172,15 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              medisamlife_vezirkopru@gmail.com  
+              medisamlifevezirkopru@gmail.com  
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
@@ -188,7 +188,7 @@ export default class Foooter extends Component {
               &nbsp;
               0545 313 28 55  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
               
               <a>
                 <HomeIcon style={{fontSize:"24px"}}/>
