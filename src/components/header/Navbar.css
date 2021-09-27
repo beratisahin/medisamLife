@@ -26,7 +26,8 @@ header {
   position: sticky;
   top: 0;
   z-index: +1;
-  background-color: #fcfcfc /*#E2E2E2; */
+  background-color: #EEEEEE; /*#E2E2E2;  #fcfcfc*/ 
+  
 
 }
 
@@ -69,7 +70,7 @@ header {
 .submenu {
   position: absolute;
   left: 0;
-  background-color: #fcfcfc;
+  background-color: #EEEEEE;
   white-space: nowrap;
   padding: 1.5em 0;
   min-width: 16em;
@@ -94,7 +95,7 @@ header {
 
 /*.menu > li:hover > a,*/
 .submenu > li:hover > a {
-  background-color:#F2F0F0;
+  background-color:#fcfcfc;
   color: var(--hover-color);
 }
 .menu > li:hover > a {
