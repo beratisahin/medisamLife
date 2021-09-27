@@ -2,7 +2,7 @@
   box-sizing: border-box;
 
   --primary: #2E6772;
-  --hover-color: purple;
+  --hover-color: black;
   --dark: #1c2022;
   --light: #fff;
 
@@ -26,7 +26,7 @@ header {
   position: sticky;
   top: 0;
   z-index: +1;
-  background-color: #E2E2E2;
+  background-color: #fcfcfc /*#E2E2E2; */
 
 }
 
@@ -54,9 +54,10 @@ header {
 .menu li a {
   display: block;
   text-decoration: none;
-  color: #5FA5A0; /*2E6772 */
+  color: #168B80; /*2E6772 */
   padding: 1em 1.5em;
-  font-size: x-small;
+  font-size: smaller;
+  font-weight: bold;
   
  
 }
@@ -68,7 +69,7 @@ header {
 .submenu {
   position: absolute;
   left: 0;
-  background-color: #E2E2E2;
+  background-color: #fcfcfc;
   white-space: nowrap;
   padding: 1.5em 0;
   min-width: 16em;
@@ -91,13 +92,13 @@ header {
   top: 0;
 }
 
-.menu > li:hover > a,
+/*.menu > li:hover > a,*/
 .submenu > li:hover > a {
-  background-color:#E2E2E2;
+  background-color:#F2F0F0;
   color: var(--hover-color);
 }
 .menu > li:hover > a {
-  color:purple;
+  color:black;
 }
 
 /* Arrows */
@@ -178,7 +179,7 @@ header {
   .submenu {
     top: 0;
     padding-left: 1.5em;
-    border-left: 0.12em dotted purple;
+    border-left: 0.12em dotted #3c667c;
   }
   .submenu .submenu {
     left: 0;

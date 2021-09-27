@@ -22,7 +22,7 @@ function Home() {
       <br/>
       
       <div className="row mr-4 servicebox">
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 col-12">
             <Test
               photo={testimg}
               title="İmplant"
@@ -30,7 +30,14 @@ function Home() {
             />
         </div>
 
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 col-12">
+            <Test
+              photo={testimg}
+              title="Ortodonti"
+              text="Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz."
+            />
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-12 col-12">
             <Test
               photo={testimg}
               title="Zirkonyum"
@@ -38,7 +45,7 @@ function Home() {
             />
         </div>
 
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 col-12">
             <Test
               photo={testimg}
               title="Lamine"
