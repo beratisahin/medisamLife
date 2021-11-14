@@ -34,7 +34,7 @@ export default class Foooter extends Component {
               <img
                 src={MainLogo}
                 alt="logo"
-                style={{ width: "25rem", height: "15rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "22rem", height: "13rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
@@ -80,6 +80,7 @@ export default class Foooter extends Component {
             <a
               href="https://www.facebook.com/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left" }}
             >
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
@@ -87,6 +88,7 @@ export default class Foooter extends Component {
             <a
               href="https://www.instagram.com/medisamadsp/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
@@ -94,6 +96,7 @@ export default class Foooter extends Component {
             <a
               href="https://wa.me/+905461054500"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
@@ -101,6 +104,7 @@ export default class Foooter extends Component {
             <a
               href="tel: +905461054500"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
@@ -121,6 +125,7 @@ export default class Foooter extends Component {
               <a
                 href="tel: +905461054500"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
@@ -132,6 +137,7 @@ export default class Foooter extends Component {
               <a 
                 href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
@@ -151,6 +157,7 @@ export default class Foooter extends Component {
             <a
               href="https://www.facebook.com/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left" }}
             >
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
@@ -158,6 +165,7 @@ export default class Foooter extends Component {
             <a
               href="https://www.instagram.com/medisamadsp/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
@@ -165,6 +173,7 @@ export default class Foooter extends Component {
             <a
               href="https://wa.me/+905453132855"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
@@ -172,6 +181,7 @@ export default class Foooter extends Component {
             <a
               href="tel: +905453132855"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
@@ -192,6 +202,7 @@ export default class Foooter extends Component {
               <a
                 href="tel: +905453132855"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
@@ -203,6 +214,7 @@ export default class Foooter extends Component {
               <a 
                 href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
@@ -226,6 +238,7 @@ export default class Foooter extends Component {
                             &nbsp; &nbsp;
                             <a className="sebertech" href="tel: +905449125561"
                                target="_blank" 
+                               rel="noopener noreferrer"
                                style={{fontSize:"12px",paddingRight:"1rem",float:"right",textAlign:"right",color:"black"}}> ®Se<b>B</b>er Tech</a>
                     </div>
           </div>

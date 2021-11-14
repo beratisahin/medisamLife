@@ -133,7 +133,7 @@ export default function Owl() {
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
                     <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
-                   <p className="owlCarouselContent">Periodontoloji</p>
+                   <p className="owlCarouselContent">Periodonto</p>
                </div> 
             </div>
             

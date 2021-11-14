@@ -48,6 +48,7 @@ export default class TopMenu extends Component {
                  <a
                     href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ float: "left"}}
                   >
                     <LocationOnIcon className="icon_top" />
@@ -60,6 +61,7 @@ export default class TopMenu extends Component {
                   <a
                     href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ float: "left" }}
                   >
                     <LocationOnIcon className="icon_top" />
@@ -76,6 +78,7 @@ export default class TopMenu extends Component {
                   <a
                     href="tel: +905461054500"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ float: "left"}}
                   >
                     <LocalPhoneIcon className="icon_top"  />
@@ -86,6 +89,7 @@ export default class TopMenu extends Component {
                   <a
                     href="tel: +905461054500"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ float: "left"}}
                   >
                     <LocalPhoneIcon className="icon_top"  />

@@ -4,13 +4,14 @@ import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
 import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
+import DoktorOwl from "../doktorlar/DoktorOwl.js";
 
 
 import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
-import cardimg from "./card1.jpg";
-import ortodonti from "./ortodonti.jpg";
-import implant from "./implant.jpg";
+
+
+import TopluHizmet from "../topluhizmet/TopluHizmet.js";
 
 
 function Home() {
@@ -23,86 +24,23 @@ function Home() {
       <div className="col-12">
             <NedenBercislina/>
       </div>
-      <br/>
       
-      <div className="row mr-4 servicebox">
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-            <Test
-              photo={testimg}
-              title="İmplant"
-              text="Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz."
-            />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-            <Test
-              photo={testimg}
-              title="Ortodonti"
-              text="Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz."
-            />
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-            <Test
-              photo={testimg}
-              title="Zirkonyum"
-              text="Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz."
-            />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-            <Test
-              photo={testimg}
-              title="Lamine"
-              text="Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz."
-            />
-        </div>
-
+      <br/>
+      <hr/>
+      <div className="row">
+        <TopluHizmet/>
+      </div>
         
+
+      <hr/>
+      <div className="col-12">
+        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c"}}>Doktorlarımız</h2>
+         <DoktorOwl/>
       </div>
       <br/>
       
+     
       
-      <div class="container" style={{margin:"30px"}}>
-              <div class="row" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
-                <div class="image">
-                  <img src={ortodonti} alt="medisam" style={{width:"100%",height:"30rem"}}></img>
-                  <div class="details">
-                      <a href="#" style={{textDecoration:"none",color:"#168B80"}}><h2><span>Ortodonti</span></h2></a>
-                      <p>Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz.</p>
-                  </div>
-
-                  <div class="more">
-                    <a href="#" class="read-more">Read <span>More</span></a>
-                    <div class="icon-links">
-                      <a href="#"><i class="fas fa-heart"></i></a>
-                      <a href="#"><i class="fas fa-eye"></i></a>
-                      <a href="#"><i class="fas fa-paperclip"></i></a>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="image">
-                  <img src={implant} alt="medisam" style={{width:"100%",height:"30rem"}}></img>
-                  <div class="details">
-                      <a href="#" style={{textDecoration:"none",color:"#168B80"}}><h2><span>İmplant</span></h2></a>
-                      <p>Ağza yapay diş köklerinin yerleştirilmesi işlemine implant tedavisi denilmektedir. Polikliniğimizde uzman hekimlerimiz tarafından implant tedavisi uygulanmaktadır. Ayrıca implant tedavisi ile ilgili ücretsiz muayene de olup gerekli bilgileri edinebilirsiniz.</p>
-                  </div>
-
-                  <div class="more">
-                    <a href="#" class="read-more">Read <span>More</span></a>
-                    <div class="icon-links">
-                      <a href="#"><i class="fas fa-heart"></i></a>
-                      <a href="#"><i class="fas fa-eye"></i></a>
-                      <a href="#"><i class="fas fa-paperclip"></i></a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            
-      </div>
       <br/>
       <div className="col-12">
          <Owl/>

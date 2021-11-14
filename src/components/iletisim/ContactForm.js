@@ -6,6 +6,7 @@ import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
 
 import bgi from "./bgi.jpg";
+import mailback from "./mailBack.jpg";
 
 
 
@@ -38,11 +39,13 @@ class ContactForm extends Component {
     this.state = {
       name: "",
       email: "",
+      number:"",
       subject: "",
       message: "",
       formErrors: {
         name: "",
         email: "",
+        number:"",
         subject: "",
         message: "",
       },
@@ -78,12 +81,13 @@ class ContactForm extends Component {
 
     if (formValid(this.state)) {
       // Handle form validation success
-      const { name, email, subject, message } = this.state;
+      const { name, email,number, subject, message } = this.state;
 
       // Set template params
       let templateParams = {
         name: name,
         email: email,
+        number: number,
         subject: subject,
         message: message,
       };
@@ -101,6 +105,7 @@ class ContactForm extends Component {
         --SUBMITTING--
         Name: ${name}
         Email: ${email}
+        PhoneNumber: ${number}
         Subject: ${subject}
         Message: ${message}
       `);
@@ -162,6 +167,11 @@ class ContactForm extends Component {
             justifyContent: "center",
             
             backgroundImage: "url(" + bgi + ")",
+            backgroundPosition:"center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            
+            width:"100%",
             marginTop:"1rem",
             marginBottom:"0.5rem",
             borderRadius:"1rem"
@@ -171,6 +181,7 @@ class ContactForm extends Component {
           }}
         >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-3">
+          
             <p className="iletisimegec"
               style={{
                 display: "flex",
@@ -181,7 +192,7 @@ class ContactForm extends Component {
                 
                 
               }}
-            >
+            >  
                Bizimle İletişime Geçebilirsiniz
             </p>
             
@@ -223,6 +234,25 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.email}</span>
                   )}
                 </div>
+                <br/>
+                <br/>
+                <div className="col-12">
+                  <input
+                    type="email"
+                    name="email"
+                    value={this.state.email}
+                    className={`form-control formInput ${
+                      formErrors.email.length > 0 ? "error" : null
+                    }`}
+                    onChange={this.handleChange}
+                    placeholder="Cep Telefonunuz"
+                    noValidate
+                  ></input>
+                  {formErrors.email.length > 0 && (
+                    <span className="errorMessage">{formErrors.email}</span>
+                  )}
+                </div>
+
                 <br/>
                 <br/>
                
