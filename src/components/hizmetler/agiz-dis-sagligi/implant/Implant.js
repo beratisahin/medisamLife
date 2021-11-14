@@ -1,14 +1,15 @@
 import "./Implant.css";
 import React from 'react'
 import useDocumentTitle from "../../../../useDocumentTitle";
-import testImg from "../../../header/MedisamYuvarlakLogo.png";
+import tlogo from "./MedisamTransparanLogo.png";
 
 export default function Implant() {
     useDocumentTitle('İmplant - Medisam Tıp Merkezi');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-                <img src={testImg} class="hizmet-photo" title="ofis temizliği" alt="Ofis Temizliği" ></img>
+               
+                <img src={tlogo} class="hizmet-photo" title="ofis temizliği" alt="Ofis Temizliği" ></img>
                 <div className="card-body col-12">
                     <br/>
                     <p class="hizmet-title" >İmplant</p>

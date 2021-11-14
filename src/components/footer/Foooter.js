@@ -6,6 +6,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import logo from "./transparentmedisam.png";
+import MainLogo from "../header/MedisamTransparanLogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -27,20 +28,20 @@ export default class Foooter extends Component {
   render() {
     return (
       <div id="footer">
-        <div class="row p-4" style={{ backgroundColor: "#2F2F2F", height:"auto" }}>
+        <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <a href="/" title="Medisam Tıp Merkezi">
+            <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği">
               <img
-                src={logo}
+                src={MainLogo}
                 alt="logo"
-                style={{ width: "45rem", height: "15rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "25rem", height: "15rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
               className="mt-4"
               style={{
                 fontSize: "14px",
-                color: "#C0C0C0",
+                
                 textAlign: "justify",
                 textIndent: "1px",
               }}
@@ -52,27 +53,27 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "#5FA5A0", fontSize: "18px" }}>Kurumsal</b>
+            <b style={{ color: "#3d667c", fontSize: "18px" }}>Kurumsal</b>
             <hr/>
             <ul className="bottomlist">
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/hakkimizda" style={{ color: "#C0C0C0",fontSize:"small"}}>Hakkımızda</Link>
+                <Link to="/hakkimizda" style={{ fontSize:"small",color:"black"}}>Hakkımızda</Link>
               </li>
               <li onClick={() => this.scrollToTop()}>
-                <Link to="/belgelerimiz" style={{ color: "#C0C0C0",fontSize:"small" }}>Belgelerimiz</Link>
+                <Link to="/belgelerimiz" style={{ fontSize:"small",color:"black" }}>Belgelerimiz</Link>
               </li>
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/referanslarimiz" style={{ color: "#C0C0C0" ,fontSize:"small"}}>Referanslarımız</Link>
+                <Link to="/referanslarimiz" style={{fontSize:"small",color:"black"}}>Referanslarımız</Link>
               </li>
               <li onClick={() => this.scrollToTop()} >
-                <Link to="/ekibimiz" style={{ color: "#C0C0C0" ,fontSize:"small"}}>Ekibimiz</Link>
+                <Link to="/ekibimiz" style={{ fontSize:"small",color:"black"}}>Ekibimiz</Link>
               </li>
               
             </ul>
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
-            <p style={{ color: "#5FA5A0", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
               Merzifon Medisam Life
             </p>
             <hr/>
@@ -107,25 +108,31 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a href="mailto:medisamlifemerzifon@gmail.com">
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               medisamlifemerzifon@gmail.com  
             </p>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{  fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a
+                href="tel: +905461054500"
+                target="_blank"
+              >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               0546 105 45 00  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{  fontSize: "14px", textAlign: "left" }}>
               
-              <a>
+              <a 
+                href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
+                target="_blank"
+              >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
@@ -137,7 +144,7 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
-            <p style={{ color: "#5FA5A0", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
               Vezirköprü Medisam Life
             </p>
             <hr/>
@@ -172,25 +179,31 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a href="mailto:medisamlifevezirkopru@gmail.com"> 
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               medisamlifevezirkopru@gmail.com  
             </p>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a
+                href="tel: +905453132855"
+                target="_blank"
+              >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               0545 313 28 55  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
-            <p style={{ color:"#3A667D", fontSize: "14px", textAlign: "left" }}>
+            <p style={{  fontSize: "14px", textAlign: "left" }}>
               
-              <a>
+              <a 
+                href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
+                target="_blank"
+              >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
@@ -209,11 +222,11 @@ export default class Foooter extends Component {
             <hr/> 
                     <div className="patent" >
                         
-                            <p style={{fontSize:"12px",color:"#C0C0C0",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
+                            <p style={{fontSize:"12px",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
                             &nbsp; &nbsp;
                             <a className="sebertech" href="tel: +905449125561"
                                target="_blank" 
-                               style={{fontSize:"12px",color:"#C0C0C0",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</a>
+                               style={{fontSize:"12px",paddingRight:"1rem",float:"right",textAlign:"right",color:"black"}}> ®Se<b>B</b>er Tech</a>
                     </div>
           </div>
 

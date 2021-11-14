@@ -6,6 +6,7 @@ import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import medisamlogo from "./MedisamYuvarlakLogo.png";
+import MainLogo from "./MedisamTransparanLogo.png";
 
 export default class TopMenu extends Component {
   render() {
@@ -17,11 +18,11 @@ export default class TopMenu extends Component {
         <div className="col-12" style={{display:"inline"}}>
 
             <div className="col-4 col-lg-4 col-md-6" style={{float:"left"}}>
-              <a href="/" title="Medisam Tıp Merkezi">
+              <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği"> 
               <img
                 className="top_image"
                 style={{ height: "11rem",width:"11rem",padding:"1px",margintop:"2px",marginLeft:"2px" }}
-                src={medisamlogo}
+                src={MainLogo}
                 alt="logo"
                 
               ></img>
@@ -34,8 +35,8 @@ export default class TopMenu extends Component {
               className="col-4 firma_div"
               style={{ color: "white",float:"left",marginTop:"2rem"}}
               >
-              <Link className="firma_ismi" to="/" style={{ color: "#2E6772", fontSize:"xx-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
-                <b>Medisam Life</b>
+              <Link className="firma_ismi" to="/" style={{fontFamily:"serif" ,color: "#2E6772", fontSize:"x-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
+                <b>Medisam Ağız ve Diş Sağlığı Polikliniği</b>
               </Link>
             </div>
 
