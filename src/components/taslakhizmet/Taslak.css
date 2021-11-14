@@ -99,7 +99,7 @@
   }
   
   .more .read-more{
-    color:#000;
+    color:#3d667c !important;
     text-decoration: none;
     font-size: large !important;
     font-weight: 500;
@@ -110,7 +110,7 @@
     font-weight: 900;
   }
   .more:hover .read-more{
-    color:#FFC155;
+    color:#FFC155 !important;
   }
   .more .icon-links i{
     color:#000;
@@ -145,6 +145,9 @@
     .more .read-more{
         font-size: medium !important;
         font-weight: bolder !important;
+    }
+    .image .details p{
+        font-size: x-small !important;
     }
 
   }
