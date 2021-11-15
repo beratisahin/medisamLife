@@ -48,24 +48,25 @@
   
   }
   
-  .image .details h2{
+  image .details h2{
     text-align: center;
     font-size: x-large !important;
-    font-weight: 300;
+    font-weight: 900 !important;
     margin-top: 50px !important;
     transition: 0.4s;
     transition-property: transform;
     color: #168B80 !important;
-    font-weight: bolder;
+    font-weight: bolder !important;
   }
   
   .image:hover .details h2{
-    transform:translateY(-30px);
+    transform:translateY(-25px) !important;
+    
   }
   
   .image .details p{
     margin:30px 30px 0 30px;
-    font-size: small;
+    font-size: medium !important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     text-align: center;
@@ -99,13 +100,29 @@
   }
   
   .more .read-more{
-    color:#3d667c !important;
+    /*color:#3d667c !important; */
     text-decoration: none;
     font-size: large !important;
     font-weight: 500;
     z-index: +1 !important;
+
+    animation-duration: 50ms;
+    animation-name: read-more;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  }   
+
+
+/* The animation code */
+@keyframes read-more{
+  from {color: #3d667c;}
+  to {color: #FFC155}
+}
+
+   
     
-  }
+  
   .more .read-more span{
     font-weight: 900;
   }
@@ -147,8 +164,9 @@
         font-weight: bolder !important;
     }
     .image .details p{
-        font-size: x-small !important;
+        font-size: small !important;
     }
+    
 
   }
   @media (max-width: 400px){

@@ -57,7 +57,7 @@ export default function TopluHizmet() {
                 <Taslak 
                     taslaktitle="Kanal Tedavisi"
                     taslakphoto={kanal}
-                    taslaktext="Kanal tedavisi enfekte olmuş veya çürümüş dişleri onararak kurtarmak için kullanılan bir tedavi yöntemidir. Kanal tedavisi sırasında dişin sert dokusunun içindeki kök kanalı adı verilen doğal boşlukta bulunan yumuşak doku olan pulpa ile diş siniri çıkarılır, dişin içi temizlenir ardından açılan boşluk doldurulur. "
+                    taslaktext="Kanal tedavisi enfekte olmuş dişleri onararak kurtarmak için kullanılan bir tedavi yöntemidir. Dişin sert dokusunun içindeki kök kanalı pulpa ile diş siniri çıkarılır, dişin içi temizlenir ardından açılan boşluk doldurulur. "
                     taslaklink="/agiz-dis-sagligi/implant"
                 />
             </div>
