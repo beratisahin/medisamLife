@@ -96,7 +96,7 @@ class ContactForm extends Component {
         "service_pqscb74",
         "template_kpaqklx",
         templateParams,
-        "user_bTFsTGKw8lxQ3pgyrwFWI"
+        "user_z8Z9rbGWiGtwlqPi0sLGv" 
         
       );
 
@@ -124,6 +124,7 @@ class ContactForm extends Component {
     this.setState({
       name: "",
       email: "",
+      number:"",
       subject: "",
       message: "",
     });
@@ -143,6 +144,9 @@ class ContactForm extends Component {
           ? ""
           : "Please enter a valid email address.";
         break;
+      case "number":
+          formErrors.subject = value.length < 1 ? "Please enter a cell phone number." : "";
+          break;
       case "subject":
         formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
         break;
@@ -238,9 +242,9 @@ class ContactForm extends Component {
                 <br/>
                 <div className="col-12">
                   <input
-                    type="email"
-                    name="email"
-                    value={this.state.email}
+                    type="number"
+                    name="number"
+                    value={this.state.number}
                     className={`form-control formInput ${
                       formErrors.email.length > 0 ? "error" : null
                     }`}
@@ -248,8 +252,8 @@ class ContactForm extends Component {
                     placeholder="Cep Telefonunuz"
                     noValidate
                   ></input>
-                  {formErrors.email.length > 0 && (
-                    <span className="errorMessage">{formErrors.email}</span>
+                  {formErrors.number.length > 0 && (
+                    <span className="errorMessage">{formErrors.number}</span>
                   )}
                 </div>
 
