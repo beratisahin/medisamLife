@@ -60,12 +60,11 @@
   }
   
   .image:hover .details h2{
-    transform:translateY(-25px) !important;
-    
+    transform:translateY(-0px) !important;
   }
   
   .image .details p{
-    margin:30px 30px 0 30px;
+    margin:20px 30px 0 30px;
     font-size: medium !important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
