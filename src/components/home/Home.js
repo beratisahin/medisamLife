@@ -34,7 +34,7 @@ function Home() {
 
       <hr/>
       <div className="col-12">
-        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c"}}>Doktorlarımız</h2>
+        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Doktorlarımız</h2>
          <DoktorOwl/>
       </div>
       <br/>
