@@ -60,7 +60,7 @@
   }
   
   .image:hover .details h2{
-    transform:translateY(-0px) !important;
+    transform:translateY(-40px) !important;
   }
   
   .image .details p{
