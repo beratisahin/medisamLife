@@ -4,8 +4,8 @@ import "./TopluHizmet.css";
 import ortodonti from "./hizmetFotolar/ortodonti.jpg";
 import implant from "./hizmetFotolar/implant.jpg";
 import zirkonyum from "./hizmetFotolar/zirkonyum.jpg";
-import disbeyazlatma from "./hizmetFotolar/disbeyazlatma.jpg";
-import kanal from "./hizmetFotolar/kanal.jpg";
+import disbeyazlatma from "./hizmetFotolar/beyazlatma2.jpg";
+import kanal from "./hizmetFotolar/kanal2.jpg";
 import pedodonti from "./hizmetFotolar/pedodonti.jpg";
 
 

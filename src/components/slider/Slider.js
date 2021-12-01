@@ -22,7 +22,7 @@ export default class Slider extends Component {
         <div style={{display:"flex", justifyContent:"center"}}>
             <div id="slide" >
                 <div className="carousel-caption" style={{marginBottom:"35rem",marginLeft:"108rem",zIndex:"+1"}}>
-                    <img className="sliderStableLogo" src={logo} style={{width:"11rem",height:"11rem",zIndex:"+1"}}></img>
+                    
                 </div>
                 
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">

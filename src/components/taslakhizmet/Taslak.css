@@ -148,6 +148,9 @@
     .image img{
         height: 300px;
     }
+    .serviceTitle{
+      font-size: large !important;
+    }
     
   }
   @media (max-width: 700px){

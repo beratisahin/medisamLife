@@ -10,7 +10,7 @@ render() {
         <div class="image">
                 <img src={taslakphoto} title="Medisam Ağız ve Diş Sağlığı Polikliniği" style={{width:"100%",height:"30rem"}}></img>
                 <div class="details">
-                        <h2 style={{textDecoration:"none",color:"#168B80",fontWeight:"bolder"}}>{taslaktitle}</h2>
+                        <h2 className="serviceTitle" style={{textDecoration:"none",color:"#168B80",fontWeight:"bolder",fontSize:"x-large"}}>{taslaktitle}</h2>
                         <p>{taslaktext}</p>
                 </div>
 
