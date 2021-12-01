@@ -10,7 +10,9 @@
 @media screen and (max-width: 700px) {
   
     
-
+      .doktorlarTitle{
+        font-size: large !important;
+      }
     .harita{
         height:30rem !important;
         margin-bottom: 1rem !important;

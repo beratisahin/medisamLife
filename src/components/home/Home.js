@@ -5,6 +5,7 @@ import Mail from "../iletisim/ContactForm";
 import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
 import DoktorOwl from "../doktorlar/DoktorOwl.js";
+import Klinik from "../klinik/Klinik.js";
 
 
 import testimg from "../header/MedisamYuvarlakLogo.png"
@@ -38,11 +39,17 @@ function Home() {
          <DoktorOwl/>
       </div>
       <br/>
-      
+      <hr/>
+      <div className="col-12">
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Galerimiz</h2>
+         <Klinik/>
+      </div>
      
       
       <br/>
+      <hr/>
       <div className="col-12">
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Hizmetlerimiz</h2>
          <Owl/>
       </div>
       <br/>

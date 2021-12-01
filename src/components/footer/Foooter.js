@@ -29,7 +29,7 @@ export default class Foooter extends Component {
     return (
       <div id="footer">
         <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
             <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği">
               <img
                 src={MainLogo}
@@ -52,7 +52,7 @@ export default class Foooter extends Component {
           </div>
 
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
             <b style={{ color: "#3d667c", fontSize: "18px" }}>Kurumsal</b>
             <hr/>
             <ul className="bottomlist">
@@ -72,7 +72,7 @@ export default class Foooter extends Component {
             </ul>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
             <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
               Merzifon Medisam Life
             </p>
@@ -149,7 +149,7 @@ export default class Foooter extends Component {
           </div>
 
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px" }}>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem" }}>
             <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
               Vezirköprü Medisam Life
             </p>

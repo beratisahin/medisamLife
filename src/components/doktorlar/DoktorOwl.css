@@ -15,7 +15,7 @@
     text-align: center;
     padding: 1rem;
     margin: auto;
-    font-size: medium;
+    font-size: large;
  }
  .owlCarouselImageDoktor{
     height: 20rem;
@@ -48,7 +48,7 @@
           justify-content: center !important;
       }
       .owlCarouselContentDoktor{
-         font-size: small !important;
+         font-size: medium !important;
       }
       .owlCarouselImageDoktor{
         height: 20rem !important;
