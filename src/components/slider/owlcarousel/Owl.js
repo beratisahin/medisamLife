@@ -32,16 +32,16 @@ const options = {
     smartSpeed: 1000,
     responsive: {
         0: {
-            items: 4,
+            items: 3,
         },
         400: {
-            items: 4,
+            items: 3,
         },
         600: {
-            items: 6,
+            items: 5,
         },
         700: {
-            items: 6,
+            items: 5,
         },
         1000: {
             items: 8,
