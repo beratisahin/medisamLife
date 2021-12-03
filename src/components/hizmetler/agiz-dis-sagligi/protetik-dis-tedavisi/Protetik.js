@@ -2,17 +2,20 @@ import React from 'react'
 import "./Protetik.css";
 import useDocumentTitle from "../../../../useDocumentTitle";
 import testImg from "../../../header/MedisamYuvarlakLogo.png";
-
+import Title from "../../../title/Title";
 
 export default function Protetik() {
     useDocumentTitle('Protetik Diş Tedavisi - Medisam Tıp Merkezi');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-                <img src={testImg} class="hizmet-photo" title="ofis temizliği" alt="Ofis Temizliği" ></img>
+                <Title
+                    page_title="Protetik Diş Tedavisi"
+                />
+               
                 <div className="card-body col-12">
                     <br/>
-                    <p class="hizmet-title" >Protetik Diş Tedavisi</p>
+                    
                     <p class="hizmet-text" >Estetik ve güzellik anlayışının sağlıkla ön planda tutulduğu güzellik merkezimde, koşulsuz müşteri memnuniyeti sunma amaçlı konusunda deneyimli ve profesyonel bir ekip tarafından hizmet vermektedir.
 
 Günümüz koşullarında her gün yenilenen teknolojinin birebir takipçisi olan merkezimiz de FDA ( Dünya Sağlık Örgütü ) onayı almış teknolojik sağlık, zayıflama ve güzellik ekipmanları kullanmaktadır.

@@ -2,17 +2,20 @@ import "./Implant.css";
 import React from 'react'
 import useDocumentTitle from "../../../../useDocumentTitle";
 import tlogo from "./MedisamTransparanLogo.png";
+import Title from "../../../title/Title";
 
 export default function Implant() {
     useDocumentTitle('İmplant - Medisam Tıp Merkezi');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-               
-                <img src={tlogo} class="hizmet-photo" title="ofis temizliği" alt="Ofis Temizliği" ></img>
+               <Title 
+                    page_title="İmplant"
+               />
+                
                 <div className="card-body col-12">
                     <br/>
-                    <p class="hizmet-title" >İmplant</p>
+                   
                     <p class="hizmet-text" >Estetik ve güzellik anlayışının sağlıkla ön planda tutulduğu güzellik merkezimde, koşulsuz müşteri memnuniyeti sunma amaçlı konusunda deneyimli ve profesyonel bir ekip tarafından hizmet vermektedir.
 
 Günümüz koşullarında her gün yenilenen teknolojinin birebir takipçisi olan merkezimiz de FDA ( Dünya Sağlık Örgütü ) onayı almış teknolojik sağlık, zayıflama ve güzellik ekipmanları kullanmaktadır.

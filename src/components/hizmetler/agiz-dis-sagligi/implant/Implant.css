@@ -1,8 +1,7 @@
 .hizmet-text{
     font-size: small !important;
     text-align: justify !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    margin: 4rem !important;
 }
 .hizmet-title{
     font-size: large !important;
@@ -25,7 +24,10 @@
         width:90% !important;
         height:15rem !important;
         
+    }
+    .hizmet-text{
         
+        margin: 1rem !important;
     }
 }
   
