@@ -36,7 +36,10 @@ export default class Navbar extends Component {
          <header>
           <nav class="navbar">
             <div class="branding">
-                <img className="MedisamLogo" src={MedisamLogo}></img>
+              <a href="/">
+                <img  className="MedisamLogo" title="Medisam Ağız ve Diş Sağlığı Polikliniği" src={MedisamLogo}></img>
+              </a>
+                
             </div>
             <label for="input-hamburger" class="hamburger "></label>
             <input type="checkbox" id="input-hamburger" hidden></input>

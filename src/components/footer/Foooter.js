@@ -5,8 +5,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import logo from "./transparentmedisam.png";
-import MainLogo from "../header/MedisamTransparanLogo.png";
+import MainLogo from "../header/MedisamIconTr.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -34,7 +33,7 @@ export default class Foooter extends Component {
               <img
                 src={MainLogo}
                 alt="logo"
-                style={{ width: "22rem", height: "13rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "30rem", height: "12rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p

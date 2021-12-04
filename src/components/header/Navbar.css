@@ -160,7 +160,7 @@ header {
     flex-flow: column;
     position: absolute;
     background: var(--light);
-    top: 4.55em;
+    top: 9rem;
     left: 0;
     right: 0;
     height: 50vh;
@@ -209,8 +209,8 @@ header {
     background-color: #3c667c !important;
     /*background: var(--light);*/
     position: absolute;
-    right: 2rem !important;
-    top:3rem !important;
+    right: 1rem !important;
+    top:1.2rem !important;
     cursor: pointer;
     transition: 0.2s transform ease-in-out;
     

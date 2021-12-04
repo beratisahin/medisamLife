@@ -18,7 +18,7 @@ export default function TopluHizmet() {
                     taslaktitle="Ortodonti"
                     taslakphoto={ortodonti}
                     taslaktext="Ortodonti, diş hekimliğin bir uzmanlık dalıdır. Ortodonti tedavisi uygulayan doktora ortodontist denilmektedir."
-                    taslaklink="/agiz-dis-sagligi/implant"
+                    taslaklink="/agiz-dis-sagligi/ortodonti"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -34,7 +34,7 @@ export default function TopluHizmet() {
                     taslaktitle="Zirkonyum Kaplama"
                     taslakphoto={zirkonyum}
                     taslaktext="Son günlerde diş hekimlerince sıklıkla uygulanan zirkonyum kaplama, doğal görünümü ile hastalar tarafından çok fazla tercih edilmektedir."
-                    taslaklink="/agiz-dis-sagligi/implant"
+                    taslaklink="/agiz-dis-sagligi/zirkonyum-dis-kaplama"
                 />      
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -42,7 +42,7 @@ export default function TopluHizmet() {
                     taslaktitle="Pedodonti"
                     taslakphoto={pedodonti}
                     taslaktext="Çocuk diş hekimliği; bebeklerin, çocukların ve özel bakım gerektiren (engelli) bireylerin ağız ve diş sağlığı sorunları ile uğraşan, diş hekimliğinin bir anabilim dalıdır."
-                    taslaklink="/agiz-dis-sagligi/implant"
+                    taslaklink="/agiz-dis-sagligi/pedodonti"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -50,7 +50,7 @@ export default function TopluHizmet() {
                     taslaktitle="Diş Beyazlatma"
                     taslakphoto={disbeyazlatma}
                     taslaktext="Beyazlatma dişlerin yapısında (mine ve dentin tabakasında) oluşan renklenmeleri giderme işlemidir. Hastanın dişinin doğal renginden memnun olmaması durumlarında da uygulanır."
-                    taslaklink="/agiz-dis-sagligi/implant"
+                    taslaklink="/agiz-dis-sagligi/dis-beyazlatma"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -58,7 +58,7 @@ export default function TopluHizmet() {
                     taslaktitle="Kanal Tedavisi"
                     taslakphoto={kanal}
                     taslaktext="Kanal tedavisi enfekte olmuş dişleri onararak kurtarmak için kullanılan bir tedavi yöntemidir. Dişin sert dokusundaki kök kanalı pulpa ile diş siniri çıkarılır, dişin içi temizlenir ardından boşluk doldurulur. "
-                    taslaklink="/agiz-dis-sagligi/implant"
+                    taslaklink="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi"
                 />
             </div>
             

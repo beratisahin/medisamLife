@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import medisam from "../footer/transparentmedisam.png"
 import "./TopMenu.css";
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import medisamlogo from "./MedisamYuvarlakLogo.png";
 import MainLogo from "./MedisamTransparanLogo.png";
 
 export default class TopMenu extends Component {
