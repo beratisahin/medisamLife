@@ -15,6 +15,7 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import MoodIcon from '@material-ui/icons/Mood';
+import MedisamLogo from "../header/MedisamIconTr.png";
 export default class Navbar extends Component {
   componentDidMount () {
     const script = document.createElement("script");
@@ -35,10 +36,10 @@ export default class Navbar extends Component {
          <header>
           <nav class="navbar">
             <div class="branding">
-         
+                <img className="MedisamLogo" src={MedisamLogo}></img>
             </div>
             <label for="input-hamburger" class="hamburger "></label>
-        <input type="checkbox" id="input-hamburger" hidden></input>
+            <input type="checkbox" id="input-hamburger" hidden></input>
         <ul class="menu">
           <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon/>&nbsp;Ana Sayfa</a></li>
           <li class="has-dropdown">

@@ -37,6 +37,8 @@ import Vezirkopru from "./components/subeler/Vezirkopru";
 
 import Sss from "./components/sss/Sss";
 
+
+
 function App() {
   return (
     <Router>
@@ -44,8 +46,8 @@ function App() {
         <div className="col-12 m-0 p-0">
           
            
-         
-            <TopMenu/>
+          
+            
             <Navbar />
           
 
