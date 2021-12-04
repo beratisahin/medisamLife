@@ -97,7 +97,6 @@ export default class Navbar extends Component {
                 </ul>
               </li>
 
-              
               <li><a href="#" class="menu-link">Güzellik Merkezi</a></li>
               <li><a href="#" class="menu-link">Saç Ekim Merkezi</a></li>
               
