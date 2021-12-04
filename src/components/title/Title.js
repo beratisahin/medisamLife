@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Title.css";
-import YL from "./MedisamYuvarlakLogo.png"
+import YL from "./Circle.png"
 
 export default class Title extends Component {
     render() {

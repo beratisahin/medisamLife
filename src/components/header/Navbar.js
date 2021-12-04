@@ -42,7 +42,7 @@ export default class Navbar extends Component {
         <ul class="menu">
           <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon/>&nbsp;Ana Sayfa</a></li>
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
+            <a href="" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -65,21 +65,21 @@ export default class Navbar extends Component {
             <ul class="submenu">
             
               <li class="has-dropdown">
-                <a href="#" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
+                <a href="" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
                   <span class="arrow"></span>
                 </a>
                 <ul class="submenu">
                   <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
                   <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
-                  <li><a href="#" class="menu-link">Zirkonyum Diş Kaplama</a></li>
-                  <li><a href="#" class="menu-link">Porselen Lamine</a></li>
-                  <li><a href="#" class="menu-link">Gömülü Diş Operasyonları</a></li>
-                  <li><a href="#" class="menu-link">Diş Beyazlatma</a></li>
-                  <li><a href="#" class="menu-link">Ortodonti (Tel Tedavisi)</a></li>
-                  <li><a href="#" class="menu-link">Çocuk Diş Hekimliği (Pedodonti)</a></li>
-                  <li><a href="#" class="menu-link">Kanal ve Dolgu Tedavisi</a></li>
-                  <li><a href="#" class="menu-link">Diş Eti Tedavisi (Periodontoloji)</a></li>
-                  <li><a href="#" class="menu-link">Dijital Diş Hekimliği</a></li>
+                  <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Zirkonyum Diş Kaplama</a></li>
+                  <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Porselen Lamine</a></li>
+                  <li><a href="/agiz-dis-sagligi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
+                  <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Diş Beyazlatma</a></li>
+                  <li><a href="/agiz-dis-sagligi/ortodonti" class="menu-link">Ortodonti (Tel Tedavisi)</a></li>
+                  <li><a href="/agiz-dis-sagligi/pedodonti" class="menu-link">Çocuk Diş Hekimliği (Pedodonti)</a></li>
+                  <li><a href="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi" class="menu-link">Kanal ve Dolgu Tedavisi</a></li>
+                  <li><a href="/agiz-dis-sagligi/periodontoloji" class="menu-link">Diş Eti Tedavisi (Periodontoloji)</a></li>
+                  <li><a href="/agiz-dis-sagligi/dijital-dis-hekimligi" class="menu-link">Dijital Diş Hekimliği</a></li>
                  
                 </ul>
               </li>
@@ -89,20 +89,20 @@ export default class Navbar extends Component {
             </ul>
           </li>
           <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
+          <li><a href="/sss" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
           <li class="has-dropdown">
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><AccountTreeIcon/>&nbsp;Şubelerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
             
-            <li><a href="#" class="menu-link">Merzifon Şubemiz</a></li>
-            <li><a href="#" class="menu-link">Vezirköprü Şubemiz</a></li>
+            <li><a href="/subelerimiz/merzifon" class="menu-link">Merzifon Şubemiz</a></li>
+            <li><a href="/subelerimiz/vezirkopru" class="menu-link">Vezirköprü Şubemiz</a></li>
               
               
             </ul>
           </li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
+          <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
         </ul>
 
 
