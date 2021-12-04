@@ -16,11 +16,15 @@ import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarim
 import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
 import Iletisim from "./components/iletisim/ContactForm";
 
+import Yirmi from "./components/hizmetler/agiz-dis-sagligi/Yirmiyas";
+import Gomulu from "./components/hizmetler/agiz-dis-sagligi/Gomulu";
+import Kist from "./components/hizmetler/agiz-dis-sagligi/Kist";
+import Cene from "./components/hizmetler/agiz-dis-sagligi/Cene";
+
 import Implant from "./components/hizmetler/agiz-dis-sagligi/Implant";
 import Protetik from "./components/hizmetler/agiz-dis-sagligi/Protetik";
 import Zirkonyum from "./components/hizmetler/agiz-dis-sagligi/Zirkonyum";
 import Porselen from "./components/hizmetler/agiz-dis-sagligi/Porselen";
-import Gomulu from "./components/hizmetler/agiz-dis-sagligi/Gomulu";
 import Beyazlatma from "./components/hizmetler/agiz-dis-sagligi/Beyazlatma";
 import Ortodonti from "./components/hizmetler/agiz-dis-sagligi/Ortodonti";
 import Pedodonti from "./components/hizmetler/agiz-dis-sagligi/Pedodonti";
@@ -53,13 +57,16 @@ function App() {
             <Route path="/ekibimiz" component={Ekibimiz} />
             
 
+            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />
+            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" component={Gomulu} />
+            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" component={Kist} />
+            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" component={Cene} />
             
 
             <Route path="/agiz-dis-sagligi/implant" component={Implant} />
             <Route path="/agiz-dis-sagligi/protetik-dis-tedavisi" component={Protetik} />
             <Route path="/agiz-dis-sagligi/zirkonyum-dis-kaplama" component={Zirkonyum} />
             <Route path="/agiz-dis-sagligi/porselen-lamine" component={Porselen} />
-            <Route path="/agiz-dis-sagligi/gomulu-dis-operasyonlari" component={Gomulu} />
             <Route path="/agiz-dis-sagligi/dis-beyazlatma" component={Beyazlatma} />
             <Route path="/agiz-dis-sagligi/ortodonti" component={Ortodonti} />
             <Route path="/agiz-dis-sagligi/pedodonti" component={Pedodonti} />

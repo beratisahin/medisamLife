@@ -63,17 +63,30 @@ export default class Navbar extends Component {
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
-            
-              <li class="has-dropdown">
-                <a href="" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
+
+            <li class="has-dropdown">
+                <a href="#" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
                   <span class="arrow"></span>
                 </a>
                 <ul class="submenu">
+                 
+                  
+                  <li class="has-dropdown">
+                    <a href="#" class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
+                      <span class="arrow"></span>
+                    </a>
+                    <ul class="submenu">
+                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" class="menu-link">20 Yaş Diş Tedavisi</a></li>
+                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
+                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" class="menu-link">Kist ve Tümör Operasyonları</a></li>
+                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" class="menu-link">Çene Eklemi Rahatsızlıkları</a></li>
+
+                    </ul>
+                  </li>
                   <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
                   <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
                   <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Zirkonyum Diş Kaplama</a></li>
                   <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Porselen Lamine</a></li>
-                  <li><a href="/agiz-dis-sagligi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
                   <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Diş Beyazlatma</a></li>
                   <li><a href="/agiz-dis-sagligi/ortodonti" class="menu-link">Ortodonti (Tel Tedavisi)</a></li>
                   <li><a href="/agiz-dis-sagligi/pedodonti" class="menu-link">Çocuk Diş Hekimliği (Pedodonti)</a></li>
@@ -83,6 +96,8 @@ export default class Navbar extends Component {
                  
                 </ul>
               </li>
+
+              
               <li><a href="#" class="menu-link">Güzellik Merkezi</a></li>
               <li><a href="#" class="menu-link">Saç Ekim Merkezi</a></li>
               
