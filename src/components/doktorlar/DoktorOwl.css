@@ -19,7 +19,7 @@
  }
  .owlCarouselImageDoktor{
     height: 25rem;
-    width: 20rem;
+    width: 25rem;
     margin-left: .5rem;
     border-radius: 1rem;
     border: 1px groove lightgray;
@@ -62,9 +62,17 @@
       .owlCarouselTempDoktor{
        display: block !important;
        justify-content: center !important;
-       
-       
-    }
+      }
   
      
+ }
+
+ @media screen and (min-width: 1500px) { 
+   .owlCarouselImageDoktor{
+      height: 30rem !important;
+      
+      
+     
+    }
+
  }

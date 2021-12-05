@@ -47,41 +47,41 @@ export default function Klinik() {
              <OwlCarousel className="owl-theme owl-roof" {...options}>
                  
                 <div className="item owl-slider">
-                    <div className="owlCarouselTempDoktor">
-                        <img src={k1} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k1} className="owlCarouselImageKlinik" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
-                        <div className="owlCarouselTempDoktor">
-                            <img src={k2} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k2} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         
                     </div>
                 </div>
                 <div className="item owl-slider">
-                    <div className="owlCarouselTempDoktor">
-                        <img src={k3} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k3} className="owlCarouselImageKlinik" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                      
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
-                        <div className="owlCarouselTempDoktor">
-                            <img src={k4} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k4} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         
                     </div>
                 </div>
                 <div className="item owl-slider">
-                    <div className="owlCarouselTempDoktor">
-                        <img src={k5} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k5} className="owlCarouselImageKlinik" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                      
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
-                        <div className="owlCarouselTempDoktor">
-                            <img src={k6} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k6} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         
                     </div>
                 </div>

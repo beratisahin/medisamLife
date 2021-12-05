@@ -44,53 +44,53 @@ export default function DoktorOwl() {
                  
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={hs} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                        <img src={hs} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Hayati Şahin</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ea} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                            <img src={ea} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Emre Atalay</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={hs} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                        <img src={hs} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Hayati Şahin</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ea} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                            <img src={ea} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Emre Atalay</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={hs} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                        <img src={hs} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Hayati Şahin</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ea} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                            <img src={ea} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Emre Atalay</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={hs} className="owlCarouselImageDoktor" alt="İmplant" title="İmplant"></img>
+                        <img src={hs} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Hayati Şahin</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ea} className="owlCarouselImageDoktor" alt="Kanal" title="Kanal"></img>
+                            <img src={ea} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Emre Atalay</p>
                     </div>
                 </div>
