@@ -244,7 +244,7 @@ export default class Foooter extends Component {
 
 
           <div className="roof-location">
-              <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12067.29641327046!2d35.4455671!3d40.8757342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdf3480789d414e0!2zTWVkaXNhbSBBxJ_EsXogdmUgRGnFnyBTYcSfbMSxxJ_EsSBQb2xpa2xpbmnEn2kgLSBNZXJ6aWZvbg!5e0!3m2!1str!2str!4v1638480874217!5m2!1str!2str" className="location_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.google.com/maps/place/Medisam+A%C4%9F%C4%B1z+ve+Di%C5%9F+Sa%C4%9Fl%C4%B1%C4%9F%C4%B1+Poliklini%C4%9Fi+-+Merzifon/@40.8757342,35.4455671,15z/data=!4m12!1m6!3m5!1s0x0:0xcdf3480789d414e0!2zTWVkaXNhbSBBxJ_EsXogdmUgRGnFnyBTYcSfbMSxxJ_EsSBQb2xpa2xpbmnEn2kgLSBNZXJ6aWZvbg!8m2!3d40.8757342!4d35.4455671!3m4!1s0x0:0xcdf3480789d414e0!8m2!3d40.8757342!4d35.4455671" className="location_float" target="_blank" rel="noopener noreferrer">
                   <LocationOnIcon className="location-icon"/>
               </a>
           </div>
