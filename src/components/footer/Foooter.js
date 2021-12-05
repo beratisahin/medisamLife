@@ -9,7 +9,7 @@ import MainLogo from "../header/MedisamIconTr.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
-
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
 
@@ -242,34 +242,24 @@ export default class Foooter extends Component {
                     </div>
           </div>
 
+
+          <div className="roof-location">
+              <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12067.29641327046!2d35.4455671!3d40.8757342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdf3480789d414e0!2zTWVkaXNhbSBBxJ_EsXogdmUgRGnFnyBTYcSfbMSxxJ_EsSBQb2xpa2xpbmnEn2kgLSBNZXJ6aWZvbg!5e0!3m2!1str!2str!4v1638480874217!5m2!1str!2str" className="location_float" target="_blank" rel="noopener noreferrer">
+                  <LocationOnIcon className="location-icon"/>
+              </a>
+          </div>
+
           <div className="roof-phone">
-                <a
-                    href="tel: +905461054500"
-                    className="phone_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    
-                    
-                    <PhoneIcon className="phone-icon"/>
-                  
-                </a>
-            </div>
+              <a href="tel: +905461054500" className="phone_float" target="_blank" rel="noopener noreferrer">
+                  <PhoneIcon className="phone-icon"/>  
+              </a>
+          </div>
 
-            
-
-            <div className="roof-whatsapp">
-                <a
-                    href="https://wa.me/+905461054500"
-                    className="whatsapp_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    
-                    <WhatsAppIcon className="whatsapp-icon"/>
-                  
-                </a>
-            </div>
+          <div className="roof-whatsapp">
+              <a href="https://wa.me/+905461054500" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                  <WhatsAppIcon className="whatsapp-icon"/>
+              </a>
+          </div>
 
         </div>
 

@@ -34,7 +34,7 @@ ul li {
 }
 
 /* for desktop */
-    .whatsapp_float {
+.whatsapp_float {
       position: fixed;
       width: 50px;
       height: 50px;
@@ -48,7 +48,8 @@ ul li {
       box-shadow: 2px 2px 3px #999;
       z-index: 100;
         
-  }
+  }  
+
   .roof-whatsapp{
     background-color:green ;
     position: fixed;
@@ -65,6 +66,8 @@ ul li {
     animation-iteration-count: infinite;
     z-index: 1000;
   }
+
+ 
   
 /* The animation code */
 @keyframes roof-whatsapp {
@@ -137,6 +140,61 @@ ul li {
 }
 
 
+.location_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 190px;
+  right: 30px;
+  background-color: #F58312;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+    
+}  
+
+.roof-location{
+background-color:#E6811C ;
+position: fixed;
+bottom: 185px;
+right: 25px;
+width: 60px;
+height: 60px;
+border-radius: 50px;
+transition: 0.6s linear;
+animation-duration: 50ms;
+border:2px #F55612 solid;
+animation-name: roof-location;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+z-index: 1000;
+}
+
+
+
+/* The animation code */
+@keyframes roof-location {
+from {background-color: orange}
+to {background-color: white}
+}
+
+
+
+.roof-location:hover{
+background-color:white ;
+
+
+}
+
+.location-icon {
+    
+  font-size: x-large !important;
+  
+}
+
 
 
 
@@ -145,11 +203,11 @@ ul li {
       
 
       .whatsapp_float {
-          width: 40px;
-          height: 40px;
-          bottom: 45px;
-          right: 10px;
-          font-size: 22px;
+        width: 40px;
+        height: 40px;
+        bottom: 45px;
+        right: 10px;
+        font-size: 22px;
       }
       .phone_float {
         width: 40px;
@@ -157,31 +215,40 @@ ul li {
         bottom: 100px;
         right: 10px;
         font-size: 22px;
+      }
+      .location_float {
+        width: 40px;
+        height: 40px;
+        bottom: 160px;
+        right: 10px;
+        font-size: 22px;
     }
-
       .roof-whatsapp{
         bottom: 40px;
         right: 5px;
         width: 50px;
         height: 50px;
-
       }
       .roof-phone{
         bottom: 95px;
         right: 5px;
         width: 50px;
         height: 50px;
-
+      }
+      .roof-location{
+        bottom: 155px;
+        right: 5px;
+        width: 50px;
+        height: 50px;
       }
       .whatsapp-icon {
-        
         margin-top: 5px;
-        
-    }
-  
-    .phone-icon{
-      margin-top: 5px;
-      
-    }
+      }
+      .phone-icon{
+        margin-top: 5px;
+      }
+      .location-icon{
+        margin-top: 5px;
+      }
       
   }
