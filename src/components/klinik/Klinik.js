@@ -10,6 +10,14 @@ import k3 from "./klinikFoto/klinik3.jpeg";
 import k4 from "./klinikFoto/klinik4.jpeg";
 import k5 from "./klinikFoto/klinik5.jpg";
 import k6 from "./klinikFoto/klinik6.jpeg";
+import k7 from "./klinikFoto/k1.jpeg";
+import k8 from "./klinikFoto/k2.jpeg";
+import k9 from "./klinikFoto/k3.jpeg";
+import k10 from "./klinikFoto/k4.jpeg";
+import k11 from "./klinikFoto/k5.jpeg";
+
+
+
 
 
 //Owl Carousel Settings
@@ -79,11 +87,36 @@ export default function Klinik() {
                         
                     </div>
                 </div>
-                    <div className="item owl-slider">
+
+                <div className="item owl-slider">
                         <div className="owlCarouselTempKlinik">
-                            <img src={k6} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
-                        
-                    </div>
+                            <img src={k6} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
+                </div>
+                <div className="item owl-slider">
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k7} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
+                </div>
+                <div className="item owl-slider">
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k8} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
+                </div>
+                <div className="item owl-slider">
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k9} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
+                </div>
+                <div className="item owl-slider">
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k10} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
+                </div>
+                <div className="item owl-slider">
+                        <div className="owlCarouselTempKlinik">
+                            <img src={k11} className="owlCarouselImageKlinik" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>   
+                        </div>
                 </div>
                 
                

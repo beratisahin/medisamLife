@@ -1,115 +1,159 @@
 <rss version="2.0">
 <channel>
-<title>Samsun Profesyonel Temizlik | Halı Yıkama ve Ev Temizliği</title>
-<description>Profesyonel ekibimizle Samsun'un her yerinde başta Ev, Merdiven, Ofis, Araç, Merdiven Temizliği, Halı ve Koltuk Yıkama olmak üzere her alanda hizmet vermekteyiz...</description>
-<link>https://www.samsunsaglamtemizlik.com/</link>
+<title>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</title>
+<description>Medisam Acil Ağız de Diş Sağlığı Polikliniği; Alanında uzman diş hekimi kadrosu ve sunduğu kaliteli sağlık hizmeti ile Tokat'ta Hizmet Vermektedir. MEDİSAM Ağız ve Diş Sağlığı Polikliniği 2021 yılında Samsun'da kurulmuştur. Polikliniğimiz, başta Samsun ve Amasya olmak üzere çevre şehirler ve Batı Karadeniz bölgesi’ne nitelikli ve kaliteli ağız ve diş sağlığı hizmeti sunmayı hedeflemektedir.
+
+Polikliniğimiz içerisinde toplam 4 klinik bulunmakta olup, pedodonti(çocuk diş hekimliği) ve engelli hastalarımızın kullanımı amacıyla tesis edilmiş klinikler bulunmaktadır. Son derece temiz ve ferah bir poliklinik ortamı ile hastalarımızın stresten uzak ve rahat bir şekilde tedavi edilmeleri amaçlanmaktadır. Yeni nesil diş hekimliği uygulamalarıyla ağız diş sağlığı hizmetlerinden üst seviyede verebilmek arzumuzdur.</description>
+<link>https://www.medisamlife.com/</link>
 <language>TR-TR</language>
 <item>
 <title>Hakkımızda</title>
-<description>Samsun Merdiven Temizliği</description>
-<link>https://samsunsaglamtemizlik.com/hakkimizda</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Amasya Merzifon - Samsun Vezirköprü</description>
+<link>https://medisamlife.com/hakkimizda</link>
 <priority>0.9</priority>
 </item>
 <item>
 <title>Belgelerimiz</title>
-<description>Samsun Ofis Temizliği</description>
-<link>https://samsunsaglamtemizlik.com/belgelerimiz</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Amasya Merzifon - Samsun Vezirköprü</description>
+<link>https://medisamlife.com/belgelerimiz</link>
 <priority>0.9</priority>
 </item>
 <item>
 <title>Referanslarımız</title>
-<description>Samsun Koltuk Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/referanslarimiz</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Suluova Diş </description>
+<link>https://medisamlife.com/referanslarimiz</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Ekibimiz</title>
-<description>Samsun Nakliyat Hamaliye</description>
-<link>https://www.samsunsaglamtemizlik.com/ekibimiz</link>
+<title>Hekimlerimiz</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Havza Diş</description>
+<link>https://medisamlife.com/ekibimiz</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>İş Başvurusu</title>
-<description>Samsun Ev Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/is-basvurusu</link>
+<title>20 Yaş Diş Tedavisi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Osmancık Diş</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Sıkça Sorulan Sorular</title>
-<description>Samsun Halı Yıkama</description>
-<link>https://www.samsunsaglamtemizlik.com/sss</link>
+<title>Gömülü Diş Operasyonları</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Ladik Diş</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Ev Temizliği</title>
-<description>Samsun Araç Yıkama</description>
-<link>https://www.samsunsaglamtemizlik.com/ev-temizligi</link>
+<title>Kist ve Tümör Operasyonları</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Osmancık Diş</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>İnşaat Sonrası Temizlik</title>
-<description>Samsun Temizlik</description>
-<link>https://www.samsunsaglamtemizlik.com/insaat-sonrasi-temizlik</link>
+<title>Çene Eklemi Rahatsızlıkları</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Ladik Diş</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Ofis Temizliği</title>
-<description>Samsun İş Yeri Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/ofis-temizligi</link>
+<title>İmplant</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Kavak Diş</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/implant</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Yerinde Koltuk Yıkama</title>
-<description></description>
-<link>https://www.samsunsaglamtemizlik.com/yerinde-koltuk-yikama</link>
+<title>https://medisamlife.com/agiz-dis-sagligi/protetik-dis-tedavisi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Gümüşhacıköy Diş</description>
+<link>https://medisamlife.com/protetik-dis-tedavisi</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Dezenfektan İle İlaçlama</title>
-<description>Samsun Dükkan Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/dezenfektan-ile-ilaclama</link>
+<title>Zirkonyum Diş Kaplama</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/zirkonyum-dis-kaplama</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Halı Yıkama</title>
-<description>Samsun Okul Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/hali-yikama</link>
+<title>Porselen Lamine</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/porselen-lamine</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Diş Beyazlatma</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/dis-beyazlatma</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Ortodonti Tel Tedavisi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/ortodonti</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Pedodonti - Çocuk Diş Hekimliği</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/pedodonti</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Kanal ve Dolgu Tedavisi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Diş Eti Tedavisi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/periodontoloji</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Dijital Diş Hekimliği</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/agiz-dis-sagligi/dijital-dis-hekimligi</link>
 <priority>0.9</priority>
 </item>
 <item>
 <title>Merdiven Temizliği</title>
-<description>Samsun Yurt Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/merdiven-temizligi</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Saç Ekimi</description>
+<link>https://medisamlife.com/sac-ekimi</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Yurt-Cami-Okul Temizliği</title>
-<description>Samsun Cami Temizliği</description>
-<link>https://www.samsunsaglamtemizlik.com/yurt-cami-temizligi</link>
+<title>Güzellik Merkezi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği | Lazer Epilasyon</description>
+<link>https://medisamlife.com/guzellik-merkezi</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Hamaliye Temini</title>
-<description>Samsun Temizlik</description>
-<link>https://www.samsunsaglamtemizlik.com/hamaliye-temini</link>
+<title>Merzifon Diş Şubesi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/subelerimiz/merzifon</link>
 <priority>0.9</priority>
 </item>
 <item>
-<title>Çalışma Prensibimiz</title>
-<description>Samsun Temizlik</description>
-<link>https://www.samsunsaglamtemizlik.com/calisma-prensibimiz</link>
+<title>Vezirköprü Diş Şubesi</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/subelerimiz/vezırkopru</link>
+<priority>0.9</priority>
+</item>
+<item>
+<title>Sık Sorulan Sorular</title>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/sss</link>
 <priority>0.9</priority>
 </item>
 <item>
 <title>Galeri</title>
-<description>Samsun Temizlik</description>
-<link>https://www.samsunsaglamtemizlik.com/galeri</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/galeri</link>
 <priority>0.9</priority>
 </item>
 <item>
 <title>İletişim</title>
-<description>Samsun Temizlik</description>
-<link>https://www.samsunsaglamtemizlik.com/iletisim</link>
+<description>MEDİSAM Ağız ve Diş Sağlığı Polikliniği</description>
+<link>https://medisamlife.com/iletisim</link>
 <priority>0.9</priority>
 </item>
 </channel>

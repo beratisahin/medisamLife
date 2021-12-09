@@ -53,7 +53,7 @@ export default class Navbar extends Component {
             
             <li><a href="/hakkimizda" class="menu-link">Hakkımızda</a></li>
             <li><a href="/belgelerimiz" class="menu-link">Belgelerimiz</a></li>
-            <li><a href="/ekibimiz" class="menu-link">Ekibimiz</a></li>
+            <li><a href="/ekibimiz" class="menu-link">Hekimlerimiz</a></li>
             <li><a href="/referanslarimiz" class="menu-link">Referanslarımız</a></li>
 
               
@@ -80,10 +80,10 @@ export default class Navbar extends Component {
                       <span class="arrow"></span>
                     </a>
                     <ul class="submenu">
-                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" class="menu-link">20 Yaş Diş Tedavisi</a></li>
-                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
-                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" class="menu-link">Kist ve Tümör Operasyonları</a></li>
-                      <li><a href="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" class="menu-link">Çene Eklemi Rahatsızlıkları</a></li>
+                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" class="menu-link">20 Yaş Diş Tedavisi</a></li>
+                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
+                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" class="menu-link">Kist ve Tümör Operasyonları</a></li>
+                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" class="menu-link">Çene Eklemi Rahatsızlıkları</a></li>
 
                     </ul>
                   </li>
@@ -101,12 +101,12 @@ export default class Navbar extends Component {
                 </ul>
               </li>
 
-              <li><a href="#" class="menu-link">Güzellik Merkezi</a></li>
-              <li><a href="#" class="menu-link">Saç Ekim Merkezi</a></li>
+              <li><a href="/lazer-epilasyon-ve-guzellik-merkezi" class="menu-link">Güzellik Merkezi</a></li>
+              <li><a href="/sac-ekim-merkezi" class="menu-link">Saç Ekim Merkezi</a></li>
               
             </ul>
           </li>
-          <li><a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
+          <li><a href="/galeri" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
           <li><a href="/sss" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
           <li class="has-dropdown">
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><AccountTreeIcon/>&nbsp;Şubelerimiz &nbsp;

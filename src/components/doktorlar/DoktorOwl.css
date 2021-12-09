@@ -9,6 +9,11 @@
     border-radius: 1rem; 
     height: auto;
     width: 90%;
+    border: 1px dotted #168B80;
+    padding: 5px !important;
+    background-image:url('dentalbg13.png');
+    background-repeat: no-repeat;
+    position: center;
  }
  
  .owlCarouselContentDoktor{
@@ -16,14 +21,22 @@
     padding: 1rem;
     margin: auto;
     font-size: large;
+    color: #3c667c;
+ }
+ .owlCarouselContentDoktorInfo{
+    font-size: 14px;
+    padding: 0.5rem !important;
+    text-align: justify;
  }
  .owlCarouselImageDoktor{
     height: 25rem;
-    width: 25rem;
-    margin-left: .5rem;
+    width: 100% !important;
     border-radius: 1rem;
     border: 1px groove lightgray;
     padding: 2px !important;
+    
+      
+   
  }
  /* Opacity #1 */
  .owlCarouselImageDoktor{
@@ -48,12 +61,12 @@
           justify-content: center !important;
       }
       .owlCarouselContentDoktor{
-         font-size: medium !important;
+         font-size: large !important;
+         
       }
       .owlCarouselImageDoktor{
         height: 20rem !important;
         margin: auto !important;
-        margin-left: 1rem !important;
         display: block !important;
         justify-content: center !important;
         

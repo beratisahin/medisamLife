@@ -35,6 +35,9 @@ import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
 import Merzifon from "./components/subeler/Merzifon";
 import Vezirkopru from "./components/subeler/Vezirkopru";
 
+import Galeri from "./components/galeri/Galeri";
+import Guzellik from "./components/hizmetler/lazer-epilasyon/Guzellik";
+import Sac from "./components/hizmetler/sac-ekim-merkezi/Sac";
 import Sss from "./components/sss/Sss";
 
 
@@ -59,10 +62,10 @@ function App() {
             <Route path="/ekibimiz" component={Ekibimiz} />
             
 
-            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />
-            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" component={Gomulu} />
-            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" component={Kist} />
-            <Route path="/agiz-dis-sagligi/ağiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" component={Cene} />
+            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />
+            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" component={Gomulu} />
+            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" component={Kist} />
+            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" component={Cene} />
             
 
             <Route path="/agiz-dis-sagligi/implant" component={Implant} />
@@ -78,6 +81,10 @@ function App() {
 
             <Route path="/subelerimiz/merzifon" component={Merzifon} />
             <Route path="/subelerimiz/vezirkopru" component={Vezirkopru} />
+
+            <Route path="/sac-ekim-merkezi" component={Sac} />
+            <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />
+            <Route path="/galeri" component={Galeri} />
             
             <Route path="/sss" component={Sss} /> 
             
