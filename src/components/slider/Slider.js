@@ -23,14 +23,12 @@ export default class Slider extends Component {
         return (
 
         <div style={{display:"flex", justifyContent:"center"}}>
+           
             <div id="slide" >
-                <div className="carousel-caption" style={{marginBottom:"35rem",marginLeft:"108rem",zIndex:"+1"}}>
-                    
-                </div>
-                
+                <p className="acilDurumMobil" style={{display:"none"}}>Acil Durumlarda 7/24 Hizmet Vermekteyiz</p>
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
-                        
+                    
                         <div className="carousel-item active" data-interval="3000">
                             <img src={sl1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
@@ -140,6 +138,7 @@ export default class Slider extends Component {
                             </div>
                         </div>
                         
+                        
                     </div>
 
                     
@@ -151,6 +150,8 @@ export default class Slider extends Component {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
+
+                   
                 </div>
             </div>
         </div>

@@ -103,21 +103,47 @@
     #carouselExampleInterval{
         width: 100%;
         height: 28rem;
-       
-        overflow: hidden;
-        
+       overflow: hidden;
+         
     }
     #slide{
         width: 100% !important;
+        
     }
 
     .slidephoto{
         height: 25rem !important;
+       
 
     }
     .sliderText{
         margin-bottom: 20rem !important;
     }
+    .acilDurum{
+        
+        display: none !important;
+    }
+    .acilDurumMobil{
+        display: block !important;
+        font-size: medium !important;
+        margin: auto !important;
+        margin-bottom: 1.5rem !important;
+        text-align: center !important;
+        justify-content: center !important;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold !important;
+
+        animation-duration: 50ms;
+        animation-name: acil-durum-mobil;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    /* The animation code */
+    @keyframes acil-durum-mobil{
+        from {color: #168B80;}
+        to {color: #FC9520;}
+    }
+
 
     
  
