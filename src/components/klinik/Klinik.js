@@ -26,6 +26,7 @@ const options = {
     responsiveClass: true,
     dots:2,
     autoplay: true,
+    loop:true,
     dotsSpeed:2,
     navText: ["",""],
     smartSpeed: 1000,
