@@ -51,8 +51,41 @@
     display: block !important;
     margin: auto !important;
     justify-content: center !important;
+
+    z-index: +1 !important;
+    animation-name: anacard-temp;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     
 }
+/* The animation code */
+@keyframes anacard-temp{
+    from {border: 2px inset #168B80;}
+    to {border: 3px outset #FFC155; }
+  }
+
+  
+  
+  .sliderHeader{
+    /*color:#3d667c !important; */
+    
+    font-size: xx-large !important;
+    font-weight: 500;
+    z-index: +1 !important;
+
+    animation-duration: 50ms;
+    animation-name: slider-header;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  } 
+/* The animation code */
+@keyframes slider-header{
+    from {color: #168B80;}
+    to {color: #FFC155}
+  }
+
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 990px) {
