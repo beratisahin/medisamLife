@@ -69,14 +69,14 @@ export default class Navbar extends Component {
             <ul class="submenu">
 
             <li class="has-dropdown">
-                <a href="" class="menu-link">Ağız ve Diş Sağlığı &nbsp;
+                <a class="menu-link">Ağız ve Diş Sağlığı &nbsp;
                   <span class="arrow"></span>
                 </a>
                 <ul class="submenu">
                  
                   
                   <li class="has-dropdown">
-                    <a href="" class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
+                    <a class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
                       <span class="arrow"></span>
                     </a>
                     <ul class="submenu">
