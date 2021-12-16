@@ -50,7 +50,7 @@ export default function DoktorOwl() {
                     <div className="owlCarouselTempDoktor">
                         <img src={hsBg} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Hayati Şahin</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Hayati Şahin  1997 Vezirköprü doğumludur. 2014-2019 yılları arasında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Kütahya Özel Ceramorium Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Hayati Şahin  1997 Vezirköprü doğumludur. 2014-2019 yılları arasında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Kütahya Ceramorium Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                         
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function DoktorOwl() {
                         <div className="owlCarouselTempDoktor">
                             <img src={eaBg} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Dt. Emre Atalay</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Emre Atalay 1995 Samsun doğumludur. 2014-2019 yılları arasında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Kütahya Özel Ceramorium Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Emre Atalay 1995 Samsun doğumludur. 2014-2019 yılları arasında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Kütahya Ceramorium Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
