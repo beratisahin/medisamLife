@@ -24,6 +24,7 @@ import k11 from "./klinikFoto/k5.jpeg";
 const options = {
     margin: 5,
     responsiveClass: true,
+    autoplayHoverPause:false,
     dots:2,
     autoplay: true,
     loop:true,

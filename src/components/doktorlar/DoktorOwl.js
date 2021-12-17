@@ -14,6 +14,7 @@ import avatar from "./doktorlarFoto/avatarbg.png";
 //Owl Carousel Settings
 const options = {
     margin: 5,
+    autoplayHoverPause:true,
     responsiveClass: true,
     dots:2,
     autoplay: true,
