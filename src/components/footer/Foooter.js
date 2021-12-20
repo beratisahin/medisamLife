@@ -40,35 +40,57 @@ export default class Foooter extends Component {
               className="mt-4"
               style={{
                 fontSize: "14px",
-                
+                fontFamily:"sans-serif",
                 textAlign: "justify",
                 textIndent: "1px",
               }}
             >
               {" "}
-              Medisam Ağız ve Diş Sağlığı Polikliniği olarak gelişen teknolojiyi ve yenilikleri yakından izlemek, dental sektörde müşteri memnuniyetini amaç edinmek, kaliteli ve hızlı hizmet anlayışı ile ilerleyerek yolumuza devam etmek başlıca misyonumuzdur.
+              Medisam Ağız ve Diş Sağlığı Polikliniği olarak gelişen teknolojiyi yakından izlemek, dental sektörde müşteri memnuniyetini amaç edinmek, kaliteli ve hızlı hizmet anlayışı ile ilerleyerek yolumuza devam etmek başlıca misyonumuzdur. Ağız sağlığının yönetimini karmaşık hale getirebilecek endişeli veya altta yatan gelişimsel veya tıbbi bir rahatsızlığı olan her yaştaki hastalar dahil olmak üzere çocuklar ve yetişkinler için ekip bazlı, kapsamlı diş bakımı sağlıyoruz.
             </p>
           </div>
 
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
-            <b style={{ color: "#3d667c", fontSize: "18px" }}>Kurumsal</b>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
+            <b style={{ color: "#3d667c", fontSize: "18px" }}>Çalışma Takvimi</b>
             <hr/>
-            <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()} >
-                <Link to="/hakkimizda" style={{ fontSize:"small",color:"black"}}>Hakkımızda</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/belgelerimiz" style={{ fontSize:"small",color:"black" }}>Belgelerimiz</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} >
-                <Link to="/referanslarimiz" style={{fontSize:"small",color:"black"}}>Referanslarımız</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} >
-                <Link to="/ekibimiz" style={{ fontSize:"small",color:"black"}}>Ekibimiz</Link>
-              </li>
-              
-            </ul>
+            <table class="table table-striped" >
+                    
+                    <tbody>
+                        <tr style={{height:"2px"}}>
+                            <td>Pazartesi</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Salı</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Çarşamba</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Perşembe</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Pazartesi</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Cumartesi</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Pazar</td>
+                            <td>Kapalı</td>
+                        </tr>
+                      
+                    </tbody>
+                    
+                    </table>
+                   
+                        <p style={{color:"red",fontSize:"14px"}}>* Pazar günleri acil durumlarda 7/24 hizmet veriyoruz.</p>
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
