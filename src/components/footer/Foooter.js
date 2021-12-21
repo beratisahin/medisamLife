@@ -74,7 +74,7 @@ export default class Foooter extends Component {
                             <td>09:00 - 22:00</td>
                         </tr>
                         <tr>
-                            <td>Pazartesi</td>
+                            <td>Cuma</td>
                             <td>09:00 - 22:00</td>
                         </tr>
                         <tr>
@@ -90,7 +90,7 @@ export default class Foooter extends Component {
                     
                     </table>
                    
-                        <p style={{color:"red",fontSize:"14px"}}>* Pazar günleri acil durumlarda 7/24 hizmet veriyoruz.</p>
+                        <p style={{color:"red",fontSize:"13px"}}>* Pazar günü acil durumlarda 7/24 hizmet veriyoruz.</p>
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
