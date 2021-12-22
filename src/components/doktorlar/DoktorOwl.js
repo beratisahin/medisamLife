@@ -65,7 +65,7 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
                         <img src={avatar} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
-                        <p className="owlCarouselContentDoktor">Uzm. Dt. Ufuk Keleşoğlu </p>
+                        <p className="owlCarouselContentDoktor">Ortodonti Uzmanı Ufuk Keleşoğlu </p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Ufuk Keleşoğlu  1990 Çorunm doğumludur. 2010-2015 yılları arasında Sivas Cumhuriyet Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Çorum Özel Denthol Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                         
                     </div>
@@ -73,7 +73,7 @@ export default function DoktorOwl() {
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
                             <img src={avatar} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
-                        <p className="owlCarouselContentDoktor">Uzm. Dt. Enes Burak Uğurlu</p>
+                        <p className="owlCarouselContentDoktor">Protez Uzmanı Enes Burak Uğurlu</p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 1993 Vezirköprü doğumludur. 2012-2017 yılları arasında Samsun 19 Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Kariyerine Samsun Özel Medisam Diş Polikliniğinde başlamıştır. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                     </div>
                 </div>
