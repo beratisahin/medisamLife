@@ -13,6 +13,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
 
+
 import React, { Component } from "react";
 
 export default class Foooter extends Component {
@@ -90,7 +91,7 @@ export default class Foooter extends Component {
                     
                     </table>
                    
-                        <p style={{color:"red",fontSize:"13px"}}>* Pazar günü acil durumlarda 7/24 hizmet veriyoruz.</p>
+                        <p style={{color:"red",fontSize:"13px"}}></p>
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
