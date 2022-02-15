@@ -9,7 +9,7 @@ export default function Vezirkopru() {
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                <Title 
-                    page_title="Vezirköprü/Samsun Şubemiz"
+                    page_title="Vezirköprü Diş Polikliniği"
                />
                 
                 <div className="card-body col-12">

@@ -36,7 +36,7 @@ export default class Navbar extends Component {
          <header>
           <nav class="navbar">
             <div class="branding">
-              <a href="/">
+              <a href="/anasayfa">
                 <img  className="MedisamLogo" title="Medisam Ağız ve Diş Sağlığı Polikliniği" src={MedisamLogo}></img>
               </a>
                 
@@ -114,8 +114,8 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
             
-            <li><a href="/subelerimiz/merzifon" class="menu-link">Merzifon Şubemiz</a></li>
-            <li><a href="/subelerimiz/vezirkopru" class="menu-link">Vezirköprü Şubemiz</a></li>
+            <li><a href="/merzifon-dis" class="menu-link">Merzifon Şubemiz</a></li>
+            <li><a href="/vezirkopru-dis" class="menu-link">Vezirköprü Şubemiz</a></li>
               
               
             </ul>

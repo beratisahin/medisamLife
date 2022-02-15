@@ -4,7 +4,7 @@ import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
 
 export default function Merzifon() {
-    useDocumentTitle('Merzifon/Amasya Şubemiz - Medisam Ağız ve Diş Sağlığı Polikliniği');
+    useDocumentTitle('Merzifon Diş Polikliniği');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>

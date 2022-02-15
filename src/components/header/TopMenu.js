@@ -16,7 +16,7 @@ export default class TopMenu extends Component {
         <div className="col-12" style={{display:"inline"}}>
 
             <div className="col-4 col-lg-4 col-md-6" style={{float:"left"}}>
-              <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği"> 
+              <a href="/anasayfa" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği"> 
               <img
                 className="top_image"
                 style={{ height: "11rem",width:"11rem",padding:"1px",margintop:"2px",marginLeft:"2px" }}

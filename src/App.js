@@ -56,6 +56,7 @@ function App() {
 
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/anasayfa" component={Home} />
             <Route path="/hakkimizda" component={Hakkimizda} />
             <Route path="/belgelerimiz" component={Belgerimiz} />
             <Route path="/referanslarimiz" component={Referanslarimiz} />
@@ -79,8 +80,8 @@ function App() {
             <Route path="/agiz-dis-sagligi/periodontoloji" component={Periodontoloji} />
             <Route path="/agiz-dis-sagligi/dijital-dis-hekimligi" component={Dijital} />
 
-            <Route path="/subelerimiz/merzifon" component={Merzifon} />
-            <Route path="/subelerimiz/vezirkopru" component={Vezirkopru} />
+            <Route path="/merzifon-dis" component={Merzifon} />
+            <Route path="/vezirkopru-dis" component={Vezirkopru} />
 
             <Route path="/sac-ekim-merkezi" component={Sac} />
             <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />
