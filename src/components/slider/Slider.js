@@ -33,7 +33,7 @@ export default class Slider extends Component {
                             <img src={sl1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Profesyonellik</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p>
                                 
                             </div>
@@ -44,7 +44,7 @@ export default class Slider extends Component {
                             <img src={s9} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Kurumsallık</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p>
                                
                             </div>
@@ -54,7 +54,7 @@ export default class Slider extends Component {
                             <img src={sl3} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Mükemmellik</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p>
                                
                             </div>
@@ -64,7 +64,7 @@ export default class Slider extends Component {
                             <img src={s3} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Güvenilirlik</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p> 
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export default class Slider extends Component {
                             <img src={s5} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Hijyeniklik</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p> 
                             </div>
                         </div>
@@ -82,7 +82,7 @@ export default class Slider extends Component {
                             <img src={sl2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Yenilikçilik</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p> 
                             </div>
                         </div>
@@ -91,7 +91,7 @@ export default class Slider extends Component {
                             <img src={s8} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Ödeme Kolaylığı</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p> 
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default class Slider extends Component {
                             <img src={sl4} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Acil Durumlar için 7/24 Hizmet</h3>
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p> 
                             </div>
                         </div>
