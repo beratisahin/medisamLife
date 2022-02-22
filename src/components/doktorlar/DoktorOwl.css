@@ -21,7 +21,11 @@
     padding: 1rem;
     margin: auto;
     font-size: large;
-    color: #3c667c;
+    color: white;
+
+    background-color: #3c667c;
+    border-radius: 5px 30px 5px 30px;
+    width: 100% !important;
  }
  .owlCarouselContentDoktorInfo{
     font-size: 14px;
