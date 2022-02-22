@@ -27,15 +27,6 @@ header {
   top: 0;
   z-index: +1;
   background-color: #EEEEEE; /*#E2E2E2;  #fcfcfc*/ 
-
-  background-image:url('dentalbg.png');
-  display: flex;
-  justify-content: center;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-
 }
 
 .branding-logo{
@@ -82,8 +73,6 @@ header {
   padding: 1.5em 0;
   min-width: 16em;
   font-size: small;
-
-  background-image:url('dentalbg.png');
   
 
   /* hide submenus */
@@ -97,8 +86,6 @@ header {
 .submenu .submenu {
   left: -100%;
   top: 0;
-
-  background-image:url('dentalbg.png');
   
 }
 .submenu .submenu .submenu {
