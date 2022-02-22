@@ -13,7 +13,7 @@ export default class Neden extends Component {
     render() {
         
         return (
-            <div className="row" style={{margin:"0%",padding:"1%",backgroundColor:"#EFEFEF",borderRadius:"1rem"}}>
+            <div className="row neden" style={{margin:"0%",padding:"1%",backgroundColor:"#EFEFEF",borderRadius:"1rem"}}>
                     <div className="col-12">
                     <p style={{color:"#2E6772",textAlign:"center",fontSize:"large"}}>Neden Medisam Ağız ve Diş Sağlığı Polikliniği</p>
                     <br/>
