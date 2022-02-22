@@ -12,12 +12,42 @@ export default function Yirmi() {
                     page_title="20 Yaş Diş Tedavisi"
                />
                 
-                <div className="card-body col-12">
+                <div className="card-body col-12" style={{padding:"3rem"}}>
                     <br/>
-                   
-                    <p class="hizmet-text" >İmplantoloji, diş hekimliği alanında diş implantı uygulamaları olarak bilinir. Birçok kişi farklı nedenlerden dolayı diş kaybına uğrayabilir. Arka dişlerde yaşanan kayıplar ağız sağlığı sorunlarına yol açarken ön dişlerde yaşanan kayıplar aynı zamanda estetik açıdan da sorunlar yaratır.
+                    
 
-Diş hekimliği alanında yaşanan gelişmeler sayesinde diş kayıplarına estetik ve dayanıklı çözümler sunuluyor. Eskiden yaygın olarak yapılan köprü uygulamaları, yerini daha estetik çözümler sunan implant tedavilerine bırakıyor. Uzun süre rahat kullanım sunması nedeniyle, diş implantları eksik diş tedavisinde diş hekimleri tarafından sıklıkla tercih edilmektedir.</p>     
+
+<h4><strong>20 yaş dişi nedir?</strong></h4>
+
+<p>20 yaş dişleri 17-26 yaşları arasında sürmesi gereken 3. büyük azı dişleridir.</p>
+
+<h4><strong>20 yaş dişleri hangi durumlarda ve ne zaman çekilmelidir?</strong></h4>
+
+<p>20 yaş dişleri ağızda en arkada yer alan dişlerdir. Ulaşılması ve görülmesi zor olan bir bölgede olduklarından dolayı fırçalanması ve bakımı diğer dişlere göre daha zor olabilmektedir. Yetersiz fırçalamaya bağlı olarak 20 yaş dişleri kolayca çürüyerek ağrılara ve ağız kokusuna yol açmaktadır.</p>
+
+
+<p>Ayrıca komşu dişe baskı yaparak bu dişin çürümesine neden olabilirler. Uzun yıllar fark edilmeyen gömülü 20 yaş dişleri çene içerisinde büyük boyutlara ulaşan <a href="https://dentgroup.com.tr/cene-kistleri/">kistlere</a> neden olarak ciddi sorunlara yol açabilirler.</p>
+
+
+<h4><strong>20 yaş dişlerinin mutlaka çekilmesi mi gerekir?</strong></h4>
+
+<p>Doğru pozisyonda yerini almış sağlıklı bir 20 yaş dişinin çekimine gerek yoktur.</p>
+
+
+<h4><strong>Operasyon sonrası ağız bakımı ve beslenme nasıl olmalı?</strong></h4>
+
+<p>Çekim sonrasındaki ilk gün tükürme, diş fırçalama, şiddetli çalkalama, pipet kullanma veya gargara yapılmamalıdır. İlk iki gün ılık, taneciksiz ve yumuşak besinler tüketilmelidir. Her besin tüketimi ve diş fırçalamanın ardından doktor tarafından önerilen antiseptik gargaralar kullanılmalıdır. Ağrı kesici ilaçlar ve eğer önerildiyse antibiyotik düzenli kullanılmalıdır. İyileşme sürecini bozacağından dolayı için ilk 48 saat sigara içilmemelidir.</p>
+
+<h4><strong>20 yaş diş çekimi sonrası çok ağrı olur mu?</strong></h4>
+
+<p>Hızlı ve yeterli yapılan cerrahiyi takiben fazla ağrı oluşmaz ve oluşan ağrı hafif ağrı kesicilerle kolaylıkla kontrol altına alınır.</p>
+
+<h4><strong>Çekim sonrası yüzüm çok şişer mi?</strong></h4>
+
+<p>Yanaktaki ödem dişin durumuna göre ve kişiden kişiye çok değişkenlik gösterir. Şişlik oluşmaması için yanak bölgesine ilk 24 saat soğuk tampon (buz kompres) yapılmalıdır. Hafif şişlik olması normaldir ve iyileşme sürecinin bir aşamasıdır.</p>
+
+
+                    
                 </div>
             </div>
             

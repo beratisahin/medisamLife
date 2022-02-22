@@ -12,13 +12,39 @@ export default function Pedodonti() {
                     page_title="Pedodonti (Çocuk Diş Hekimliği)"
                />
                 
-                <div className="card-body col-12">
+                <div className="card-body col-12" style={{padding:"3rem"}}>
                     <br/>
                    
-                    <p class="hizmet-text" >İmplantoloji, diş hekimliği alanında diş implantı uygulamaları olarak bilinir. Birçok kişi farklı nedenlerden dolayı diş kaybına uğrayabilir. Arka dişlerde yaşanan kayıplar ağız sağlığı sorunlarına yol açarken ön dişlerde yaşanan kayıplar aynı zamanda estetik açıdan da sorunlar yaratır.
+        <h4><strong>Çocuk Diş Doktoruyla İlk Muayene</strong></h4>
 
-Diş hekimliği alanında yaşanan gelişmeler sayesinde diş kayıplarına estetik ve dayanıklı çözümler sunuluyor. Eskiden yaygın olarak yapılan köprü uygulamaları, yerini daha estetik çözümler sunan implant tedavilerine bırakıyor. Uzun süre rahat kullanım sunması nedeniyle, diş implantları eksik diş tedavisinde diş hekimleri tarafından sıklıkla tercih edilmektedir.</p>     
-                </div>
+<p>İlk çocuk diş hekimi (pedodontist) muayenesinin ilk süt dişi çıktıktan sonra (6 ay - 1 yaş) arasında yapılması önerilir. Ebeveynlerin bu konuda bilinç sahibi olması ağız ve diş sağlığının serüveni için önemlidir.</p>
+
+
+
+<h4><strong>Bir yaş çocuk diş hekimine götürmem için çok erken değil mi?</strong></h4>
+
+<p>Çocuk diş hekimlerinin (pediatrik) öncelikli görevi; çocuklarınızı diş çürüklerinden korumaktır. Erken yaşta yapılan bu ilk muayenede amaç; sizlere bebeğinizin dişlerinin çürümesini önlemek için neler yapmanız gerektiğini göstermek ve düzenli aralıklarla sizi kontrollere çağırarak diş sağlığını kontrol etmektir.</p>
+
+<h4><strong>İlk çocuk diş hekimi muayenesinden önce dikkat etmemiz gerekenler nelerdir?</strong></h4>
+
+<p>Tedavi öncesinde yapılmasından çok yapılmaması gerekenler daha büyük önem taşımaktadır.</p>
+
+<ul>
+	<li>Tedavi öncesinde çocuğunuza “korkma, hiç acımayacak” gibi cümleler kurmayın. Bu tür cümleler çocukların bilinçaltında acıyabileceği fikrini doğurabilir.</li>
+	<li>Çocuğunuza diş randevusundan sonra hediye ile ödüllendirmeyin. Ödüllendirme çocuğunuzun işlemi zor bir işlem olarak algılamasına neden olur.</li>
+	<li>Çocuğunuza geçmişteki diş hekimi koltuğundaki iyi veya kötü deneyimlerinizden bahsetmemeniz daha yararlı olacaktır.</li>
+	<li>Çocuğunuza; eğer doktora gitmezse dişlerinin daha çok çürüyeceği ve sonrasında iğne yapılıp çekilmek zorunda kalabileceği gibi korkutucu cümleler kurmayın. Çünkü tüm bu korkuttuğunuz işlemler bir gün çocuğunuzun gerek duyabileceği tedaviler olabilir.</li>
+	<li>Diş hekiminin dişlerine bakmaktan başka hiçbir şey yapmayacağı konusunda da çocuğunuza söz vermeyin. Bırakın çocuğunuz ve çocuk diş hekimi ilk randevu için yapılacaklara beraber karar versinler.</li>
+</ul>
+
+<h4><strong>İlk çocuk diş hekimi ziyaret edildiğinde neler yapılabilir?</strong></h4>
+
+<p>İlk diş muayenesinde çocuk diş doktorlarının amacı; ayna ve ışık yardımıyla çocukların tüm dişlerine bakılır, var olan sorunları ve tedavi alternatifleri ebeveyn ile paylaşılır. En önemli konulardan biri olan beslenme ve koruyucu uygulamalar hakkında anne ve baba bilgilendirilir. Pedodontistler ilk diş muayenesinde canı yanmayan hatta oynanan oyunlar sayesinde çocuğunuzu diş hekimine alıştırır. Pedodontistlerin bu yaklaşımı diş hekimi fobisini kırmasına yardımcı olur.</p>
+
+
+
+
+         </div>
             </div>
             
         </div>

@@ -12,12 +12,66 @@ export default function Kanal() {
                     page_title="Kanal ve Dolgu Tedavisi"
                />
                 
-                <div className="card-body col-12">
+                <div className="card-body col-12" style={{padding:"3rem"}}>
                     <br/>
-                   
-                    <p class="hizmet-text" >İmplantoloji, diş hekimliği alanında diş implantı uygulamaları olarak bilinir. Birçok kişi farklı nedenlerden dolayı diş kaybına uğrayabilir. Arka dişlerde yaşanan kayıplar ağız sağlığı sorunlarına yol açarken ön dişlerde yaşanan kayıplar aynı zamanda estetik açıdan da sorunlar yaratır.
+                    
+        <h4><strong>Kanal Tedavisi Nedir?</strong></h4>
 
-Diş hekimliği alanında yaşanan gelişmeler sayesinde diş kayıplarına estetik ve dayanıklı çözümler sunuluyor. Eskiden yaygın olarak yapılan köprü uygulamaları, yerini daha estetik çözümler sunan implant tedavilerine bırakıyor. Uzun süre rahat kullanım sunması nedeniyle, diş implantları eksik diş tedavisinde diş hekimleri tarafından sıklıkla tercih edilmektedir.</p>     
+<p>Kanal tedavisi, dişlerde oluşan çatlaklar ve kırıklar, dişte meydana gelen çürükler, yanlış tedavi süreçleri, yanlış restorasyonlar sonucu dişte bulunan sinirler ve damarların canlılığını yitirmesi sonucu dişin kanallarında bulunan enfekte sinirlerin temizlenmesi, dezenfekte edilmesi ve kanal dolgu maddeleri ile doldurulmasına kanal tedavisi denir.</p>
+
+<h4><strong>Kanal tedavisi ne zaman gereklidir?</strong></h4>
+
+<ul>
+	<li>Dişin sinirine kadar ilerlemiş çürüklerde,</li>
+	<li>Travma sonucu dişin sinirini de içine alan kırıkların meydana geldiği durumlarda,</li>
+	<li>Dişlerde ileri derecede aşınma sonucu oluşan hassasiyetin giderilmesinde,</li>
+	<li>Yüksek yapılmış dolgu veya protezler de gerekir.</li>
+</ul>
+
+<h4><strong>Bir dişe kanal tedavi gerektiğini nasıl anlarsınız?</strong></h4>
+
+<ul>
+	<li>Dişinizde çok şiddetli&nbsp;sıcak soğuk hassasiyeti,</li>
+	<li>Özellikle geceleri hiçbir uyaran olmadan ağrı,</li>
+	<li>Sinirlerin ölmesi sonucu dişinizde renk değişimi,</li>
+	<li>Apse oluşumu sonucu yüzünüzde şişlik,</li>
+	<li>Bazı durumlarda hiçbir belirti olmaksızın yapılan dental ve radyolojik muayenelerde tedavi gerektiği anlaşılır</li>
+</ul>
+
+<h4><strong>Kanal tedavisinin aşamaları nedir?</strong></h4>
+
+<ul>
+	<li>Çürük temizlenir ya da kırık parça çıkartılır ve dişin sinirlerine ulaşılır.</li>
+	<li>Dişin kökündeki sinir ve dokular temizlenir.</li>
+	<li>Kök ucuna kadar kök kanalı şekillendirilir.</li>
+	<li>Dişin durumuna göre tek seans tedavi yapılabileceği gibi birkaç seans süren tedaviler de olabilir.</li>
+	<li>Seans aralarında kök içini ve kök ucunu iyileştirecek ilaçlarla pansuman yapılır.</li>
+	<li>Kanal tedavisi bitim aşamasında kanal içerisi özel dolgu maddeleriyle kök ucuna kadar doldurulur.</li>
+</ul>
+
+<h4><strong>Kanal Tedavisi Sonrası Ağrı</strong></h4>
+
+<p>Kanal tedavisi sonrasında dişte özellikle çiğneme sırasında hafif bir ağrı ve hassasiyet olabilir. Tedavi sonrası birkaç gün hafif bir antienflematuar ilaç kullanmakta sakınca yoktur.</p>
+
+
+<h4><strong>Kanal tedavisi ağrılı bir işlem midir?</strong></h4>
+
+<p>Kök kanal tedavisi sırasında anestezi yapılacağı için hasta herhangi bir ağrı hissetmez.</p>
+
+<h4><strong>Dişte oluşan iltihap sonucu dişin çekilmesi gerekir mi?</strong></h4>
+
+<p>Günümüzde kanal tedavisinde kullanılan maddeler ve teknikler sayesinde kök ucundaki apselerin büyük çoğunluğu tedavi edilebilmektedir ve böylece dişin çekilmesine gerek kalmamaktadır.</p>
+
+<h4><strong>Diş enfeksiyonlarında antibiyotik kullanımı gerekli midir?</strong></h4>
+
+<p>Normal şartlarda kanal tedavisi sırasında antibiyotik kullanımına gerek yoktur. Ancak ileri enfeksiyon varlığında ya da dişte aşırı hassasiyet durumunda antibiyotik verilebilir.</p>
+
+
+
+<h4><strong>Kanal tedavisi tekrarı nedir?</strong></h4>
+
+<p>Steril koşullarda ve doğru yapılmış kanal tedavilerinin başarı oranı %90 – 95 arasındadır. Tedavi sırasında temizlenmeyen sinir dokusu kaldıysa, kök kanal dolgusunun ve üst dolgusunun &nbsp;yeterli yapılmadığı durumlarda kanal içerisine mikroorganizmaların sızmasıyla, tedavi sırasında perforasyon ya da kırıkların oluşmasıyla kök kanal tedavisinin başarısızlığından bahsedilir. Başarısız bir kanal tedavisini yemek sırasında dişlerde ağrı, sponton ağrı, kök ucunda şişlik ve kızarıklık belirtilerinden anlayabiliriz. Başarısız kanal tedavisi yenilenerek, tedavi tekrarlanır. Bu işlem yetersiz kalıyorsa apikal rezeksiyon işlemi uygulanarak, kök ucuna cerrahi olarak ulaşılır, enfeksiyon temizlenir ve kapatılır. Kanal tedavisi tekrarlanması ve cerrahi müdahele yetersiz kalırsa dişin çekimi düşünülmelidir.</p>
+           
                 </div>
             </div>
             
