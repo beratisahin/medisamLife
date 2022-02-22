@@ -18,7 +18,7 @@ export default function Implant() {
                    
         <h4><strong>İmplant nedir?&nbsp;</strong></h4>
 
-<p>Dental implant; ağızda eksik dişlerin yerine çene kemiği içerisine yerleştirilen titanyum vidalardır. Bu vidaların üzerine yerleştirilen kron, köprü gibi hastaya uygun d<a href="https://dentgroup.com.tr/tam-dis-protezleri/">iş protezleri</a> ile eksik dişlerin yeri doldurulur.</p>
+<p>Dental implant; ağızda eksik dişlerin yerine çene kemiği içerisine yerleştirilen titanyum vidalardır. Bu vidaların üzerine yerleştirilen kron, köprü gibi hastaya uygun diş protezleri ile eksik dişlerin yeri doldurulur.</p>
 
 <h4><strong>Diş İmplantı nasıl uygulanır?</strong></h4>
 

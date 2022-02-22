@@ -12,13 +12,28 @@ export default function Kist() {
                     page_title="Kist ve Tümör Operasyonları"
                />
                 
-                <div className="card-body col-12">
+                <div className="card-body col-12" style={{padding:"3rem"}}>
                     <br/>
                    
-                    <p class="hizmet-text" >İmplantoloji, diş hekimliği alanında diş implantı uygulamaları olarak bilinir. Birçok kişi farklı nedenlerden dolayı diş kaybına uğrayabilir. Arka dişlerde yaşanan kayıplar ağız sağlığı sorunlarına yol açarken ön dişlerde yaşanan kayıplar aynı zamanda estetik açıdan da sorunlar yaratır.
+        <h4><strong>Çene kisti cerrahisi nedir?</strong></h4>
 
-Diş hekimliği alanında yaşanan gelişmeler sayesinde diş kayıplarına estetik ve dayanıklı çözümler sunuluyor. Eskiden yaygın olarak yapılan köprü uygulamaları, yerini daha estetik çözümler sunan implant tedavilerine bırakıyor. Uzun süre rahat kullanım sunması nedeniyle, diş implantları eksik diş tedavisinde diş hekimleri tarafından sıklıkla tercih edilmektedir.</p>     
-                </div>
+<p>Çene kistleri, ağız içinde herhangi bir yerde odontojenik (diş kaynaklı) kistler oluşur. Ağrı veya şişliğe sebep olarak hasta tarafından farkedilir veya hiç farkedilmeden oldukça büyük boyutlara ulaşabilir. Çene kistinin bulunduğu bölgeye ve büyüklüğüne göre tedavi yöntemleri farklılıklar gösterse de ağız ve diş cerrahları tarafından alınmaları gerekir.</p>
+
+<h4><strong>Çene kistleri ne tür sorunlara yol açar? Alınmadan bırakılsa olmaz mı?</strong></h4>
+
+<p>Odontojenik kistler genellikle iyi huylu yavaş büyüyen oluşumlardır ancak zamanında müdahale edilmediği takdirde çok büyük boyutlara ulaşıp sinüs, burun boşluğu, sinir gibi normal anatomik boşluklara zarar verebilir veya malignite bulguları gösterebilir (kötü huylu tümörlere dönüşüm görülebilir).</p>
+
+<h4><strong>Çene kisti cerrahisi nasıldır? Uyutularak yapılamaz mı?</strong></h4>
+
+<p>Yapılan muayenede kistle ilişkili olduğu saptanan dişlere öncelikle <a href="https://medisamlife.com/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi" target="_blank">kanal tedavisi </a>yapılır. Kistin olduğu bölgede diş eti anestezik jellerle uyuşturulduktan sonra yine son derece ağrısız bir şekilde dijital anesteziyle uyuşturulur. Kiste ulaşımın en kolay olduğu yerden diş eti kaldırılır ve mümkün olan en az miktarda kemik kaldırılarak kiste ulaşılır. Tüm sınırlarından temizlenerek dikişlerle kapatılır ve kalan sağlıklı kemik iyileşmeye bırakılır.&nbsp;Alınan parçanın ise patoloji laboratuvarında incelenmesi gerekir.<br/>
+Çok büyük boyutlu olduğu saptanan çene kistlerinin genel anestezi altında alınması gerekir. Muayene esnasında doktorunuz işlemin nasıl yapılacağına karar verir.</p>
+
+<h4><strong>Çene kistlerinin operasyonu ağrılı bir işlem midir?</strong></h4>
+
+<p>Kist operasyonunun diş çekimi, <a href="https://medisamlife.com/agiz-dis-sagligi/implant" target="_blank">implant</a> gibi işlemlerden herhangi bir farkı yoktur. Diğer cerrahi işlemlerde olduğu gibi diş hekimi tarafından uygun görülen&nbsp;antibiyotik, ağrı kesici ilaçlar ve antiseptik gargaralar kullanılabilir.&nbsp;</p>
+
+
+      </div>
             </div>
             
         </div>

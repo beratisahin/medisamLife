@@ -12,12 +12,29 @@ export default function Dijital() {
                     page_title="Dijital Diş Hekimliği"
                />
                 
-                <div className="card-body col-12">
+                <div className="card-body col-12" style={{padding:"3rem"}}>
                     <br/>
-                   
-                    <p class="hizmet-text" >İmplantoloji, diş hekimliği alanında diş implantı uygulamaları olarak bilinir. Birçok kişi farklı nedenlerden dolayı diş kaybına uğrayabilir. Arka dişlerde yaşanan kayıplar ağız sağlığı sorunlarına yol açarken ön dişlerde yaşanan kayıplar aynı zamanda estetik açıdan da sorunlar yaratır.
+                    <h4><strong>Dijital Diş Hekimliği Nedir?</strong></h4>
 
-Diş hekimliği alanında yaşanan gelişmeler sayesinde diş kayıplarına estetik ve dayanıklı çözümler sunuluyor. Eskiden yaygın olarak yapılan köprü uygulamaları, yerini daha estetik çözümler sunan implant tedavilerine bırakıyor. Uzun süre rahat kullanım sunması nedeniyle, diş implantları eksik diş tedavisinde diş hekimleri tarafından sıklıkla tercih edilmektedir.</p>     
+<h4><strong>1.Dijital Tarama (Ölçü Alımı)</strong></h4>
+
+<p>Hasta kliniğe gelir, işlem yapılacak dişler dijital tarayıcılarla 3 boyutlu olarak taranır. Böylece dişin 3 boyutlu görüntüsü sanal ortama taşınmış olur.</p>
+
+<h4><strong>2.Dijital Tasarım</strong></h4>
+
+<p>DentLab’a Diş Laboratuvarı'na sanal olarak ulaşan 3 boyutlu tarama görüntüsü üzerinde diş tasarımı dijital olarak yapılır. Dişin şekli, konturları, diş eti ile uyumlandırılması gibi tüm işlemler bilgisayar ortamında tasarlanır.</p>
+
+<h4><strong>3.Dijital Diş Üretimi</strong></h4>
+
+<p>Dijital Tasarım bittikten sonra sıra üretime gelir. DentLab’ın 3 boyutlu yazıcıları ve tarayıcıları ile (Cad/Cam destekli frezeleme makineleri) dişin üretimi gerçekleştirilir.</p>
+
+<h4><strong>4.Porselen Dişler</strong></h4>
+
+<p>DentLab’da üretilen porselen dişler DentGroup kliniğine ulaştırılır. Hasta ağzına uygulamaya hazır halde olan yeni dişlerin son kontrolleri ağız içinde yapılır ve hastaya uygulanır.</p>
+                   
+  
+
+
                 </div>
             </div>
             
