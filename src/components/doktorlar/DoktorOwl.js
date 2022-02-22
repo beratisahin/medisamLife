@@ -69,7 +69,7 @@ export default function DoktorOwl() {
                         <div className="owlCarouselTempDoktor">
                             <img src={eu} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
                         <p className="owlCarouselContentDoktor">Protez Uzm. Enes Burak Uğurlu</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 2017 yılında Samsun 19 Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Protez Uzmanlığını Samsun 19 Mayıs Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 2017 yılında Samsun Ondokuz Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Protez Uzmanlığını Samsun 19 Mayıs Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
