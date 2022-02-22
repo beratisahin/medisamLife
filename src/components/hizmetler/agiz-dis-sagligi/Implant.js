@@ -35,7 +35,7 @@ export default function Implant() {
 
 <h4><strong>İmplant Uygulamasının Yararları Nelerdir?</strong></h4>
 
-<p class="hizmetyazi">İmplant diş tedavisi ile yeterli sayıda destek dişi bulunmadığı için hareketli protez kullanmak zorunda kalan hastalara sabit protezler uygulanır. Komşu dişler kesilerek köprü uygulaması ile karşılaştırıldığında; implant tedavisi ile komşu dişlerin kesilmesine gerek kalmadan ağız içinde bulunan eksik diş tamamlanabilir. Hareketli protez kullanan ama kemik yetersizliğinden dolayı protezi tutmayan hastalarda implant yerleştirilip<a href="https://dentgroup.com.tr/tam-dis-protezleri/"> proteze</a> bağlanarak implant tutuculuğu artırıla bilinir. Dental implant;&nbsp;günümüzde diş eksikliklerinde kullanılan tedavi yöntemidir.</p>
+<p class="hizmetyazi">İmplant diş tedavisi ile yeterli sayıda destek dişi bulunmadığı için hareketli protez kullanmak zorunda kalan hastalara sabit protezler uygulanır. Komşu dişler kesilerek köprü uygulaması ile karşılaştırıldığında; implant tedavisi ile komşu dişlerin kesilmesine gerek kalmadan ağız içinde bulunan eksik diş tamamlanabilir. Hareketli protez kullanan ama kemik yetersizliğinden dolayı protezi tutmayan hastalarda implant yerleştirilip proteze bağlanarak implant tutuculuğu artırıla bilinir. Dental implant;&nbsp;günümüzde diş eksikliklerinde kullanılan tedavi yöntemidir.</p>
 
 <h4><strong>İmplant Uygulaması Ne Kadar Sürer?</strong></h4>
 

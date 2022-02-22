@@ -17,17 +17,17 @@ export default function Pedodonti() {
                    
         <h4><strong>Çocuk Diş Doktoruyla İlk Muayene</strong></h4>
 
-<p>İlk çocuk diş hekimi (pedodontist) muayenesinin ilk süt dişi çıktıktan sonra (6 ay - 1 yaş) arasında yapılması önerilir. Ebeveynlerin bu konuda bilinç sahibi olması ağız ve diş sağlığının serüveni için önemlidir.</p>
+<p class="hizmetyazi">İlk çocuk diş hekimi (pedodontist) muayenesinin ilk süt dişi çıktıktan sonra (6 ay - 1 yaş) arasında yapılması önerilir. Ebeveynlerin bu konuda bilinç sahibi olması ağız ve diş sağlığının serüveni için önemlidir.</p>
 
 
 
 <h4><strong>Bir yaş çocuk diş hekimine götürmem için çok erken değil mi?</strong></h4>
 
-<p>Çocuk diş hekimlerinin (pediatrik) öncelikli görevi; çocuklarınızı diş çürüklerinden korumaktır. Erken yaşta yapılan bu ilk muayenede amaç; sizlere bebeğinizin dişlerinin çürümesini önlemek için neler yapmanız gerektiğini göstermek ve düzenli aralıklarla sizi kontrollere çağırarak diş sağlığını kontrol etmektir.</p>
+<p class="hizmetyazi">Çocuk diş hekimlerinin (pediatrik) öncelikli görevi; çocuklarınızı diş çürüklerinden korumaktır. Erken yaşta yapılan bu ilk muayenede amaç; sizlere bebeğinizin dişlerinin çürümesini önlemek için neler yapmanız gerektiğini göstermek ve düzenli aralıklarla sizi kontrollere çağırarak diş sağlığını kontrol etmektir.</p>
 
 <h4><strong>İlk çocuk diş hekimi muayenesinden önce dikkat etmemiz gerekenler nelerdir?</strong></h4>
 
-<p>Tedavi öncesinde yapılmasından çok yapılmaması gerekenler daha büyük önem taşımaktadır.</p>
+<p class="hizmetyazi">Tedavi öncesinde yapılmasından çok yapılmaması gerekenler daha büyük önem taşımaktadır.</p>
 
 <ul>
 	<li>Tedavi öncesinde çocuğunuza “korkma, hiç acımayacak” gibi cümleler kurmayın. Bu tür cümleler çocukların bilinçaltında acıyabileceği fikrini doğurabilir.</li>
@@ -39,7 +39,7 @@ export default function Pedodonti() {
 
 <h4><strong>İlk çocuk diş hekimi ziyaret edildiğinde neler yapılabilir?</strong></h4>
 
-<p>İlk diş muayenesinde çocuk diş doktorlarının amacı; ayna ve ışık yardımıyla çocukların tüm dişlerine bakılır, var olan sorunları ve tedavi alternatifleri ebeveyn ile paylaşılır. En önemli konulardan biri olan beslenme ve koruyucu uygulamalar hakkında anne ve baba bilgilendirilir. Pedodontistler ilk diş muayenesinde canı yanmayan hatta oynanan oyunlar sayesinde çocuğunuzu diş hekimine alıştırır. Pedodontistlerin bu yaklaşımı diş hekimi fobisini kırmasına yardımcı olur.</p>
+<p class="hizmetyazi">İlk diş muayenesinde çocuk diş doktorlarının amacı; ayna ve ışık yardımıyla çocukların tüm dişlerine bakılır, var olan sorunları ve tedavi alternatifleri ebeveyn ile paylaşılır. En önemli konulardan biri olan beslenme ve koruyucu uygulamalar hakkında anne ve baba bilgilendirilir. Pedodontistler ilk diş muayenesinde canı yanmayan hatta oynanan oyunlar sayesinde çocuğunuzu diş hekimine alıştırır. Pedodontistlerin bu yaklaşımı diş hekimi fobisini kırmasına yardımcı olur.</p>
 
 
 

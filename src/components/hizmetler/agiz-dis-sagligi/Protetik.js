@@ -15,14 +15,14 @@ export default function Protetik() {
                     <br/>
                     
                     
-<p>Protetik diş tedavisi, farklı nedenlerle kaybedilen dişlere bağlı olarak oluşan fonksiyon kayıplarının yanı sıra ağız estetiğinin geri kazandırılması için yapılan bir tür diş tedavisi uygulamasıdır.&nbsp;<br/>
+<p class="hizmetyazi">Protetik diş tedavisi, farklı nedenlerle kaybedilen dişlere bağlı olarak oluşan fonksiyon kayıplarının yanı sıra ağız estetiğinin geri kazandırılması için yapılan bir tür diş tedavisi uygulamasıdır.&nbsp;<br/>
 <br/>
 Hekimlerin tüm çabalarına rağmen diş ve diş eti hastalıklarına bağlı olarak kaybedilen dişler, kişinin çiğneme ve konuşma gibi günlük aktivitelerinin sekteye uğramasına neden olur.&nbsp;<br/>
 <br/>
 Travma ve kazalara bağlı&nbsp;oluşabilen diş kayıpları, kişinin öz güveninin zedelenmesine sebep olabilir.&nbsp;Bunun yanı sıra kişinin gülümsemekten kaçınmasına yol açarak psikolojik bazı rahatsızlıkların oluşmasına yol açabilir. Tüm bu etkenlerin ortadan kaldırılması için eksik dişlerin farklı yöntemlerle tamamlanması gerekir.&nbsp;<br/>
 &nbsp;</p>
 <h4><strong>Protetik Diş Tedavisi Nedir?</strong></h4>
-<p><br/>
+<p class="hizmetyazi"><br/>
 Günümüzde diş hekimliğinde 8 farklı ana uzmanlık dalı bulunur. Protetik diş tedavi yöntemleri de bu uzmanlıklardan biridir. Diş veya dişlerin farklı etkenlerden dolayı kaybedilmesi durumunda ağızda ortaya çıkan boşluk, kişinin çiğneme ve konuşma gibi fonksiyonlarının olumsuz etkilenmesine neden olur. Tüm bunların yanı sıra estetik kaygılar da ortaya çıkabilir. Kişinin sosyal hayattan izole olmasına neden olan bu durumda protetik diş tedavi yöntemleri devreye girer.&nbsp;<br/>
 <br/>
 Temel olarak protetik diş tedavileri ile kaybedilen dişin yerine farklı protez türleri uygulanır. Protez tedavileri, protez uzmanı olarak tanımlanabilen&nbsp;prostodontist hekimler tarafından uygulanır. Protetik diş tedavisi uzmanı olarak da adlandırılan bu hekimler, diş hekimliğine ek olarak prostodonti ana bilim dalı&nbsp;bünyesinde eğitim görür. Oldukça geniş bir tedavi alanı bulunan prostodontistler, ağız içi sabit ve hareketli protez&nbsp;uygulamalarının yanı sıra kanal tedavisi sonrasında bu dişin porselen kuronlarla desteklenmesi ile de uğraşır.&nbsp;<br/>
@@ -32,11 +32,11 @@ Günümüzde estetik diş hekimliği olarak da tanımlanan protetik diş tedavil
 Estetik olması için yapılan yanlış uygulamalara bağlı olarak kişinin konuşması sırasında bazı seslerin çıkmaması ya da yanakların ısırılması gibi istenmeyen sonuçlar ortaya çıkabilir. Dolayısıyla kaybedilen diş, protez uygulamaları ile geri kazanılırken&nbsp;işlevsellik başta olmak üzere estetik kaygılar da giderilir. Dişlerin tamamının kaybedildiği vakalarda ise total protez uygulamaları&nbsp;yine protetik diş uzmanları tarafından uygulanır.<br/>
 &nbsp;</p>
 <h4><strong>Protetik Diş Tedavisi Kimlere Uygulanır?</strong></h4>
-<p><br/>
+<p class="hizmetyazi"><br/>
 Protetik diş tedavisi, çoğunlukla tedaviye geç kalan hastalara uygulanır. Böylece kaybedilen diş ya da dişler&nbsp;farklı protez türleri ile geri kazanılabilir. Protetik&nbsp;tedavi yöntemleri, fonksiyon ve estetik anlamında kişinin kendisini daha iyi hissetmesini sağlar. Kişiye çiğneme ve konuşma fonksiyonu geri kazandırılırken, rahatlık ve estetik açıdan da kişinin kendini iyi hissetmesi sağlanır. Bu anlamda protetik diş tedavileri, diş hekimliğinin önemli dallarından biridir. Protetik diş tedavisinde kullanılan malzemeler oldukça geniş bir yelpazede yer alır.&nbsp;<br/>
 &nbsp;</p>
 <h4><strong>Protetik Diş Tedavisinde Kullanılan Protez Türleri Nelerdir?</strong></h4>
-<p><br/>
+<p class="hizmetyazi"><br/>
 Protetik diş tedavisine genel anlamda sabit ve hareketli protezler kullanılsa da implant üstü protezler de bu kapsamda değerlendirilebilir:<br/>
 <br/>
 <strong>Sabit Protezler:&nbsp;</strong>Sabit protezler, mevcut sağlıklı diş ya da implantlardan destek alınarak yapılan protez türüdür. Bu protezler, ağız içine farklı kimyasallarla sabitlenir. Sık kullanılan sabit protez türlerinden bazıları şu şekilde sıralanabilir:<br/>

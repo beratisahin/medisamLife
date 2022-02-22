@@ -18,19 +18,19 @@ export default function Dijital() {
 
 <h4><strong>1.Dijital Tarama (Ölçü Alımı)</strong></h4>
 
-<p>Hasta kliniğe gelir, işlem yapılacak dişler dijital tarayıcılarla 3 boyutlu olarak taranır. Böylece dişin 3 boyutlu görüntüsü sanal ortama taşınmış olur.</p>
+<p class="hizmetyazi">Hasta kliniğe gelir, işlem yapılacak dişler dijital tarayıcılarla 3 boyutlu olarak taranır. Böylece dişin 3 boyutlu görüntüsü sanal ortama taşınmış olur.</p>
 
 <h4><strong>2.Dijital Tasarım</strong></h4>
 
-<p>DentLab’a Diş Laboratuvarı'na sanal olarak ulaşan 3 boyutlu tarama görüntüsü üzerinde diş tasarımı dijital olarak yapılır. Dişin şekli, konturları, diş eti ile uyumlandırılması gibi tüm işlemler bilgisayar ortamında tasarlanır.</p>
+<p class="hizmetyazi">DentLab’a Diş Laboratuvarı'na sanal olarak ulaşan 3 boyutlu tarama görüntüsü üzerinde diş tasarımı dijital olarak yapılır. Dişin şekli, konturları, diş eti ile uyumlandırılması gibi tüm işlemler bilgisayar ortamında tasarlanır.</p>
 
 <h4><strong>3.Dijital Diş Üretimi</strong></h4>
 
-<p>Dijital Tasarım bittikten sonra sıra üretime gelir. DentLab’ın 3 boyutlu yazıcıları ve tarayıcıları ile (Cad/Cam destekli frezeleme makineleri) dişin üretimi gerçekleştirilir.</p>
+<p class="hizmetyazi">Dijital Tasarım bittikten sonra sıra üretime gelir. DentLab’ın 3 boyutlu yazıcıları ve tarayıcıları ile (Cad/Cam destekli frezeleme makineleri) dişin üretimi gerçekleştirilir.</p>
 
 <h4><strong>4.Porselen Dişler</strong></h4>
 
-<p>DentLab’da üretilen porselen dişler DentGroup kliniğine ulaştırılır. Hasta ağzına uygulamaya hazır halde olan yeni dişlerin son kontrolleri ağız içinde yapılır ve hastaya uygulanır.</p>
+<p class="hizmetyazi">DentLab’da üretilen porselen dişler DentGroup kliniğine ulaştırılır. Hasta ağzına uygulamaya hazır halde olan yeni dişlerin son kontrolleri ağız içinde yapılır ve hastaya uygulanır.</p>
                    
   
 

@@ -17,7 +17,7 @@ export default function Kanal() {
                     
         <h4><strong>Kanal Tedavisi Nedir?</strong></h4>
 
-<p>Kanal tedavisi, dişlerde oluşan çatlaklar ve kırıklar, dişte meydana gelen çürükler, yanlış tedavi süreçleri, yanlış restorasyonlar sonucu dişte bulunan sinirler ve damarların canlılığını yitirmesi sonucu dişin kanallarında bulunan enfekte sinirlerin temizlenmesi, dezenfekte edilmesi ve kanal dolgu maddeleri ile doldurulmasına kanal tedavisi denir.</p>
+<p class="hizmetyazi">Kanal tedavisi, dişlerde oluşan çatlaklar ve kırıklar, dişte meydana gelen çürükler, yanlış tedavi süreçleri, yanlış restorasyonlar sonucu dişte bulunan sinirler ve damarların canlılığını yitirmesi sonucu dişin kanallarında bulunan enfekte sinirlerin temizlenmesi, dezenfekte edilmesi ve kanal dolgu maddeleri ile doldurulmasına kanal tedavisi denir.</p>
 
 <h4><strong>Kanal tedavisi ne zaman gereklidir?</strong></h4>
 
@@ -51,26 +51,26 @@ export default function Kanal() {
 
 <h4><strong>Kanal Tedavisi Sonrası Ağrı</strong></h4>
 
-<p>Kanal tedavisi sonrasında dişte özellikle çiğneme sırasında hafif bir ağrı ve hassasiyet olabilir. Tedavi sonrası birkaç gün hafif bir antienflematuar ilaç kullanmakta sakınca yoktur.</p>
+<p class="hizmetyazi">Kanal tedavisi sonrasında dişte özellikle çiğneme sırasında hafif bir ağrı ve hassasiyet olabilir. Tedavi sonrası birkaç gün hafif bir antienflematuar ilaç kullanmakta sakınca yoktur.</p>
 
 
 <h4><strong>Kanal tedavisi ağrılı bir işlem midir?</strong></h4>
 
-<p>Kök kanal tedavisi sırasında anestezi yapılacağı için hasta herhangi bir ağrı hissetmez.</p>
+<p class="hizmetyazi">Kök kanal tedavisi sırasında anestezi yapılacağı için hasta herhangi bir ağrı hissetmez.</p>
 
 <h4><strong>Dişte oluşan iltihap sonucu dişin çekilmesi gerekir mi?</strong></h4>
 
-<p>Günümüzde kanal tedavisinde kullanılan maddeler ve teknikler sayesinde kök ucundaki apselerin büyük çoğunluğu tedavi edilebilmektedir ve böylece dişin çekilmesine gerek kalmamaktadır.</p>
+<p class="hizmetyazi">Günümüzde kanal tedavisinde kullanılan maddeler ve teknikler sayesinde kök ucundaki apselerin büyük çoğunluğu tedavi edilebilmektedir ve böylece dişin çekilmesine gerek kalmamaktadır.</p>
 
 <h4><strong>Diş enfeksiyonlarında antibiyotik kullanımı gerekli midir?</strong></h4>
 
-<p>Normal şartlarda kanal tedavisi sırasında antibiyotik kullanımına gerek yoktur. Ancak ileri enfeksiyon varlığında ya da dişte aşırı hassasiyet durumunda antibiyotik verilebilir.</p>
+<p class="hizmetyazi">Normal şartlarda kanal tedavisi sırasında antibiyotik kullanımına gerek yoktur. Ancak ileri enfeksiyon varlığında ya da dişte aşırı hassasiyet durumunda antibiyotik verilebilir.</p>
 
 
 
 <h4><strong>Kanal tedavisi tekrarı nedir?</strong></h4>
 
-<p>Steril koşullarda ve doğru yapılmış kanal tedavilerinin başarı oranı %90 – 95 arasındadır. Tedavi sırasında temizlenmeyen sinir dokusu kaldıysa, kök kanal dolgusunun ve üst dolgusunun &nbsp;yeterli yapılmadığı durumlarda kanal içerisine mikroorganizmaların sızmasıyla, tedavi sırasında perforasyon ya da kırıkların oluşmasıyla kök kanal tedavisinin başarısızlığından bahsedilir. Başarısız bir kanal tedavisini yemek sırasında dişlerde ağrı, sponton ağrı, kök ucunda şişlik ve kızarıklık belirtilerinden anlayabiliriz. Başarısız kanal tedavisi yenilenerek, tedavi tekrarlanır. Bu işlem yetersiz kalıyorsa apikal rezeksiyon işlemi uygulanarak, kök ucuna cerrahi olarak ulaşılır, enfeksiyon temizlenir ve kapatılır. Kanal tedavisi tekrarlanması ve cerrahi müdahele yetersiz kalırsa dişin çekimi düşünülmelidir.</p>
+<p class="hizmetyazi">Steril koşullarda ve doğru yapılmış kanal tedavilerinin başarı oranı %90 – 95 arasındadır. Tedavi sırasında temizlenmeyen sinir dokusu kaldıysa, kök kanal dolgusunun ve üst dolgusunun &nbsp;yeterli yapılmadığı durumlarda kanal içerisine mikroorganizmaların sızmasıyla, tedavi sırasında perforasyon ya da kırıkların oluşmasıyla kök kanal tedavisinin başarısızlığından bahsedilir. Başarısız bir kanal tedavisini yemek sırasında dişlerde ağrı, sponton ağrı, kök ucunda şişlik ve kızarıklık belirtilerinden anlayabiliriz. Başarısız kanal tedavisi yenilenerek, tedavi tekrarlanır. Bu işlem yetersiz kalıyorsa apikal rezeksiyon işlemi uygulanarak, kök ucuna cerrahi olarak ulaşılır, enfeksiyon temizlenir ve kapatılır. Kanal tedavisi tekrarlanması ve cerrahi müdahele yetersiz kalırsa dişin çekimi düşünülmelidir.</p>
            
                 </div>
             </div>
