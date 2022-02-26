@@ -4,14 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
-import hs from "./doktorlarFoto/HayatiSahin.jpeg";
-import ea from "./doktorlarFoto/EmreAtalay.jpeg";
-import eaBg from "./doktorlarFoto/EmreAtalay_bg.png";
-import hsBg from "./doktorlarFoto/HayatiSahin_bg.png";
-import avatar from "./doktorlarFoto/avatarbg.png";
-import uk from "./doktorlarFoto/UfukKelesoglu.jpeg";
-import ty from "./doktorlarFoto/TayfunYeter.jpeg";
-import eu from "./doktorlarFoto/EnesBurakUgurlu.png";
+
 
 
 //Owl Carousel Settings
@@ -52,29 +45,29 @@ export default function DoktorOwl() {
                  
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={hs} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
+                        <img src="https://drive.google.com/uc?export=view&id=12JFkdba1wV6GuNLQMNJ47muURRRsjHap" className="owlCarouselImageDoktor" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
                         <p className="owlCarouselContentDoktor">Diş Hekimi Hayati Şahin</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Hayati Şahin 2019 yılında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Hayati Şahin 2019 yılında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Merzifon Diş Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ea} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
+                            <img src="https://drive.google.com/uc?export=view&id=1kp3R_7sJP8MbMqOdTTDiHMdBZ2G0oF-i" className="owlCarouselImageDoktor" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
                         <p className="owlCarouselContentDoktor">Diş Hekimi Emre Atalay</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Emre Atalay 2019 yılında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Merzifon Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Emre Atalay 2019 yılında Tokat Gazi Osman Paşa Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Merzifon Diş Medisam Ağız ve Diş Sağlığı Polikliniği kurucu diş hekimlerinden biri olarak hizmet vermektedir.</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={eu} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
+                            <img src="https://drive.google.com/uc?export=view&id=1p7EkU2UQhcyXlOcKMlYPU6B00R4PamDd" className="owlCarouselImageDoktor" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
                         <p className="owlCarouselContentDoktor">Protez Uzm. Dt. Enes Burak Uğurlu</p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 2016 yılında Samsun Ondokuz Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Protez Uzmanlığını Samsun 19 Mayıs Üniversitesinde tamamlamıştır. Medisam ADSP kurucu ortaklarındandır.</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={uk} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
+                        <img src="https://drive.google.com/uc?export=view&id=1jCKGeS8bZsZ7GQSi-3Cpkms1ia4uG7y0" className="owlCarouselImageDoktor" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
                         <p className="owlCarouselContentDoktor">Ortodonti Uzm. Dt. Ufuk Keleşoğlu </p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Ufuk Keleşoğlu 2015 yılında Sivas Cumhuriyet Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Ortodonti (Tel Tedavisi) uzmanlığını Tokat Gazi Osman Paşa Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır. </p>
                         
@@ -83,7 +76,7 @@ export default function DoktorOwl() {
              
                 <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={ty} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
+                            <img src="https://drive.google.com/uc?export=view&id=1lXJCUJYLb4j_Xw0VTI-n7p1n4iAczUvx" className="owlCarouselImageDoktor" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
                         <p className="owlCarouselContentDoktor">Cerrahi Uzm. Dt. Tayfun Yeter</p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Tayfun Yeter, 2016 yılında Samsun 19 Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Ağız, Diş ve Çene Cerrahisi Uzmanlığını Erzurum Atatürk Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
                     </div>
