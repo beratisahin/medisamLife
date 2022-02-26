@@ -4,22 +4,6 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
-import o1 from "../owlcarousel/owlIcons/m1.PNG";
-import o2 from "../owlcarousel/owlIcons/m2.PNG";
-import o3 from "../owlcarousel/owlIcons/m3.PNG";
-import o4 from "../owlcarousel/owlIcons/m4.PNG";
-import o5 from "../owlcarousel/owlIcons/m5.PNG";
-import o6 from "../owlcarousel/owlIcons/m6.PNG";
-import o7 from "../owlcarousel/owlIcons/m7.PNG";
-import o8 from "../owlcarousel/owlIcons/m8.PNG";
-import o9 from "../owlcarousel/owlIcons/m9.PNG";
-import o10 from "../owlcarousel/owlIcons/m10.PNG";
-
-
-
-
-
-
 
 //Owl Carousel Settings
 const options = {
@@ -63,15 +47,15 @@ export default function Owl() {
 
             <div className="item owl-slider">
                <div className="owlCarouselTemp">
-                   <img src={o1} className="owlCarouselImage" alt="İmplant" title="İmplant"></img>
+                   <img src="https://drive.google.com/uc?export=view&id=15HiTwcUpc2EOK-pSYgBxqINb9l659p7n" className="owlCarouselImage" alt="İmplant" title="İmplant"></img>
                    <p className="owlCarouselContent">İmplant</p>
-                  
+                   
                </div>
                
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o2} className="owlCarouselImage" alt="Kanal" title="Kanal"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1x0f-Kgi0ulntJWBRX1QCp1wUKfvU89Ma" className="owlCarouselImage" alt="Kanal" title="Kanal"></img>
                    <p className="owlCarouselContent">Kanal</p>
                </div>
                 
@@ -79,7 +63,7 @@ export default function Owl() {
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
                     
-                    <img src={o3} className="owlCarouselImage" title="Zirkonyum" alt="Zirkonyum"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1-LC7cillGhafjh5iT83fBOwgydL-6WYo" className="owlCarouselImage" title="Zirkonyum" alt="Zirkonyum"></img>
                    <p className="owlCarouselContent">Zirkonyum</p>
 
                </div>
@@ -88,7 +72,7 @@ export default function Owl() {
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o4} className="owlCarouselImage" alt="Lamine" title="Lamine"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=151QbuHAmOYQnF4dgXABCFwh-xIryQSFM" className="owlCarouselImage" alt="Lamine" title="Lamine"></img>
                    <p className="owlCarouselContent">Lamine</p>
                </div>
                
@@ -96,47 +80,45 @@ export default function Owl() {
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o5} className="owlCarouselImage" alt="Dolgu" title="Dolgu"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1kfMORa0U_IC8q2_vO3c2xAkCcE6L3ON3" className="owlCarouselImage" alt="Dolgu" title="Dolgu"></img>
                    <p className="owlCarouselContent">Dolgu</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o6} className="owlCarouselImage" alt="Endodonti" title="Endodonti"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1VZieqsnci5AEu9MesDPCSsdPXXQN5hTQ" className="owlCarouselImage" alt="Endodonti" title="Endodonti"></img>
                    <p className="owlCarouselContent">Endodonti</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o7} className="owlCarouselImage" alt="Ortodonti" title="Ortodonti"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1DjJItt8MbU4X2Zmm_ZyVIuVgfjBadylW" className="owlCarouselImage" alt="Ortodonti" title="Ortodonti"></img>
                    <p className="owlCarouselContent">Ortodonti</p>
                </div> 
             </div>
-
-            
-
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o9} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1sD-YDwmMvzJCBEO_J3uxYIFIxNxyDjD_" className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                   <p className="owlCarouselContent">Periodonto</p>
+               </div> 
+            </div>
+            <div className="item owl-slider">
+                <div className="owlCarouselTemp">
+                    <img src="https://drive.google.com/uc?export=view&id=1KL-V4pzyyPpPMtvUUcHW2mUtTSCwjVK5" className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
                    <p className="owlCarouselContent">Pedodonti</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o10} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
+                    <img src="https://drive.google.com/uc?export=view&id=1IlZbsPMf5DSqVNq073YziG2VJK7LFoBq" className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
                    <p className="owlCarouselContent">Porselen</p>
                </div> 
             </div>
 
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o8} className="owlCarouselImage" alt="Periodonti" title="Periodonti"></img>
-                   <p className="owlCarouselContent">Periodonto</p>
-               </div> 
-            </div>
+           
             
             
            
