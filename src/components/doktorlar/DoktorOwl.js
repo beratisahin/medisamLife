@@ -68,14 +68,14 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
                             <img src={eu} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
-                        <p className="owlCarouselContentDoktor">Protez Uzm. Enes Burak Uğurlu</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 2017 yılında Samsun Ondokuz Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Protez Uzmanlığını Samsun 19 Mayıs Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
+                        <p className="owlCarouselContentDoktor">Protez Uzm. Dt. Enes Burak Uğurlu</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Enes Burak Uğurlu 2016 yılında Samsun Ondokuz Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Protez Uzmanlığını Samsun 19 Mayıs Üniversitesinde tamamlamıştır. Medisam ADSP kurucu ortaklarındandır.</p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
                         <img src={uk} className="owlCarouselImageDoktor" alt="Vezirköprü Medisam" title="Vezirköprü Medisam"></img>
-                        <p className="owlCarouselContentDoktor">Ortodonti Uzm. Ufuk Keleşoğlu </p>
+                        <p className="owlCarouselContentDoktor">Ortodonti Uzm. Dt. Ufuk Keleşoğlu </p>
                         <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Ufuk Keleşoğlu 2015 yılında Sivas Cumhuriyet Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Ortodonti (Tel Tedavisi) uzmanlığını Tokat Gazi Osman Paşa Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır. </p>
                         
                     </div>
@@ -84,8 +84,8 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
                             <img src={ty} className="owlCarouselImageDoktor" alt="Merzifon Medisam" title="Merzifon Medisam"></img>
-                        <p className="owlCarouselContentDoktor">Cerrahi Uzm. Tayfun Yeter</p>
-                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Tayfun Yeter, 2017 yılında Samsun 19 Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Ağız, Diş ve Çene Cerrahisi Uzmanlığını Erzurum Atatürk Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
+                        <p className="owlCarouselContentDoktor">Cerrahi Uzm. Dt. Tayfun Yeter</p>
+                        <p className="owlCarouselContentDoktorInfo">Diş Hekimimiz Tayfun Yeter, 2016 yılında Samsun 19 Mayıs Üniversitesi Diş Hekimlği Fakültesi'nden mezun olmuştur. Ağız, Diş ve Çene Cerrahisi Uzmanlığını Erzurum Atatürk Üniversitesi Diş Hekimliği Fakültesinde tamamlamıştır.</p>
                     </div>
                 </div>
                

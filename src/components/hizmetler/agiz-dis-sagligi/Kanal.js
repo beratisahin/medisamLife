@@ -22,31 +22,31 @@ export default function Kanal() {
 <h4><strong>Kanal tedavisi ne zaman gereklidir?</strong></h4>
 
 <ul>
-	<li>Dişin sinirine kadar ilerlemiş çürüklerde,</li>
-	<li>Travma sonucu dişin sinirini de içine alan kırıkların meydana geldiği durumlarda,</li>
-	<li>Dişlerde ileri derecede aşınma sonucu oluşan hassasiyetin giderilmesinde,</li>
-	<li>Yüksek yapılmış dolgu veya protezler de gerekir.</li>
+	<li class="hizmetlist">Dişin sinirine kadar ilerlemiş çürüklerde,</li>
+	<li class="hizmetlist">Travma sonucu dişin sinirini de içine alan kırıkların meydana geldiği durumlarda,</li>
+	<li class="hizmetlist">Dişlerde ileri derecede aşınma sonucu oluşan hassasiyetin giderilmesinde,</li>
+	<li class="hizmetlist">Yüksek yapılmış dolgu veya protezler de gerekir.</li>
 </ul>
 
 <h4><strong>Bir dişe kanal tedavi gerektiğini nasıl anlarsınız?</strong></h4>
 
 <ul>
-	<li>Dişinizde çok şiddetli&nbsp;sıcak soğuk hassasiyeti,</li>
-	<li>Özellikle geceleri hiçbir uyaran olmadan ağrı,</li>
-	<li>Sinirlerin ölmesi sonucu dişinizde renk değişimi,</li>
-	<li>Apse oluşumu sonucu yüzünüzde şişlik,</li>
-	<li>Bazı durumlarda hiçbir belirti olmaksızın yapılan dental ve radyolojik muayenelerde tedavi gerektiği anlaşılır</li>
+	<li class="hizmetlist">Dişinizde çok şiddetli&nbsp;sıcak soğuk hassasiyeti,</li>
+	<li class="hizmetlist">Özellikle geceleri hiçbir uyaran olmadan ağrı,</li>
+	<li class="hizmetlist">Sinirlerin ölmesi sonucu dişinizde renk değişimi,</li>
+	<li class="hizmetlist">Apse oluşumu sonucu yüzünüzde şişlik,</li>
+	<li class="hizmetlist">Bazı durumlarda hiçbir belirti olmaksızın yapılan dental ve radyolojik muayenelerde tedavi gerektiği anlaşılır</li>
 </ul>
 
 <h4><strong>Kanal tedavisinin aşamaları nedir?</strong></h4>
 
 <ul>
-	<li>Çürük temizlenir ya da kırık parça çıkartılır ve dişin sinirlerine ulaşılır.</li>
-	<li>Dişin kökündeki sinir ve dokular temizlenir.</li>
-	<li>Kök ucuna kadar kök kanalı şekillendirilir.</li>
-	<li>Dişin durumuna göre tek seans tedavi yapılabileceği gibi birkaç seans süren tedaviler de olabilir.</li>
-	<li>Seans aralarında kök içini ve kök ucunu iyileştirecek ilaçlarla pansuman yapılır.</li>
-	<li>Kanal tedavisi bitim aşamasında kanal içerisi özel dolgu maddeleriyle kök ucuna kadar doldurulur.</li>
+	<li class="hizmetlist">Çürük temizlenir ya da kırık parça çıkartılır ve dişin sinirlerine ulaşılır.</li>
+	<li class="hizmetlist">Dişin kökündeki sinir ve dokular temizlenir.</li>
+	<li class="hizmetlist">Kök ucuna kadar kök kanalı şekillendirilir.</li>
+	<li class="hizmetlist">Dişin durumuna göre tek seans tedavi yapılabileceği gibi birkaç seans süren tedaviler de olabilir.</li>
+	<li class="hizmetlist">Seans aralarında kök içini ve kök ucunu iyileştirecek ilaçlarla pansuman yapılır.</li>
+	<li class="hizmetlist">Kanal tedavisi bitim aşamasında kanal içerisi özel dolgu maddeleriyle kök ucuna kadar doldurulur.</li>
 </ul>
 
 <h4><strong>Kanal Tedavisi Sonrası Ağrı</strong></h4>

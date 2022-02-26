@@ -30,11 +30,11 @@ export default function Pedodonti() {
 <p class="hizmetyazi">Tedavi öncesinde yapılmasından çok yapılmaması gerekenler daha büyük önem taşımaktadır.</p>
 
 <ul>
-	<li>Tedavi öncesinde çocuğunuza “korkma, hiç acımayacak” gibi cümleler kurmayın. Bu tür cümleler çocukların bilinçaltında acıyabileceği fikrini doğurabilir.</li>
-	<li>Çocuğunuza diş randevusundan sonra hediye ile ödüllendirmeyin. Ödüllendirme çocuğunuzun işlemi zor bir işlem olarak algılamasına neden olur.</li>
-	<li>Çocuğunuza geçmişteki diş hekimi koltuğundaki iyi veya kötü deneyimlerinizden bahsetmemeniz daha yararlı olacaktır.</li>
-	<li>Çocuğunuza; eğer doktora gitmezse dişlerinin daha çok çürüyeceği ve sonrasında iğne yapılıp çekilmek zorunda kalabileceği gibi korkutucu cümleler kurmayın. Çünkü tüm bu korkuttuğunuz işlemler bir gün çocuğunuzun gerek duyabileceği tedaviler olabilir.</li>
-	<li>Diş hekiminin dişlerine bakmaktan başka hiçbir şey yapmayacağı konusunda da çocuğunuza söz vermeyin. Bırakın çocuğunuz ve çocuk diş hekimi ilk randevu için yapılacaklara beraber karar versinler.</li>
+	<li class="hizmetlist">Tedavi öncesinde çocuğunuza “korkma, hiç acımayacak” gibi cümleler kurmayın. Bu tür cümleler çocukların bilinçaltında acıyabileceği fikrini doğurabilir.</li>
+	<li class="hizmetlist">Çocuğunuza diş randevusundan sonra hediye ile ödüllendirmeyin. Ödüllendirme çocuğunuzun işlemi zor bir işlem olarak algılamasına neden olur.</li>
+	<li class="hizmetlist">Çocuğunuza geçmişteki diş hekimi koltuğundaki iyi veya kötü deneyimlerinizden bahsetmemeniz daha yararlı olacaktır.</li>
+	<li class="hizmetlist">Çocuğunuza; eğer doktora gitmezse dişlerinin daha çok çürüyeceği ve sonrasında iğne yapılıp çekilmek zorunda kalabileceği gibi korkutucu cümleler kurmayın. Çünkü tüm bu korkuttuğunuz işlemler bir gün çocuğunuzun gerek duyabileceği tedaviler olabilir.</li>
+	<li class="hizmetlist">Diş hekiminin dişlerine bakmaktan başka hiçbir şey yapmayacağı konusunda da çocuğunuza söz vermeyin. Bırakın çocuğunuz ve çocuk diş hekimi ilk randevu için yapılacaklara beraber karar versinler.</li>
 </ul>
 
 <h4><strong>İlk çocuk diş hekimi ziyaret edildiğinde neler yapılabilir?</strong></h4>

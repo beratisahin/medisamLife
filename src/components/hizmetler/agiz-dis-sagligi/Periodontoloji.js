@@ -27,12 +27,12 @@ export default function Periodontoloji() {
 <h4><strong>Diş eti çekilmesinin sebepleri nelerdir?</strong></h4>
 
 <ul>
-	<li>Çok sert kıllı diş fırçası kullanmak</li>
-	<li>Diş etini ters yönde, şiddetli fırçalamak</li>
-	<li>Dişlerin şiddetli düzeyde çapraşıklığı</li>
-	<li>Hijyen eksikliğine bağlı yoğun diş taşı birikimleri</li>
-	<li>Kontrol altına alınamayan şiddetli sistematik hastalıklar</li>
-	<li>Sigara</li>
+	<li class="hizmetlist">Çok sert kıllı diş fırçası kullanmak</li>
+	<li class="hizmetlist">Diş etini ters yönde, şiddetli fırçalamak</li>
+	<li class="hizmetlist">Dişlerin şiddetli düzeyde çapraşıklığı</li>
+	<li class="hizmetlist">Hijyen eksikliğine bağlı yoğun diş taşı birikimleri</li>
+	<li class="hizmetlist">Kontrol altına alınamayan şiddetli sistematik hastalıklar</li>
+	<li class="hizmetlist">Sigara</li>
 </ul>
 
 <p class="hizmetyazi">Hatalı yapılmış kaplama ve dolgular diş eti çekilmesinin temel sebeplerindendir.</p>

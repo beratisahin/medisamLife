@@ -23,11 +23,11 @@ export default function Beyazlatma() {
 <p class="hizmetyazi">Diş beyazlatma tedavisinin&nbsp;5 farklı yöntem bulunmaktadır.</p>
 
 <ul>
-	<li>Ev Tipi Diş Beyazlatma</li>
-	<li>Ofis Tipi Diş Beyazlatma&nbsp;(Klinik ortamında beyazlatma)</li>
-	<li>Tek Diş Beyazlatma (Kanal tedavili dişleri içten beyazlatma)</li>
-	<li>Kombine Diş Beyazlatma (Ev+Ofis tipi beyazlatma)</li>
-	<li>Zoom Beyazlatma&nbsp;(Klinik ortamında beyazlatma)</li>
+	<li class="hizmetlist">Ev Tipi Diş Beyazlatma</li>
+	<li class="hizmetlist">Ofis Tipi Diş Beyazlatma&nbsp;(Klinik ortamında beyazlatma)</li>
+	<li class="hizmetlist">Tek Diş Beyazlatma (Kanal tedavili dişleri içten beyazlatma)</li>
+	<li class="hizmetlist">Kombine Diş Beyazlatma (Ev+Ofis tipi beyazlatma)</li>
+	<li class="hizmetlist">Zoom Beyazlatma&nbsp;(Klinik ortamında beyazlatma)</li>
 </ul>
 
 <h4><strong>Benim için hangi tip diş beyazlatma yöntemi uygundur?</strong></h4>
@@ -86,12 +86,12 @@ export default function Beyazlatma() {
 <h4><strong>Dişin renklenme sebepleri nelerdir?</strong></h4>
 
 <ul>
-	<li>Hayat boyu devam eden fizyolojik renklenme</li>
-	<li>Amalgam yapıldıktan sonra oluşan renklenme</li>
-	<li>Bebeklik döneminde antibiyotik kullanımı</li>
-	<li>Hamilelik döneminde&nbsp;antibiyotik kullanımı</li>
-	<li>Kahve, çay, tütün, kırmızı şarap ve uzun süre ağız gargaralarının kullanımına bağlı olarak dişin yüzeyinin renklenmesi</li>
-	<li>Travma sonucu dişin içindeki canlı dokunun ölmesiyle dişin içindeki kanamaya bağlı olarak oluşan renklenme</li>
+	<li class="hizmetlist">Hayat boyu devam eden fizyolojik renklenme</li>
+	<li class="hizmetlist">Amalgam yapıldıktan sonra oluşan renklenme</li>
+	<li class="hizmetlist">Bebeklik döneminde antibiyotik kullanımı</li>
+	<li class="hizmetlist">Hamilelik döneminde&nbsp;antibiyotik kullanımı</li>
+	<li class="hizmetlist">Kahve, çay, tütün, kırmızı şarap ve uzun süre ağız gargaralarının kullanımına bağlı olarak dişin yüzeyinin renklenmesi</li>
+	<li class="hizmetlist">Travma sonucu dişin içindeki canlı dokunun ölmesiyle dişin içindeki kanamaya bağlı olarak oluşan renklenme</li>
 </ul>
 
 <h4><strong>Dişler nasıl beyazlar?</strong></h4>

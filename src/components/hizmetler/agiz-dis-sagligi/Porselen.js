@@ -20,22 +20,22 @@ export default function Porselen() {
 
 <p class="hizmetyazi">Porselen diş kaplaması dişlerin tüm yüzeyleri kesilmeden sadece ön yüzlerinin 0.3-0.7 mm inceltilerek yapılan ve sağlam diş dokusunun minumum kaybedildiği yöntemdir. İnceltilen bu alana porselen diş laminalarının yapıştırılma işlemidir.</p>
 
-<hh4><strong>Porselen diş laminaları hangi durumlarda uygulanır?</strong></hh4>
+<h4><strong>Porselen diş laminaları hangi durumlarda uygulanır?</strong></h4>
 
 <ul>
-	<li>Diş beyazlatma ile sonuç alınamayan ileri derecede renkleşmiş dişlerde,</li>
-	<li>Yapısal formu ve şekli kötü olan dişlerde,</li>
-	<li>Ayrık dişleri birleştirmede (diastema kapama),</li>
-	<li>Kırık veya aşınmış dişlerin restorasyonunda,</li>
-	<li>Rengi ve yapısı bozulmuş eski dolguların düzeltilmesinde,</li>
-	<li>Çapraşık ve eğri dişlerin düzeltilmesinde ortodontik tedavi alternatifi olarak) kozmetik bir alternatif olabilir.</li>
+	<li class="hizmetlist">Diş beyazlatma ile sonuç alınamayan ileri derecede renkleşmiş dişlerde,</li>
+	<li class="hizmetlist">Yapısal formu ve şekli kötü olan dişlerde,</li>
+	<li class="hizmetlist">Ayrık dişleri birleştirmede (diastema kapama),</li>
+	<li class="hizmetlist">Kırık veya aşınmış dişlerin restorasyonunda,</li>
+	<li class="hizmetlist">Rengi ve yapısı bozulmuş eski dolguların düzeltilmesinde,</li>
+	<li class="hizmetlist">Çapraşık ve eğri dişlerin düzeltilmesinde ortodontik tedavi alternatifi olarak) kozmetik bir alternatif olabilir.</li>
 </ul>
 
-<hh4><strong>Porselen lamina diş kaplama tedavisi kimlere uygulanır?</strong></hh4>
+<h4><strong>Porselen lamina diş kaplama tedavisi kimlere uygulanır?</strong></h4>
 
 <p class="hizmetyazi">Porselen lamina diş tedavisi hemen hemen herkese uygulanabilir.</p>
 
-<hh4><strong>Porselen lamina dişlerin avantajları nelerdir?</strong></hh4>
+<h4><strong>Porselen lamina dişlerin avantajları nelerdir?</strong></h4>
 
 <p class="hizmetyazi">•&nbsp;&nbsp; &nbsp;0,3-0,7 mm lik minimal bir aşındırma ile istenilen görünüş sağlanır. İşlem süresi ortalama 7-10 gün sürer.<br/>
 •&nbsp;&nbsp; &nbsp;Sağlam, renkleri bozulmayan ve dayanıklı malzemelerden üretilirler.<br/>
@@ -46,29 +46,29 @@ export default function Porselen() {
 •&nbsp;&nbsp; &nbsp;Aşınmaya karşı direnci yüksektir.</p>
 
 
-<hh4><strong>Porselen diş laminalarının tedavisinin uygulanamayacağı durumlar yok mudur?</strong></hh4>
+<h4><strong>Porselen diş laminalarının tedavisinin uygulanamayacağı durumlar yok mudur?</strong></h4>
 
 <p class="hizmetyazi">Aşağıdaki durumlarda porselenen lamina tedavisi uygulanmamaktadır.</p>
 
 <ul>
-	<li>Çene bozuklukları</li>
-	<li>Tırnak yeme ve kalem ısırma gibi kötü&nbsp;alışkanlıklarda</li>
-	<li>ileri derecede diş eti çekilmesinin mevcut olduğu durumlarda porselen lamina tedavisi uygulanmaz.</li>
+	<li class="hizmetlist">Çene bozuklukları</li>
+	<li class="hizmetlist">Tırnak yeme ve kalem ısırma gibi kötü&nbsp;alışkanlıklarda</li>
+	<li class="hizmetlist">ileri derecede diş eti çekilmesinin mevcut olduğu durumlarda porselen lamina tedavisi uygulanmaz.</li>
 </ul>
 
-<hh4><strong>Porselen lamina kaplama kaç seans sürer?</strong></hh4>
+<h4><strong>Porselen lamina kaplama kaç seans sürer?</strong></h4>
 
 <p class="hizmetyazi">Eğer diş etlerinizde bir tedavi veya diş estetiği açısından bir müdahale gerekmiyor ise 1 hafta içerisinde 2-3 seansta tedavinin tamamlanması öngörülür.</p>
 
-<hh4><strong>Porselen lamina kaplama uygulamasının tedavi aşamaları nasıldır?</strong></hh4>
+<h4><strong>Porselen lamina kaplama uygulamasının tedavi aşamaları nasıldır?</strong></h4>
 
 <p class="hizmetyazi">İlk seans dişleriniz aşındırılmadan ölçüsü alınır ve çıkan modelde bir çalışma yapılır. Daha sonra dişler aşındırılır ve hassas bir ölçü materyali ile ölçü tekrarlanır. Bir sonraki randevunuzda ise laminalar dişlerinize uygulanır.</p>
 
-<hh4><strong>Porselen lamina dişler düşer mi?</strong></hh4>
+<h4><strong>Porselen lamina dişler düşer mi?</strong></h4>
 
 <p class="hizmetyazi">Günümüz yapıştırma teknolojilerinin yapışma değerleri çok yüksektir. Eğer hekim uygulamada teknik hassasiyete uygun hareket ederse laminalarınızı kendi dişiniz gibi kullanabilirsiniz.</p>
 
-<hh4><strong>Porselen lamina dişlerin ömrü ne kadardır?</strong></hh4>
+<h4><strong>Porselen lamina dişlerin ömrü ne kadardır?</strong></h4>
 
 <p class="hizmetyazi">Laminalar iyi ve doğru bir ağız bakımıyla yıllarca sorunsuz olarak kullanılabilirler. Bunu da sebebi diğer yapıştırma sistemlerden daha üstün özelliklere sahip porselenden imal edilmiş olmalarıdır. Lekelenme ve aşınmaya karşı dirençlidirler. Ömürlerini uzatmak için ağız bakımına dikkat etmek gerekir.</p>
 
