@@ -10,9 +10,10 @@
 .card-baslik{
     color:#2E6772;
     font-size: medium;
+    font-weight: bold;
 }
 
 .card-neden{
-    font-size: small !important;
+    font-size: medium !important;
     text-align: justify !important;
 }

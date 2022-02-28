@@ -1,34 +1,24 @@
-.ekip-text{
-    font-size: large !important;
-    text-align: justify !important;
-    text-align: center !important;
+.imageEkip{
+    width: 100%;
+     height: 25rem;
+      padding: 1%;
+      border: 1px #3c667c solid;
+      border-radius: 1em;
+}
+.ekipTemp{
+    float: left !important;
+    display:inline !important;
+    padding: 1rem !important;
 }
 
-.ekippho{
-    
-    height:25rem !important;
-    border:2px solid #5FA5A0 !important;
-    border-radius:1rem !important;
-}
-.ekiptemp{
-    height: 30rem !important;
-}
-.ekip-text{
-    font-size: medium !important;
-    color:#5FA5A0 !important;
-}
+.contentEkip{
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    font-size: 18px !important;
+    color: white;
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-    .ekippho{
-        height: 20rem !important;
-        
-    }
-    .ekip-text{
-        font-size: small !important;
-    }
-    .ekiptemp{
-        height: 30rem !important;
-    }   
- 
-}
+    background-color: #3c667c;
+    border-radius: 5px 30px 5px 30px;
+    width: 100% !important;
+ }

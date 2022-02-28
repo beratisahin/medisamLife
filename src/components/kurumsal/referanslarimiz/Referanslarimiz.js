@@ -3,13 +3,13 @@ import useDocumentTitle from '../../../useDocumentTitle';
 import Title from "../../title/Title";
 
 function Referanslarimiz() {
-    useDocumentTitle('Hekimlerimiz - Medisam Ağız ve Diş Sağlığı Polikliniği');
+    useDocumentTitle('Referanslarımız - Medisam Ağız ve Diş Sağlığı Polikliniği');
     return (
         
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                <Title 
-                    page_title="Hekimlerimiz"
+                    page_title="Referanslarımız"
                />
                 
                 <div className="card-body col-12">

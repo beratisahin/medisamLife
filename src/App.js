@@ -60,7 +60,7 @@ function App() {
             <Route path="/hakkimizda" component={Hakkimizda} />
             <Route path="/belgelerimiz" component={Belgerimiz} />
             <Route path="/referanslarimiz" component={Referanslarimiz} />
-            <Route path="/ekibimiz" component={Ekibimiz} />
+            <Route path="/hekimlerimiz" component={Ekibimiz} />
             
 
             <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />

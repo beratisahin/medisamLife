@@ -53,7 +53,7 @@ export default class Navbar extends Component {
             
             <li><a href="/hakkimizda" class="menu-link">Hakkımızda</a></li>
             <li><a href="/belgelerimiz" class="menu-link">Belgelerimiz</a></li>
-            <li><a href="/ekibimiz" class="menu-link">Hekimlerimiz</a></li>
+            <li><a href="/hekimlerimiz" class="menu-link">Hekimlerimiz</a></li>
             <li><a href="/referanslarimiz" class="menu-link">Referanslarımız</a></li>
 
               
@@ -114,8 +114,8 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
             
-            <li><a href="/merzifon-dis" class="menu-link">Merzifon Şubemiz</a></li>
-            <li><a href="/vezirkopru-dis" class="menu-link">Vezirköprü Şubemiz</a></li>
+            <li><a href="/merzifon-dis" class="menu-link">Merzifon Diş Polikliniği</a></li>
+            <li><a href="/vezirkopru-dis" class="menu-link">Vezirköprü Diş Polikliniği</a></li>
               
               
             </ul>
