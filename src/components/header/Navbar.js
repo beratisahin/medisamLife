@@ -46,7 +46,7 @@ export default class Navbar extends Component {
         <ul class="menu">
           <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon/>&nbsp;Ana Sayfa</a></li>
           <li class="has-dropdown">
-            <a href="" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">

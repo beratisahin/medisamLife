@@ -34,6 +34,10 @@ import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
 
 import Merzifon from "./components/subeler/Merzifon";
 import Vezirkopru from "./components/subeler/Vezirkopru";
+import Havza from "./components/subeler/Havza";
+import Suluova from "./components/subeler/Suluova";
+import Gumushacikoy from "./components/subeler/Gumushacikoy";
+import Osmancik from "./components/subeler/Osmancik";
 
 import Galeri from "./components/galeri/Galeri";
 import Guzellik from "./components/hizmetler/lazer-epilasyon/Guzellik";
@@ -82,6 +86,10 @@ function App() {
 
             <Route path="/merzifon-dis" component={Merzifon} />
             <Route path="/vezirkopru-dis" component={Vezirkopru} />
+            <Route path="/havza-dis" component={Havza} />
+            <Route path="/suluova-dis" component={Suluova} />
+            <Route path="/gumushacikoy-dis" component={Gumushacikoy} />
+            <Route path="/osmancik-dis" component={Osmancik} />
 
             <Route path="/sac-ekim-merkezi" component={Sac} />
             <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />

@@ -5,6 +5,12 @@
     font-size: small !important;
     font-style: italic !important;
 }
+.subelist{
+    font-size: small !important;
+    
+    margin-left: 3rem !important;
+    list-style-type: square;
+}
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 994px) {
     
