@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
 
-import bgi from "./bgi.jpg";
+
 import mailback from "./mailBack.jpg";
 
 
@@ -170,7 +170,7 @@ class ContactForm extends Component {
             display: "flex",
             justifyContent: "center",
             
-            backgroundImage: "url(" + bgi + ")",
+            backgroundImage: "url(" + mailback + ")",
             backgroundPosition:"center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -282,7 +282,7 @@ class ContactForm extends Component {
 
                 <div className="col-12">
                   <textarea
-                    rows="3"
+                    rows="5"
                     name="message"
                     value={this.state.message}
                     className={`form-control formInput ${

@@ -53,8 +53,10 @@
         margin-left: -2rem !important;
     }
     .contactFormTemp{
-        background-color:#DCDCDC !important;
-        background-image: none !important;
+        /*background-color:#DCDCDC !important; 
+        background-image: none !important; */
+        background-image:url('dentalbg13.png') !important;
+        background-repeat: no-repeat;
     }
     
 
