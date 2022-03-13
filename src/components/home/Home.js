@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import "./Home.css";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
@@ -6,7 +7,7 @@ import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
 import DoktorOwl from "../doktorlar/DoktorOwl.js";
 import Klinik from "../klinik/Klinik.js";
-
+import Tanitim from "./MedisamTanitim.mp4";
 
 import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
@@ -20,7 +21,20 @@ function Home() {
     <div>
  
       <div className="col-12 homepageSlider">
-         <Slider/>
+        <p className="acilDurumMobil" style={{display:"none"}}>Muayenelerimiz ücretsizdir.</p>
+         <Slider/>  
+      </div>
+      <div className="col-12">
+            <ReactPlayer
+              className="react-player"
+              style={{ margin: "auto", overFlow: "hidden" ,display:"none"}}
+              url={Tanitim}
+              controls={true}
+              playing={true} 
+              loop={true} 
+              width="100%"
+              height="auto"
+            />
       </div>
       <div className="col-12">
             <NedenBercislina/>

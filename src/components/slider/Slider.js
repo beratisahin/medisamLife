@@ -27,7 +27,7 @@ export default class Slider extends Component {
         <div style={{display:"flex", justifyContent:"center"}}>
            
             <div id="slide" >
-                <p className="acilDurumMobil" style={{display:"none"}}>Muayenelerimiz ücretsizdir.</p>
+               
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                     

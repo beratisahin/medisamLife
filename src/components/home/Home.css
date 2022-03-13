@@ -27,6 +27,11 @@
       }
       .homepageSlider{
         margin-top: 3rem !important;
+        display: "none" !important;
+      }
+      .react-player{
+        display:flex !important;
+        margin-bottom: 2rem !important;
       }
       
  

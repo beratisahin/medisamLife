@@ -108,7 +108,7 @@
     }
     #slide{
         width: 100% !important;
-        
+        display: none !important;
     }
 
     .slidephoto{
