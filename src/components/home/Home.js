@@ -27,7 +27,7 @@ function Home() {
       <div className="col-12">
             <ReactPlayer
               className="react-player"
-              style={{ margin: "auto", overFlow: "hidden" ,display:"none"}}
+              style={{ margin: "auto", overFlow: "hidden" ,display:"none",border:"3px solid #2E6772",borderRadius:"5px",padding:"2px"}}
               url={Tanitim}
               controls={true}
               playing={true} 
