@@ -17,6 +17,9 @@
 }
 .slidephoto{
     height: 50rem !important;
+    border-radius: 5px !important;
+    border: 2px outset #168B80 !important;
+    padding: 1px !important;
 }
 
 .sliderHeader{
@@ -39,6 +42,7 @@
     display: block !important;
     justify-content: center !important;
     margin: auto !important;
+    
 }
 .anaCardText{
     color: black;

@@ -20,20 +20,27 @@ function Home() {
   return (
     <div>
  
-      <div className="col-12 homepageSlider">
+      <div className="col-12 homepageSlider" style={{width:"80%",justifyContent:"center",margin:"auto"}}>
         <p className="acilDurumMobil" style={{display:"none"}}>Muayenelerimiz ücretsizdir.</p>
          <Slider/>  
       </div>
       <div className="col-12">
             <ReactPlayer
               className="react-player"
-              style={{ margin: "auto", overFlow: "hidden" ,display:"none",border:"3px solid #2E6772",borderRadius:"5px",padding:"2px"}}
+              style={{ margin: "auto", overFlow: "hidden",display:"none",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
               url={Tanitim}
               controls={true}
               playing={true} 
               loop={true} 
               width="100%"
               height="auto"
+              config={{
+                file: {
+                  attributes: {
+                    controlsList: "nofullscreen",
+                  },
+                },
+              }}
             />
       </div>
       <div className="col-12">
