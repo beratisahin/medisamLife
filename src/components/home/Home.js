@@ -31,7 +31,7 @@ function Home() {
               url={Tanitim}
               controls={true}
               playing={true} 
-              loop={true} 
+              loop={false} 
               width="100%"
               height="auto"
               config={{
