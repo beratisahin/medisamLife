@@ -32,6 +32,7 @@ function Home() {
               controls={true}
               playing={true} 
               loop={false} 
+              muted={true}
               width="100%"
               height="auto"
               config={{
