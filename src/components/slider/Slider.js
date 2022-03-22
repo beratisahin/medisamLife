@@ -1,20 +1,20 @@
 import './Slider.css';
 
-import s5 from '../medya/slider5.jpeg';
+
 import s9 from '../medya/slider9.jpeg';
 import sl1 from "../medya/sli1.jpg";
 import sl2 from "../medya/sli2.jpeg";
-import sl3 from "../medya/sl5.png";
 import sl4 from "../medya/sl4.jpg";
 
 import ana1 from "./ana_dis.png";
 import ana2 from "./ana_sac.png";
 import ana3 from "./ana_epilasyon.png";
-import logo from "../header/MedisamYuvarlakLogo.png";
 
 import r1 from "../medya/slider10.jpeg";
 import r2 from "../medya/slider11.jpeg";
 import r3 from "../medya/slider12.jpeg";
+
+import EmHa from "../medya/EmreHayati.jpeg"
 
 
 
@@ -33,6 +33,17 @@ export default class Slider extends Component {
                     
                         <div className="carousel-item active" data-interval="3000">
                             <img src={sl1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
+                            
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
+                                <p className="sliderText"></p>
+                                
+                            </div>
+
+                           
+                         </div>
+                         <div className="carousel-item" data-interval="3000">
+                            <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
@@ -82,26 +93,7 @@ export default class Slider extends Component {
                             </div>
                             
                         </div>
-                        <div className="carousel-item">
-                            <img src={sl3} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo"></img>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                               
-                            </div>
-                            
-                        </div>
-                    
-
-                        <div className="carousel-item">
-                            <img src={s5} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p> 
-                            </div>
-                        </div>
+                       
 
                         <div className="carousel-item">
                             <img src={sl2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
