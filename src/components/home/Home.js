@@ -30,7 +30,7 @@ function Home() {
               style={{ margin: "auto", overFlow: "hidden",display:"none",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
               url={Tanitim}
               controls={true}
-              playing={true} 
+              playing={false} 
               loop={false} 
               muted={true}
               width="100%"
@@ -39,6 +39,7 @@ function Home() {
                 file: {
                   attributes: {
                     controlsList: "nofullscreen",
+                    muted:"true"
                   },
                 },
               }}
