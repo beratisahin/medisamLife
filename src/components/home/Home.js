@@ -30,11 +30,12 @@ function Home() {
               style={{ margin: "auto", overFlow: "hidden",display:"none",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
               url={Tanitim}
               controls={true}
-              playing={false} 
+              playing={true} 
               loop={false} 
-              muted={true}
+              volume={0.5}
               width="100%"
               height="auto"
+              
               config={{
                 file: {
                   attributes: {
