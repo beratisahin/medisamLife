@@ -58,6 +58,25 @@
     color: #168B80 !important;
     font-weight: bolder !important;
   }
+
+  .serviceTitle{
+    text-decoration:none !important; 
+    /*color:#168B80 !important #3c667c;
+    font-weight:bolder !important;*/
+    font-size:x-large !important;
+
+    color: white;
+    background-color: #168B80;
+    opacity: 0.8;
+    width: 100% !important;
+    height: 5rem !important;
+    margin:auto;
+    justify-content: center;
+    padding-top: 1rem;
+    border-radius: 5px 30px 5px 30px;
+
+  }
+
   
   .image:hover .details h2{
     transform:translateY(-40px) !important;
@@ -82,20 +101,24 @@
   
   .more{
     position:absolute;
-    background: rgba(255,255,255, 0.8);
+    /*background: rgba(120,255,255, 0.8) !important;*/
+    background: #F6F6F6 !important;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    /*padding: 15px;
     margin-left: -10px;
-    margin-right: 5px;
+    margin-right: 5px; */
     bottom:-60px;
     transition: 0.6s;
     transition-property: bottom;
+    border-top: 1px solid #168B80; 
+    border-radius: 5px 5px 0px 0px;
   }
   .image:hover .more{
     bottom:0;
+   
   }
   
   .more .read-more{

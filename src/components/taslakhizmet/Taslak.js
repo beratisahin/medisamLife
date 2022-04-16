@@ -8,9 +8,9 @@ render() {
      const {taslakphoto,taslaktitle,taslaktext,taslaklink}=this.props;
      return (
         <div class="image">
-                <img src={taslakphoto} title="Medisam Ağız ve Diş Sağlığı Polikliniği" style={{width:"100%",height:"30rem"}}></img>
+                <img src={taslakphoto} className="image" title="Medisam Ağız ve Diş Sağlığı Polikliniği" style={{width:"100%",height:"30rem"}}></img>
                 <div class="details">
-                        <h2 className="serviceTitle" style={{textDecoration:"none",color:"#168B80",fontWeight:"bolder",fontSize:"x-large"}}>{taslaktitle}</h2>
+                        <h2 className="serviceTitle">{taslaktitle}</h2>
                         <p>{taslaktext}</p>
                 </div>
 
