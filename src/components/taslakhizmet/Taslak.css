@@ -191,6 +191,9 @@
     .image .details p{
         font-size: small !important;
     }
+    .more{
+      height: 4rem !important;
+    }
     
 
   }
@@ -206,6 +209,9 @@
     }
     .image{
         height: 180px;
+    }
+    .more{
+      height: 4rem !important;
     }
   }
   
