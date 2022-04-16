@@ -67,7 +67,7 @@
 
     color: white;
     background-color: #168B80;
-    opacity: 0.8;
+    opacity: 0.7;
     width: 100% !important;
     height: 5rem !important;
     margin:auto;
@@ -79,7 +79,7 @@
 
   
   .image:hover .details h2{
-    transform:translateY(-40px) !important;
+    transform:translateY(-60px) !important;
   }
   
   .image .details p{
@@ -96,7 +96,7 @@
   
   .image:hover .details p{
     opacity: 1;
-    transform:translateY(-40px);
+    transform:translateY(-60px) !important;
   }
   
   .more{
@@ -205,7 +205,7 @@
         height: 200px;
     }
     .image{
-        height: 180px;
+        height: 180px !important;
     }
   }
   
