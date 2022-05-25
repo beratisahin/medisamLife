@@ -14,11 +14,13 @@ import r1 from "../medya/slider10.jpeg";
 import r2 from "../medya/slider11.jpeg";
 import r3 from "../medya/slider12.jpeg";
 
-import EmHa from "../medya/EmreHayati.jpeg"
+import EmHa from "../medya/EmreHayati.jpeg";
+
 
 
 
 import React, { Component } from 'react'
+import { SignalWifi1BarLockTwoTone } from '@material-ui/icons';
 
 export default class Slider extends Component {
     render() {
@@ -42,6 +44,7 @@ export default class Slider extends Component {
 
                            
                          </div>
+                         
                          <div className="carousel-item" data-interval="3000">
                             <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
@@ -114,39 +117,39 @@ export default class Slider extends Component {
                             </div>
                         </div>
                         
-                        <div className="carousel-caption d-none d-md-block" style={{position:"absolute",bottom:"2rem",margin:"auto",display:"block",justifyContent:"center"}}>
+                        {/* 
+                            <div className="carousel-caption d-none d-md-block" style={{position:"absolute",bottom:"2rem",margin:"auto",display:"block",justifyContent:"center"}}>
                         <div class="row">
                             <div class="col-4">
                                 <div class="card anaCardTemp">
-                                <img src={ana1} class="card-img-top anaCardPhoto" alt="..." title="Ağız ve Diş Sağlığı"></img>
-                                <div class="card-body">
-                                    <h5 class="card-title anaCardText">Ağız ve Diş Sağlığı</h5>
-                                    
-                                </div>
+                                    <img src={ana1} class="card-img-top anaCardPhoto" alt="..." title="Ağız ve Diş Sağlığı"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title anaCardText">Ağız ve Diş Sağlığı</h5>  
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="card anaCardTemp">
-                                <img src={ana2} class="card-img-top anaCardPhoto" alt="..." title="Saç Ekim"></img>
-                                <div class="card-body">
-                                    <h5 class="card-title anaCardText">Saç Ekim</h5>
-                                    
-                                </div>
+                                    <img src={ana2} class="card-img-top anaCardPhoto" alt="..." title="Saç Ekim"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title anaCardText">Saç Ekim</h5>   
+                                    </div>
                                 </div>
                             </div>
                           
                             <div class="col-4">
                                 <div class="card anaCardTemp">
-                                <img src={ana3} class="card-img-top anaCardPhoto" alt="..." title="Lazer Epilasyon"></img>
-                                <div class="card-body">
-                                    <h5 class="card-title anaCardText">Lazer Epilasyon</h5>
-                                   
-                                </div>
+                                    <img src={ana3} class="card-img-top anaCardPhoto" alt="..." title="Lazer Epilasyon"></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title anaCardText">Lazer Epilasyon</h5>
+                                    </div>
                                 </div>
                             </div>
                             
-                            </div>
                         </div>
+                    </div>
+                        */}
+                    
                         
                         
                     </div>

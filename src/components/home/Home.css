@@ -33,6 +33,12 @@
         display:flex !important;
         margin-bottom: 2rem !important;
       }
+      .acilis{
+        display:flex !important;
+        margin-bottom: 2rem !important;
+        width:100% !important;
+        height: auto !important;
+      }
       
  
  }
