@@ -13,6 +13,7 @@ import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
 
 import Acilis from "../slider/Acilis.jpeg";
+import Doktor from "../slider/Doktorlar.jpeg";
 
 
 import TopluHizmet from "../topluhizmet/TopluHizmet.js";
@@ -49,6 +50,9 @@ function Home() {
             />
 
             <img class="acilis" src={Acilis} style={{margin: "auto", overFlow: "hidden",display:"none",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}></img>
+            <br/>
+            <img class="acilis" src={Doktor} style={{margin: "auto", overFlow: "hidden",display:"none",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}></img>
+            
       </div>
       <div className="col-12">
             <NedenBercislina/>

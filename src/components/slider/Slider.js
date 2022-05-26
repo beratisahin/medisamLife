@@ -39,23 +39,17 @@ export default class Slider extends Component {
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
                                 <p className="sliderText"></p>
-                                
-                            </div>
-
-                           
+                            </div>  
                          </div>
-                         
+            
                          <div className="carousel-item" data-interval="3000">
                             <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
-                            
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                                
+                                <p className="sliderText"></p>   
                             </div>
-
-                           
                          </div>
+
                          <div className="carousel-item" data-interval="2000">
                             <img src={r1} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
                             
