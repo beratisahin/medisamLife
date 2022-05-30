@@ -2,9 +2,6 @@ import React from 'react'
 import "./Sss.css";
 import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
-import Hydrafacial from "./hydrafacial.png";
-import Hydrafacial2 from "./hydra2.jpg";
-import RobotX from "./robotx.png";
 import { Accordion, AccordionTab } from "primereact/accordion";
 
 

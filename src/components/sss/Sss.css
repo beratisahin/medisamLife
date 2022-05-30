@@ -13,6 +13,18 @@
     height:auto;
     overflow:hidden;
 }
-
+.urunyazi{
+    font-size: small !important;
+}
+#accordion-item{
+    background-color: #3c657b !important;
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    
+    .urunyazi{
+        font-size: small !important;
+    }
+}
 
     
