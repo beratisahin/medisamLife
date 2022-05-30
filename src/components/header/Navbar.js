@@ -107,7 +107,7 @@ export default class Navbar extends Component {
             </ul>
           </li>
           <li><a href="/galeri" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
-          <li><a href="/sss" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
+          <li><a href="/sikca-sorulan-sorular" class="menu-link" style={{fontSize:"medium"}}><HelpOutlineIcon/>&nbsp;SSS</a></li>
           <li class="has-dropdown">
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><AccountTreeIcon/>&nbsp;Şubelerimiz &nbsp;
               <span class="arrow"></span>

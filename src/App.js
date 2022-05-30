@@ -94,8 +94,7 @@ function App() {
             <Route path="/sac-ekim-merkezi" component={Sac} />
             <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />
             <Route path="/galeri" component={Galeri} />
-            
-            <Route path="/sss" component={Sss} /> 
+            <Route path="/sikca-sorulan-sorular" component={Sss} /> 
             
             <Route path="/iletisim" component={Iletisim} />
 

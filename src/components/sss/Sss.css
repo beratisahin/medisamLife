@@ -1,0 +1,20 @@
+.accPho{
+    float:left !important;
+    
+    
+}
+.accordion-body{
+    height: auto !important;
+}
+.accordion-button{
+    font-size: medium !important;
+}
+#collapseOne,#collapseTwo,#collapseThree,#collapseFour,#collapseFive,#collapseSix,#collapseSeven{
+    
+    height:auto;
+    overflow:hidden;
+
+}
+
+
+    
