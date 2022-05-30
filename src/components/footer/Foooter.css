@@ -24,7 +24,7 @@ ul li {
 }
 
 .icon:hover{
-  color:#2E6772;
+  color:#2E6772 !important;
 }
 .sebertech{
   text-decoration: none !important;

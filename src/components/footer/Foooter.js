@@ -4,6 +4,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import MainLogo from "../header/MedisamIconTr.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -100,7 +101,7 @@ export default class Foooter extends Component {
             </p>
             <hr/>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/medisammerzifon/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left" }}
@@ -108,12 +109,12 @@ export default class Foooter extends Component {
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://www.instagram.com/medisamadsp/"
+              href="https://www.instagram.com/medisam.merzifon/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
+              <InstagramIcon className="icon" style={{fontSize:"24px",color:"purple"}}/>
             </a>
             <a
               href="https://wa.me/+905461054500"
@@ -121,7 +122,7 @@ export default class Foooter extends Component {
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
+              <WhatsAppIcon className="icon" style={{fontSize:"24px",color:"lightgreen"}}/>
             </a>
             <a
               href="tel: +905461054500"
@@ -131,7 +132,14 @@ export default class Foooter extends Component {
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
             </a>
-
+            <a
+              href="https://www.youtube.com/channel/UCCL7EMhr-wtVLc0jipxQoeQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ float: "left", textIndent: "10px",color:"red" }}
+            >
+              <YouTubeIcon className="icon" style={{fontSize:"24px"}} />
+            </a>
             <br />
             <br/>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
@@ -190,7 +198,7 @@ export default class Foooter extends Component {
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
+              <InstagramIcon className="icon" style={{fontSize:"24px",color:"purple"}}/>
             </a>
             <a
               href="https://wa.me/+905453132855"
@@ -198,7 +206,7 @@ export default class Foooter extends Component {
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
+              <WhatsAppIcon className="icon" style={{fontSize:"24px",color:"lightgreen"}}/>
             </a>
             <a
               href="tel: +905453132855"
