@@ -7,7 +7,7 @@ import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
 import Klinik from "../klinik/Klinik.js";
 import Tanitim from "./MedisamTanitim.mp4";
-import DoktorOwl2 from "../doktor2/DoktorOwl2.js";
+import DoktorOwl2 from "../doktor/DoktorOwl2.js";
 
 
 
