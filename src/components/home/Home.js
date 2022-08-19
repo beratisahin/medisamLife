@@ -5,7 +5,6 @@ import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
 import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
-import DoktorOwl from "../doktorlar/DoktorOwl.js";
 import Klinik from "../klinik/Klinik.js";
 import Tanitim from "./MedisamTanitim.mp4";
 import DoktorOwl2 from "../doktor2/DoktorOwl2.js";
@@ -65,11 +64,7 @@ function Home() {
         
 
       <hr/>
-      <div className="col-12">
-        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Doktorlarımız</h2>
-         <DoktorOwl/>
-      </div>
-      <br/>
+    
       <div className="col-12">
         <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Doktorlarımız</h2>
          <DoktorOwl2/>
