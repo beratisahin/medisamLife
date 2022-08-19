@@ -71,8 +71,9 @@
          font-size: 16px !important;
          
       }
-      .owlCarouselImageDoktor{
-        height: 20rem !important;
+      .owlCarouselImageDoktor2{
+        width: 100% !important;
+        height: auto !important;
         margin: auto !important;
         display: block !important;
         justify-content: center !important;
@@ -90,8 +91,8 @@
  }
 
  @media screen and (min-width: 1500px) { 
-   .owlCarouselImageDoktor{
-      height: 30rem !important;
+   .owlCarouselImageDoktor2{
+      height: auto !important;
       
       
      
