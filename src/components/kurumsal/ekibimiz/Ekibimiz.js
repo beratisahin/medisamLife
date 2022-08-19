@@ -1,3 +1,4 @@
+import { red } from '@material-ui/core/colors';
 import React from 'react';
 import useDocumentTitle from '../../../useDocumentTitle';
 import Title from "../../title/Title";
@@ -49,7 +50,7 @@ function Ekibimiz() {
                 </div>
 
 
-
+            
             </div>
             
         
