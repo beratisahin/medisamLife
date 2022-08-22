@@ -1,20 +1,16 @@
 import './Slider.css';
 
 
-import s9 from '../medya/slider9.jpeg';
-import sl1 from "../medya/sli1.jpg";
 import sl2 from "../medya/sli2.jpeg";
 import sl4 from "../medya/sl4.jpg";
 
-import ana1 from "./ana_dis.png";
-import ana2 from "./ana_sac.png";
-import ana3 from "./ana_epilasyon.png";
 
 import r1 from "../medya/slider10.jpeg";
 import r2 from "../medya/slider11.jpeg";
 import r3 from "../medya/slider12.jpeg";
 
 import EmHa from "../medya/EmreHayati.jpeg";
+import Dr from "../home/Doktorlar.jpg";
 
 
 
@@ -34,80 +30,56 @@ export default class Slider extends Component {
                     <div className="carousel-inner">
                     
                         <div className="carousel-item active" data-interval="3000">
-                            <img src={sl1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                            </div>  
+                            <img src={Dr} className="d-block img-responsive w-100 slidephoto" title="Merzifon Ağız ve Diş Sağlığı Polikliniği" alt="logo"></img>
+                           
                          </div>
             
                          <div className="carousel-item" data-interval="3000">
-                            <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>   
-                            </div>
+                            <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Merzifon Ağız ve Diş Sağlığı Polikliniği" alt="logo"></img>
+                            
                          </div>
 
                          <div className="carousel-item" data-interval="2000">
-                            <img src={r1} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
+                            <img src={r1} className="d-block img-responsive w-100 slidephoto" title="Havza Ağız ve Diş Sağlığı Polikliniği" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                               
                             </div>
                             
                         </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={r2} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
+                            <img src={r2} className="d-block img-responsive w-100 slidephoto" title="Ladik Ağız ve Diş Sağlığı Polikliniği" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                               
+                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>    
                             </div>
                             
                         </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={r3} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
+                            <img src={r3} className="d-block img-responsive w-100 slidephoto" title="Osmancık Ağız ve Diş Sağlığı Polikliniği" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                               
                             </div>
                             
                         </div>
-                        <div className="carousel-item" data-interval="2000">
-                            <img src={s9} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p>
-                               
-                            </div>
-                            
-                        </div>
-                       
 
                         <div className="carousel-item">
-                            <img src={sl2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
+                            <img src={sl2} className="d-block img-responsive w-100 slidephoto" title="Gümüşhacıköy Ağız ve Diş Sağlığı Polikliniği" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p> 
+                                 
                             </div>
                         </div>
 
                         
                         <div className="carousel-item">
-                            <img src={sl4} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
+                            <img src={sl4} className="d-block img-responsive w-100 slidephoto" title="Suluova Ağız ve Diş Sağlığı Polikliniği" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Muayenelerimiz ücretsizdir</h3>
-                                <p className="sliderText"></p> 
+                                 
                             </div>
                         </div>
                         
