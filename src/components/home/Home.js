@@ -11,7 +11,7 @@ import DoktorOwl2 from "../doktor/DoktorOwl2.js";
 
 
 
-import Doktor from "./Doktorlar.jpg";
+import Doktor from "./Doktorlar-min.jpg";
 
 
 import TopluHizmet from "../topluhizmet/TopluHizmet.js";

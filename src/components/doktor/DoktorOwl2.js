@@ -4,12 +4,12 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
-import d1 from "./1.png";
-import d2 from "./2.png";
-import d3 from "./3.png";
-import d4 from "./4.png";
-import d5 from "./5.png";
-import d6 from "./6.png";
+import d1 from "./1-min.png";
+import d2 from "./2-min.png";
+import d3 from "./3-min.png";
+import d4 from "./4-min.png";
+import d5 from "./5-min.png";
+import d6 from "./6-min.png";
 
 
 //Owl Carousel Settings
